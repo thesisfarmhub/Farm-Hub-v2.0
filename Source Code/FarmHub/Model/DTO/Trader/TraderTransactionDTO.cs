@@ -19,7 +19,7 @@ namespace Model.DTO.Trader
         public int? price { get; set; }
         public int? quantity { get; set; }
         public string unitName { get; set; }
-        public int? totalMoney { get; set; }
+        public double? totalMoney { get; set; }
         public int? payingDay { get; set; }
         public int? deliveringDay { get; set; }
         public string StatusName { get; set; }

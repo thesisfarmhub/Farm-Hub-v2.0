@@ -250,6 +250,7 @@
     <Content Include="Assets\common\CSS\pretty-checkbox.css" />
     <Content Include="Assets\common\CSS\Register.css" />
     <Content Include="Assets\common\JS\niceSelectBoxScript.js" />
+    <Content Include="Assets\common\JS\NumberLimit.js" />
     <Content Include="Assets\common\JS\Numeric.js" />
     <Content Include="Assets\common\JS\OfferDetail.js" />
     <Content Include="Assets\common\JS\Register.js" />
@@ -3068,7 +3069,7 @@
     <Content Include="Views\TraderOffer\TraderOfferIndex.cshtml" />
     <Content Include="Views\SaleOfferDetail\Index.cshtml" />
     <Content Include="Views\EditPassword\Index.cshtml" />
-    <Content Include="Views\Transaction\TransactionIndex.cshtml" />
+    <Content Include="Views\TraderTransaction\TransactionIndex.cshtml" />
     <Content Include="Scripts\README.md" />
     <Content Include="Scripts\popper.min.js.map" />
     <Content Include="Scripts\popper.js.map" />

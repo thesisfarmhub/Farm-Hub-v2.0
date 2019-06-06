@@ -23,7 +23,7 @@
 
 <script src="~/Assets/trader/JS/Offer.js"></script>
 <script src="~/Assets/trader/JS/AdvancedBtn.js"></script>
-
+<script src="~/Assets/common/JS/NumberLimit.js"></script>
 
 
 <div class="row">
@@ -88,8 +88,8 @@
 
 <br />
 
-<div class="row">
-    <div class="col-md-6">
+<div class="row"style="padding-left:25px;">
+    <div class="col-md-6" >
 
 
         <Center>
@@ -274,21 +274,3 @@
     </div>
 </div>
 
-<script>
-
-
-
-    $(function () {
-
-        $('#quantity,#price,#payingTime,#deliveringTime').each(function () {
-            $(this).keypress(function (e) {
-                if (this.value.length == 0 && e.which == 48 && e.which == 8 && e.which == 69) {
-                    return false;
-                }
-            })
-        })
-
-
-    })
-
-</script>

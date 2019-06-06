@@ -8,7 +8,7 @@
 
 <link href="~/Assets/trader/CSS/Offer.css" rel="stylesheet" />
 <link href="~/Assets/common/CSS/nice-select.css" rel="stylesheet" />
-    
+
 
 
 <link href="~/Assets/common/CSS/nice-select.css" rel="stylesheet" />
@@ -19,12 +19,11 @@
 <script src="~/Assets/common/JS/jquery.nice-select.js"></script>
 <script src="~/Assets/common/JS/niceSelectBoxScript.js"></script>
 <script src="~/Assets/trader/JS/TraderOrder.js"></script>
-
+<script src="~/Assets/common/JS/NumberLimit.js"></script>
 @*<input id="productId" type="hidden" value="@Model.saleOfferDetail.Id_SaleOffer" />*@
 
 
 <style>
-   
 </style>
 
 <div class="row">
@@ -59,100 +58,98 @@
     </div>
     <div class="col-md-7">
         <Center><h2>Đặt Mua</h2></Center>
-        @using (Html.BeginForm("CreateOffer","TraderOrder", new { saleOfferId = Model.saleOfferDetail.Id_SaleOffer}, FormMethod.Post, new { enctype = "multipart/form-data" }))
+        @using (Html.BeginForm("CreateOffer", "TraderOrder", new { saleOfferId = Model.saleOfferDetail.Id_SaleOffer }, FormMethod.Post, new { enctype = "multipart/form-data" }))
         {
-        <form data-toggle="validator" role="form" id="Create" style="padding-right:20px;">
+            <form data-toggle="validator" role="form" id="Create" style="padding-right:20px;">
 
-            <input id="counterOffered" name="counterOffered" type="hidden" value="false" />
+                <input id="counterOffered" name="counterOffered" type="hidden" value="false" />
 
-            <div class="row" style="padding-top:20px;">
-                <div class="col-md-8">
-                    <label>Sản Phẩm</label>
-
-                    <input class="form-control validate bigInput BlackBoarder" id="product" type="text" value="@Model.saleOfferDetail.PRODUCT_DETAIL.PRODUCT.Name_Product" style="width:100%;" disabled>
-                </div>
-
-                <div class="col-md-4">
-                    <label>Giống</label>
-                    <input class="form-control validate bigInput BlackBoarder" id="seed" type="text" value="@Model.saleOfferDetail.PRODUCT_DETAIL.SEED.Name_Seed" style="width:100%;" disabled>
-
-                </div>
-
-            </div>
-
-            <div class="form-group">
                 <div class="row" style="padding-top:20px;">
                     <div class="col-md-8">
-                        <label>*Số Lượng</label>
+                        <label>Sản Phẩm</label>
 
-                        @Html.TextBoxFor(model => model.purchaseOffer.Quantity_PurchaseOffer, new { @maxlength = "10", size = 10, @class = "form-control validate bigInput  focusInput", type = "number", min = 1, placeholder = "Nhập Số lượng", style = "width:100%", required = "required", id = "quantity" })
+                        <input class="form-control validate bigInput BlackBoarder" id="product" type="text" value="@Model.saleOfferDetail.PRODUCT_DETAIL.PRODUCT.Name_Product" style="width:100%;" disabled>
                     </div>
 
                     <div class="col-md-4">
-                        <label data-error="wrong" data-success="right" for="form3">Đơn Vị</label>
-                        <input class="form-control validate bigInput BlackBoarder" id="unit" type="text" value="@Model.saleOfferDetail.MASS_UNIT.Name_MassUnit" style="width:100%;" disabled>
-                        @Html.HiddenFor(model => model.saleOfferDetail.MASS_UNIT.Weight_To_Kg, new { id = "truemass" })
+                        <label>Giống</label>
+                        <input class="form-control validate bigInput BlackBoarder" id="seed" type="text" value="@Model.saleOfferDetail.PRODUCT_DETAIL.SEED.Name_Seed" style="width:100%;" disabled>
+
                     </div>
 
                 </div>
-            </div>
 
-            <div class="form-group">
-                <label for="inputName" class="control-label">Giá</label>
-                <div class="input-group">
-                    <input type="text" class="form-control bigInput BlackBoarder bigInput" value="@Model.saleOfferDetail.Price_Offer" disabled>
-                    @Html.HiddenFor(model => model.saleOfferDetail.Price_Offer, new { id = "price" })
-                    <span class="input-group-addon bigInput">VNĐ/Tấn</span>
-                </div>
-            </div>
+                <div class="form-group">
+                    <div class="row" style="padding-top:20px;">
+                        <div class="col-md-8">
+                            <label>*Số Lượng</label>
 
-            <div class="form-group">
-                <label for="inputName" class="control-label">Tổng số tiền</label>
-                <div class="input-group">
-                    <input type="text" class="form-control bigInput BlackBoarder" id="totalMoney" value="0" disabled>
-                    <span class="input-group-addon bigInput">VNĐ</span>
-                </div>
-            </div>
+                            @Html.TextBoxFor(model => model.purchaseOffer.Quantity_PurchaseOffer, new { @maxlength = "10", size = 10, @class = "form-control validate bigInput  focusInput", type = "number", min = 1, placeholder = "Nhập Số lượng", style = "width:100%", required = "required", id = "quantity" })
+                        </div>
 
+                        <div class="col-md-4">
+                            <label data-error="wrong" data-success="right" for="form3">Đơn Vị</label>
+                            <input class="form-control validate bigInput BlackBoarder" id="unit" type="text" value="@Model.saleOfferDetail.MASS_UNIT.Name_MassUnit" style="width:100%;" disabled>
+                            @Html.HiddenFor(model => model.saleOfferDetail.MASS_UNIT.Weight_To_Kg, new { id = "truemass" })
+                        </div>
 
-            <div class="form-group">
-                <label for="inputName" class="control-label">*Thời gian trả tiền</label>
-                <div class="input-group">
-                    @Html.TextBoxFor(model => model.purchaseOffer.Paying_Time, new { @class = "form-control validate bigInput ", type = "number", min = 1, Value = @Model.saleOfferDetail.Paying_Time, style = "width:100%", id = "payingTime", @readonly = true })
-
-                    <span class="input-group-addon bigInput">Ngày</span>
-                </div>
-            </div>
-
-            <div class="form-group">
-                <label for="inputName" class="control-label">*Thời gian giao hàng</label>
-                <div class="input-group">
-                    @Html.TextBoxFor(model => model.purchaseOffer.Delivering_Time, new { @class = "form-control validate bigInput ", type = "number", min = 1, Value = @Model.saleOfferDetail.Delivering_Time, style = "width:100%", id = "deliveringTime", @readonly = true })
-                    @*<input type="text" class="form-control bigInput BlackBoarder" id="deliveringTime" placeholder="Nhập thời gian giao hàng " required>*@
-                    <span class="input-group-addon bigInput">Ngày</span>
-                </div>
-            </div>
-
-
-
-            <div class="form-group">
-                <div class="row">
-                    <div class="col-md-6">
-                        <button type="button" class="btn btn-warning btn-block" id="counterOffer">Thỏa thuận lại</button>
-                    </div>
-                    <div class="col-md-6">
-                        <button type="submit" class="btn btn-primary btn-block">Xác Nhận</button>
                     </div>
                 </div>
-            </div>
-        </form>
+
+                <div class="form-group">
+                    <label for="inputName" class="control-label">Giá</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control bigInput BlackBoarder bigInput" value="@Model.saleOfferDetail.Price_Offer" disabled>
+                        @Html.HiddenFor(model => model.saleOfferDetail.Price_Offer, new { id = "price" })
+                        <span class="input-group-addon bigInput">VNĐ/Tấn</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputName" class="control-label">Tổng số tiền</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control bigInput BlackBoarder" id="totalMoney" value="0" disabled>
+                        <span class="input-group-addon bigInput">VNĐ</span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="inputName" class="control-label">*Thời gian trả tiền</label>
+                    <div class="input-group">
+                        @Html.TextBoxFor(model => model.purchaseOffer.Paying_Time, new { @class = "form-control validate bigInput ", type = "number", min = 1, Value = @Model.saleOfferDetail.Paying_Time, style = "width:100%", id = "payingTime", @readonly = true })
+
+                        <span class="input-group-addon bigInput">Ngày</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputName" class="control-label">*Thời gian giao hàng</label>
+                    <div class="input-group">
+                        @Html.TextBoxFor(model => model.purchaseOffer.Delivering_Time, new { @class = "form-control validate bigInput ", type = "number", min = 1, Value = @Model.saleOfferDetail.Delivering_Time, style = "width:100%", id = "deliveringTime", @readonly = true })
+                        @*<input type="text" class="form-control bigInput BlackBoarder" id="deliveringTime" placeholder="Nhập thời gian giao hàng " required>*@
+                        <span class="input-group-addon bigInput">Ngày</span>
+                    </div>
+                </div>
+
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-warning btn-block" id="counterOffer">Thỏa thuận lại</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="submit" class="btn btn-primary btn-block">Xác Nhận</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
         }
 
     </div>
 </div>
 
-<script>
 
-    
-</script>
+
 

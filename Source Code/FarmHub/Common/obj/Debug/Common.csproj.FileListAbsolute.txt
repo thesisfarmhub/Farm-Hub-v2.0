@@ -42,3 +42,9 @@ C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\Common\obj\Debug\Common.cspr
 C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\Common\obj\Debug\Common.dll
 C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\Common\obj\Debug\Common.pdb
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Common\bin\Debug\Common.dll
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Common\bin\Debug\Common.pdb
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Common\obj\Debug\Common.dll
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Common\obj\Debug\Common.pdb

@@ -290,3 +290,33 @@ D:\Thesis v2.0\Source Code\FarmHub\Model\obj\Debug\Model.csproj.CoreCompileInput
 D:\Thesis v2.0\Source Code\FarmHub\Model\obj\Debug\Model.csproj.CopyComplete
 D:\Thesis v2.0\Source Code\FarmHub\Model\obj\Debug\Model.dll
 D:\Thesis v2.0\Source Code\FarmHub\Model\obj\Debug\Model.pdb
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\Model.dll.config
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\Model.dll
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\Model.pdb
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\Common.dll
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\EntityFramework.dll
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\PagedList.dll
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\PagedList.Mvc.dll
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\System.Web.WebPages.dll
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\System.Web.Mvc.dll
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\System.Web.Razor.dll
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\Common.pdb
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\EntityFramework.xml
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\PagedList.xml
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\PagedList.Mvc.xml
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\System.Web.WebPages.xml
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\System.Web.Mvc.xml
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\System.Web.Razor.xml
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\obj\Debug\Model.dll
+C:\Users\ChenLong\Documents\Thesis\Farm-Hub-v2.0\Source Code\FarmHub\Model\obj\Debug\Model.pdb

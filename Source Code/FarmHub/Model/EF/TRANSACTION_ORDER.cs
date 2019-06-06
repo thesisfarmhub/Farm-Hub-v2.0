@@ -30,7 +30,7 @@ namespace Model.EF
 
         public int? Transaction_Price { get; set; }
 
-        public int? Transaction_TotalMoney { get; set; }
+        public double? Transaction_TotalMoney { get; set; }
 
         public byte? Id_StatusTrans { get; set; }
 
