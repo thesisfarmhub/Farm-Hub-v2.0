@@ -1,0 +1,141 @@
+﻿@model IEnumerable<Model.EF.PRODUCT>
+
+@{
+    ViewBag.Title = "ProductIndex";
+    Layout = "~/Areas/Admin/Views/Shared/_Layouts.cshtml";
+}
+
+
+
+<link href="~/Assets/admin/css/Index.css" rel="stylesheet" />
+<link href="~/Assets/admin/css/BeautifulButton.css" rel="stylesheet" />
+
+<Center><h1>Danh Sách Sản Phẩm</h1></Center>
+
+<p>
+    <button class="small green button" title="Tạo đơn mới" onclick="location.href='@Url.Action("Create","Product")'">Tạo Đơn Mới &nbsp;<span class="fa fa-plus"></span></button>
+</p>
+<table class="table table-striped table-bordered table-hover" id="productTbl">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Loại Nông Sản
+            </th>
+
+            <th>
+                Tên Nông Sản
+            </th>
+
+            <th>
+                Ảnh Nông Sản
+            </th>
+            <th></th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Id_Product
+                    <input type="hidden" class="id" value="@item.Id_Product" id="ID" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PRODUCT_KIND.Name_ProductKind)
+                    
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name_Product)
+                </td>
+
+                <td>
+                    <img src="@Url.Content(item.Image_Product)" style="height:100px; width:150px" />
+                </td>
+
+                <td>
+                    <button onclick="location.href='@Url.Action("Edit", "Product",new { id = item.Id_Product })'" class="btn btn-warning" title="Chỉnh Sửa">
+                        <span class="fa fa-pen"></span>
+                    </button>
+
+                    <butto onclick="location.href='@Url.Action("Details", "Product",new { id = item.Id_Product })'" class="btn btn-primary" title="Xem Chi Tiết">
+                        <span class="fa fa-info"></span>
+                    </butto>
+
+                    <button class="btn btn-danger DeleteClass" role="deleteBtn">
+                        <span class="fa fa-trash"></span>
+                    </button>
+                   
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+
+
+
+<script type="text/javascript">
+   
+    $('document').ready(function () {
+        $('#productTbl').dataTable();
+
+        $('#productTbl').on('click', 'button[role="deleteBtn"]', function (e) {
+            var id = $(this).closest('tr').find('.id').val();
+            
+            e.preventDefault();
+
+            $.confirm({
+                icon: 'fa fa-question-circle',
+                boxWidth: '100%',
+                title: 'Xóa Nông Sản',
+                content: '<h4>Bạn có muốn nông sản này?</h4>',
+                type: 'red',
+                typeAnimated: true,
+                animationSpeed: 500,
+                closeIcon: true,
+                closeIconClass: 'fa fa-close',
+                escapeKey: true,
+                backgroundDismiss: false,
+                columnClass: "col-md-4",
+                autoClose: 'cancel|6000',
+                buttons: {
+                    confirm: {
+                        text: "Xác Nhận",
+                        btnClass: "btn-red",
+
+                        action: function () {
+                            $.ajax({
+                                type: "DELETE",
+                                url: "/Admin/Product/Delete/" + id,
+                                contentType: "application/json; charset=utf-8",
+                                method: 'DELETE',
+                                datatype: "text",
+                                serverSide: true,
+                                success: function (data) {
+                                    window.location.reload();
+                                },
+                                error: function (data) {
+
+                                }
+                            });
+                        }
+                    },
+
+                    cancel: {
+                        text: "Hủy",
+                    }
+                }
+            });
+        });
+
+       
+    })
+
+</script>

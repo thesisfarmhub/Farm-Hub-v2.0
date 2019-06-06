@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Model.EF.PRODUCT_DETAIL>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Farmer/Views/Shared/_Layouts.cshtml";
+}
+
+<head>
+    <title>Index Product Details</title>
+
+    <style>
+        table, thead, tr, tbody, th, td {
+            text-align: center;
+            text-anchor: middle;
+        }
+    </style>
+
+</head>
+
+<!-- Start About us -->
+<section id="mu-about-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mu-about-us-area">
+                    <div class="mu-title">
+                        <span class="mu-subtitle">Nông Sản</span>
+                        <h2>DANH SÁCH NÔNG SẢN</h2>
+                        <i class="fas fa-tractor"></i>
+                        <span class="mu-title-bar"></span>
+                    </div>
+                    <div class="row">
+
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Tên nông sản</th>
+                                    <th>Tên giống</th>
+                                    <th>Thổ nhưỡng</th>
+                                    <th>Hình ảnh</th>
+                                    <th>Thao tác</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@Html.DisplayFor(modelItem => item.PRODUCT.Name_Product)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.SEED.Name_Seed)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.Geography_Location)</td>
+                                        <td><img src="@item.Image_ProductDetail" style="max-height:100px; max-width:100px" /></td>
+                                        <td>
+                                            <button class="btn btn-warning" onclick="location.href = '@Url.Action("Edit","ProductDetails", new { id = item.Id_ProductDetail })'" title="Chỉnh sửa"><span class=" fas fa-edit"></span></button>
+                                            <button class="btn btn-info" onclick="location.href = '@Url.Action("Details","ProductDetails", new { id = item.Id_ProductDetail })'" title="Xem chi tiết"><span class="fa fa-info"></span></button>
+                                            <button class="btn btn-danger" onclick="location.href = '@Url.Action("Delete","ProductDetails", new { id = item.Id_ProductDetail })'" title="Xóa"><span class="fa fa-trash"></span></button>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+
+                        </table>
+
+                        <center>
+                            <button onclick="location.href = '@Url.Action("Create","ProductDetails")'" class="mu-readmore-btn">Thêm Mới Nông Sản</button>
+                        </center>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End About us -->

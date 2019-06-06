@@ -1,0 +1,22 @@
+﻿table tbody {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table thead {
+    text-align: center;
+    
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.DeleteClass{
+    height:26px;
+    margin-bottom:2px;
+}
+
+#disable {
+    cursor: not-allowed !important;
+}

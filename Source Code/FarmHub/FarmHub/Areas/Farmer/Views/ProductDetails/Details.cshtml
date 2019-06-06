@@ -1,0 +1,59 @@
+﻿@model Model.EF.PRODUCT_DETAIL
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Farmer/Views/Shared/_Layouts.cshtml";
+}
+
+<head>
+    <title>Details Product Details</title>
+</head>
+
+<!-- Start About us -->
+<section id="mu-about-us" style="background-color:#233209; color:#ffffff">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mu-about-us-area">
+                    <div class="mu-title">
+                        <span class="mu-subtitle">Nông Sản</span>
+                        <h2 style="color:#ffffff">CHI TIẾT NÔNG SẢN</h2>
+                        <i class="fas fa-tractor"></i>
+                        <span class="mu-title-bar"></span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mu-about-us-left">                              
+                                <ul>
+                                    <li>Tên Trang Trại: @Html.DisplayFor(x => x.FARM.Name_Farm)</li>
+                                    <li>Tên Nông Sản: @Html.DisplayFor(x => x.PRODUCT.Name_Product)</li>
+                                    <li>Tên Giống: @Html.DisplayFor(x => x.SEED.Name_Seed)</li>
+                                    <li>Thổ Nhưỡng: @Html.DisplayFor(x => x.Geography_Location)</li>
+                                    @*<li>Khối Lượng Bán Nhỏ Nhất: @Html.DisplayFor(x => x.Min_Mass)</li>*@
+                                    <li>Tên Vụ Mùa: @Html.DisplayFor(x => x.Name_Crop) - Từ @Html.DisplayFor(x => x.Start_Time) đến @Html.DisplayFor(x => x.End_Time)</li>
+                                    <li>Thời điểm bắt đầu vụ mùa: Từ @Html.DisplayFor(x => x.Start_Time) đến @Html.DisplayFor(x => x.End_Time) </li>
+                                    <li>Thời Điểm Thu Hoạch: Từ @Html.DisplayFor(x => x.Harvest_StartTime) đến @Html.DisplayFor(x => x.Harvest_EndTime) </li>
+                                    <li>Sản Lượng Dự Kiến: @Html.DisplayFor(x => x.Quantity_Expected) tấn</li>
+                                </ul>                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mu-about-us-right">
+                                <img src="@Url.Content(Model.Image_ProductDetail)" style="height:300px; width:500px" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <center>
+
+            <button type="button" onclick="location.href = '@Url.Action("Edit","ProductDetails", new { id = Model.Id_ProductDetail })'" class="mu-readmore-btn">Chỉnh Sửa</button>
+
+            <button type="button" onclick="location.href = '@Url.Action("Index","ProductDetails", new { id = Model.FARM.Id_Farm })'" class="mu-readmore-btn">Quay Về</button>
+        </center>
+
+    </div>
+</section>
+<!-- End About us -->

@@ -1,0 +1,505 @@
+﻿@model FarmHub.Models.TraderHomePageModel 
+ 
+@{ 
+    Layout = "~/Views/Shared/_Layouts.cshtml"; 
+} 
+ 
+<head>
+    <title>Trader Home Page</title>
+
+    <script src="~/Scripts/Chart.min.js"></script>
+
+    <style>
+        #chart_container {
+            width: 100%;
+            height: 200px;
+        }
+        .row {
+            margin-right: -90px !important;
+            margin-left: -90px !important;
+        }
+    </style>
+
+</head> 
+ 
+
+<!-- Start Chef Section - TRENDING: Top 5 nông sản bán chạy/bán ế nhất--> 
+<section id="mu-chef"> 
+    <div class="container"> 
+        <div class="row"> 
+            <div class="col-md-12"> 
+                <div class="mu-chef-area"> 
+                    <div class="mu-title"> 
+                        <span class="mu-subtitle">Top 7</span> 
+                        <h2>NÔNG SẢN ĐẶT MUA NHIỀU NHẤT</h2> 
+                        <i class="fa fa-spoon"></i> 
+                        <span class="mu-title-bar"></span> 
+                    </div> 
+                    <div class="mu-chef-content"> 
+                        <ul class="mu-chef-nav"> 
+                            @foreach (var item in Model.ListTopProducts) 
+                            { 
+                                <li> 
+                                    <div class="mu-single-chef"> 
+                                        <figure class="mu-single-chef-img"> 
+                                            <img src="@item.Image_Product" alt="chef img"> 
+                                        </figure> 
+                                        <div class="mu-single-chef-info"> 
+                                            <h4>@item.Name_Product</h4> 
+                                            <span>@item.Quantity_PurchaseOffer tấn - @item.Price_Purchase VNĐ</span>
+                                        </div> 
+                                    </div> 
+                                </li> 
+                            } 
+                        </ul> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+</section> 
+<!-- End Chef Section --> 
+<!-- Start Counter Section Top 4 Products --> 
+@*<section id="mu-counter"> 
+        <div class="mu-counter-overlay"> 
+            <div class="container"> 
+                <div class="row"> 
+                    <div class="col-md-12"> 
+                        <div class="mu-counter-area"> 
+                            <ul class="mu-counter-nav"> 
+                                @foreach (var item in Model.ListTopProducts.Take(4)) 
+                                { 
+                                    <li class="col-md-3 col-sm-3 col-xs-12"> 
+                                        <div class="mu-single-counter"> 
+                                            <span>@item.Name_Product</span> 
+                                            <h3><span class="counter">@item.Quantity_PurchaseOffer</span><sup>+tons</sup></h3> 
+                                            <p>@item.Name_Seed</p> 
+                                        </div> 
+                                    </li> 
+                                } 
+                            </ul> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </section>*@ 
+<!-- End Counter Section --> 
+<!-- Start About us - NHU CẦU MUA CỦA TÔI --> 
+<section id="mu-about-us"> 
+    <div class="container"> 
+        <div class="row">           
+                <div class="mu-about-us-area"> 
+                    <div class="mu-title"> 
+                        <span class="mu-subtitle">Mua Bán</span> 
+                        <h2>NHU CẦU MUA CỦA TÔI</h2> 
+                        <i class="fa fa-spoon"></i> 
+                        <span class="mu-title-bar"></span> 
+                    </div> 
+                    <div class="row"> 
+                        <div class="col-md-9"> 
+                            <section id="mu-chef"> 
+                                <div class="mu-chef-area"> 
+                                    <div class="mu-chef-content"> 
+                                        <ul class="mu-chef-nav"> 
+                                            @foreach (var item in Model.ListPurchaseOffer) 
+                                            { 
+                                                <li> 
+                                                    <div class="mu-single-chef"> 
+                                                        <figure class="mu-single-chef-img"> 
+                                                            <img src="@item.PRODUCT.Image_Product" alt="chef img"> 
+                                                        </figure> 
+                                                        <div class="mu-single-chef-info"> 
+                                                            <h4>@item.PRODUCT.Name_Product</h4> 
+                                                            <span>Giá: @item.Price_Purchase VNĐ</span>
+                                                            <br />
+                                                            <span>Còn lại: @item.Remain_PurchaseQuantity @item.MASS_UNIT.Name_MassUnit</span>
+                                                        </div> 
+                                                        <div class="mu-single-chef-social"> 
+                                                            <button type="button" class="mu-readmore-btn">Chi Tiết</button> 
+                                                        </div> 
+                                                    </div> 
+                                                </li> 
+                                            } 
+                                        </ul> 
+                                    </div> 
+                                </div> 
+                            </section> 
+                        </div> 
+                        <div class="col-md-3"> 
+                            <div class="mu-about-us-right">
+
+                                <div id="chart_container">
+                                    <canvas id="bar_chart"></canvas>
+                                </div>
+
+                                <div id="chart_container">
+                                    <canvas id="bar_chart2"></canvas>
+                                </div>
+
+                            </div> 
+                        </div> 
+                    </div> 
+                </div>           
+        </div> 
+    </div> 
+</section> 
+<!-- End About us - TOP PRODUCTS --> 
+<!-- Start About us - NHU CẦU BÁN PHÙ HỢP --> 
+<section id="mu-about-us"> 
+    <div class="container"> 
+        <div class="row"> 
+            <div class="col-md-12"> 
+                <div class="mu-about-us-area"> 
+                    <div class="mu-title"> 
+                        <span class="mu-subtitle">Mua Bán</span> 
+                        <h2>NHU CẦU BÁN PHÙ HỢP</h2> 
+                        <i class="fa fa-spoon"></i> 
+                        <span class="mu-title-bar"></span> 
+                    </div> 
+                    <div class="row"> 
+                        <div class="col-md-9"> 
+                            <section id="mu-chef"> 
+                                <div class="mu-chef-area">
+                                    <div class="mu-chef-content">
+                                        <ul class="mu-chef-nav">
+                                            @foreach (var item in Model.SuitalbeSaleOffers)
+                                            {
+                                                foreach (var subItem in item)
+                                                {
+                                                    <li>
+                                                        <div class="mu-single-chef">
+                                                            <figure class="mu-single-chef-img">
+                                                                <img src="@subItem.PRODUCT_DETAIL.Image_ProductDetail" alt="chef img">
+                                                            </figure>
+                                                            <div class="mu-single-chef-info">
+                                                                <h4>@subItem.PRODUCT_DETAIL.PRODUCT.Name_Product</h4>
+                                                                <span>Giá: @subItem.Price_Offer VNĐ</span>
+                                                                <br />
+                                                                <span>Còn lại: @subItem.Remain_SaleQuantity @subItem.MASS_UNIT.Name_MassUnit</span>
+                                                            </div>
+                                                            <div class="mu-single-chef-social">
+                                                                <button type="button" class="mu-readmore-btn">Chi Tiết</button>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                }
+                                            }
+                                        </ul>
+                                    </div>
+                                </div> 
+                            </section> 
+                        </div> 
+                        <div class="col-md-3"> 
+                            <div class="mu-about-us-right">
+
+                                <div id="chart_container">
+                                    <canvas id="bar_chart3"></canvas>
+                                </div>
+
+                                <div id="chart_container">
+                                    <canvas id="bar_chart4"></canvas>
+                                </div>
+
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+</section> 
+<!-- End About us - TOP PRODUCTS --> 
+
+<!-- ChartJS -->
+<script>
+
+    var productNames = @Html.Raw(Json.Encode(ViewBag.PRODUCTNAMES));
+    var numberOfOffers = @Html.Raw(Json.Encode(ViewBag.NUMBEROFOFFERS));
+    var prices = @Html.Raw(Json.Encode(ViewBag.PRICES));
+
+    var saleOfferProductNames = @Html.Raw(Json.Encode(ViewBag.SO_PRODUCTNAMES));
+    var soNumberOfOffers = @Html.Raw(Json.Encode(ViewBag.SO_NUMBEROFOFFERS));
+    var soPrices = @Html.Raw(Json.Encode(ViewBag.SO_PRICES));
+
+    var ctx = $("#bar_chart");
+    var barChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: productNames,
+            datasets: [
+                {
+                    label: "Số lượng nhu cầu mua",
+                    fill: false,
+                    data: numberOfOffers,
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    boderWidth: 1
+                }
+            ]
+        },
+
+        options: {
+            responsive: true,
+            title: {
+                display: true,
+                text: 'Nhu cầu mua của tôi'
+            },
+            tooltips: {
+                mode: 'index',
+                intersect: false,
+            },
+            hover: {
+                mode: 'nearest',
+                intersect: true
+            },
+            scales: {
+                xAxes: [{
+                    display: true,
+                    scaleLabel: {
+                        display: true,
+                        //labelString: 'Product Names'
+                    },
+                    ticks: {
+                        beginAtZero: false
+                    }
+                }],
+                yAxes: [{
+                    display: true,
+                    scaleLabel: {
+                        display: true,
+                        //labelString: 'Value'
+                    },
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }]
+            }
+        }
+    });
+
+    var ctx = $("#bar_chart2");
+    var barChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: productNames,
+            datasets: [
+                {
+                    label: "Giá",
+                    fill: false,
+                    data: prices,
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    boderWidth: 1
+                }
+            ]
+        },
+
+        options: {
+            responsive: true,
+            title: {
+                display: true,
+                text: 'Nhu cầu mua của tôi'
+            },
+            tooltips: {
+                mode: 'index',
+                intersect: false,
+            },
+            hover: {
+                mode: 'nearest',
+                intersect: true
+            },
+            scales: {
+                xAxes: [{
+                    display: true,
+                    scaleLabel: {
+                        display: true,
+                        //labelString: 'Product Names'
+                    },
+                    ticks: {
+                        beginAtZero: false
+                    }
+                }],
+                yAxes: [{
+                    display: true,
+                    scaleLabel: {
+                        display: true,
+                        //labelString: 'Value'
+                    },
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }]
+            }
+        }
+    });
+
+    var ctx = $("#bar_chart3");
+    var barChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: saleOfferProductNames,
+            datasets: [
+                {
+                    label: "Số lượng nhu cầu bán",
+                    fill: false,
+                    data: soNumberOfOffers,
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    boderWidth: 1
+                }
+            ]
+        },
+
+        options: {
+            responsive: true,
+            title: {
+                display: true,
+                text: 'Nhu cầu bán của chủ trang trại'
+            },
+            tooltips: {
+                mode: 'index',
+                intersect: false,
+            },
+            hover: {
+                mode: 'nearest',
+                intersect: true
+            },
+            scales: {
+                xAxes: [{
+                    display: true,
+                    scaleLabel: {
+                        display: true,
+                        //labelString: 'Product Names'
+                    },
+                    ticks: {
+                        beginAtZero: false
+                    }
+                }],
+                yAxes: [{
+                    display: true,
+                    scaleLabel: {
+                        display: true,
+                        //labelString: 'Value'
+                    },
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }]
+            }
+        }
+    });
+
+    var ctx = $("#bar_chart4");
+    var barChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: saleOfferProductNames,
+            datasets: [
+                {
+                    label: "Giá",
+                    fill: false,
+                    data: soPrices,
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    boderWidth: 1
+                }
+            ]
+        },
+
+        options: {
+            responsive: true,
+            title: {
+                display: true,
+                text: 'Nhu cầu bán của chủ trang trại'
+            },
+            tooltips: {
+                mode: 'index',
+                intersect: false,
+            },
+            hover: {
+                mode: 'nearest',
+                intersect: true
+            },
+            scales: {
+                xAxes: [{
+                    display: true,
+                    scaleLabel: {
+                        display: true,
+                        //labelString: 'Product Names'
+                    },
+                    ticks: {
+                        beginAtZero: false
+                    }
+                }],
+                yAxes: [{
+                    display: true,
+                    scaleLabel: {
+                        display: true,
+                        //labelString: 'Value'
+                    },
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }]
+            }
+        }
+    });
+
+</script>

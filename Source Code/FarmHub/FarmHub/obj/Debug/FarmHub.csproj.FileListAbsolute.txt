@@ -1,0 +1,1329 @@
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\FarmHub.dll.config
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\FarmHub.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\FarmHub.pdb
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\csc.exe
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\csc.exe.config
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\csc.rsp
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\csi.exe
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\csi.exe.config
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\csi.rsp
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.AppContext.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Console.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\vbc.exe
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\vbc.exe.config
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\vbc.rsp
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Antlr3.Runtime.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\CKFinder.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Common.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\EntityFramework.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\EntityFramework.SqlServer.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Security.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Model.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Newtonsoft.Json.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Owin.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\PagedList.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\PagedList.Mvc.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Web.Helpers.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Web.Mvc.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Web.Optimization.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Web.Razor.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Web.WebPages.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\WebGrease.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Common.pdb
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Model.pdb
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Model.dll.config
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\CKFinder.pdb
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\PagedList.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\PagedList.Mvc.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Web.Helpers.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Web.Mvc.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Web.Optimization.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Web.Razor.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Web.WebPages.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Newtonsoft.Json.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Antlr3.Runtime.pdb
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\EntityFramework.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\EntityFramework.SqlServer.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Security.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\obj\Debug\FarmHub.csprojAssemblyReference.cache
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CoreCompileInputs.cache
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CopyComplete
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\obj\Debug\FarmHub.dll
+C:\Users\ChenLong\source\repos\FarmHub\FarmHub\obj\Debug\FarmHub.pdb
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\FarmHub.dll.config
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\FarmHub.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\FarmHub.pdb
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\csc.exe
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\csc.exe.config
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\csc.rsp
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\csi.exe
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\csi.exe.config
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\csi.rsp
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.AppContext.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Console.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\vbc.exe
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\vbc.exe.config
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\vbc.rsp
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Antlr3.Runtime.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\CKFinder.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Common.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\EntityFramework.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\EntityFramework.SqlServer.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Model.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Newtonsoft.Json.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Owin.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\PagedList.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\PagedList.Mvc.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Web.Helpers.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Web.Mvc.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Web.Optimization.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Web.Razor.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\WebGrease.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Common.pdb
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Model.pdb
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Model.dll.config
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\CKFinder.pdb
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\PagedList.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\PagedList.Mvc.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Web.Helpers.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Web.Mvc.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Web.Optimization.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Web.Razor.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Newtonsoft.Json.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Antlr3.Runtime.pdb
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\EntityFramework.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\EntityFramework.SqlServer.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.csprojAssemblyReference.cache
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CoreCompileInputs.cache
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CopyComplete
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.dll
+C:\Users\ChenLong\Desktop\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.pdb
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\FarmHub.dll.config
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\FarmHub.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\FarmHub.pdb
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\csc.exe
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\csc.exe.config
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\csc.rsp
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\csi.exe
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\csi.exe.config
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\csi.rsp
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.AppContext.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Console.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\vbc.exe
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\vbc.exe.config
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\vbc.rsp
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Antlr3.Runtime.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\CKFinder.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Common.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\EntityFramework.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\EntityFramework.SqlServer.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Model.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Newtonsoft.Json.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Owin.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\PagedList.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\PagedList.Mvc.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Web.Helpers.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Web.Mvc.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Web.Optimization.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Web.Razor.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\WebGrease.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Common.pdb
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Model.pdb
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Model.dll.config
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\CKFinder.pdb
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\PagedList.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\PagedList.Mvc.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Web.Helpers.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Web.Mvc.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Web.Optimization.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Web.Razor.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Newtonsoft.Json.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Antlr3.Runtime.pdb
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\EntityFramework.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\EntityFramework.SqlServer.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.csprojAssemblyReference.cache
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CoreCompileInputs.cache
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CopyComplete
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.dll
+C:\Users\trong\OneDrive\Máy tính\Long\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.pdb
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\FarmHub.dll.config
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\FarmHub.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\FarmHub.pdb
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\csc.exe
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\csc.exe.config
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\csc.rsp
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\csi.exe
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\csi.exe.config
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\csi.rsp
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.AppContext.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Console.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\vbc.exe
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\vbc.exe.config
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\vbc.rsp
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Antlr3.Runtime.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\CKFinder.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Common.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\EntityFramework.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\EntityFramework.SqlServer.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Model.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Newtonsoft.Json.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Owin.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\PagedList.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\PagedList.Mvc.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Web.Helpers.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Web.Mvc.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Web.Optimization.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Web.Razor.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\WebGrease.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Common.pdb
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Model.pdb
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Model.dll.config
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\CKFinder.pdb
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\PagedList.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\PagedList.Mvc.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Web.Helpers.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Web.Mvc.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Web.Optimization.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Web.Razor.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Newtonsoft.Json.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Antlr3.Runtime.pdb
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\EntityFramework.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\EntityFramework.SqlServer.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.csprojAssemblyReference.cache
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CoreCompileInputs.cache
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CopyComplete
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.dll
+C:\Users\trong\OneDrive\Máy tính\Working\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.pdb
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\obj\Debug\FarmHub.csprojAssemblyReference.cache
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CoreCompileInputs.cache
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\FarmHub.dll.config
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\FarmHub.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\FarmHub.pdb
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\csc.exe
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\csc.exe.config
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\csc.rsp
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\csi.exe
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\csi.exe.config
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\csi.rsp
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.AppContext.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Console.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\vbc.exe
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\vbc.exe.config
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\vbc.rsp
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Antlr3.Runtime.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\CKFinder.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Common.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\EntityFramework.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\EntityFramework.SqlServer.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Model.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Newtonsoft.Json.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Owin.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\PagedList.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\PagedList.Mvc.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Web.Helpers.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Web.Mvc.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Web.Optimization.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Web.Razor.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Web.WebPages.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\WebGrease.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Common.pdb
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Model.pdb
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Model.dll.config
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\CKFinder.pdb
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\PagedList.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\PagedList.Mvc.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Web.Helpers.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Web.Mvc.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Web.Optimization.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Web.Razor.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Web.WebPages.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Newtonsoft.Json.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Antlr3.Runtime.pdb
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\EntityFramework.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\EntityFramework.SqlServer.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CopyComplete
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\obj\Debug\FarmHub.dll
+C:\Users\ChenLong\Documents\Thesis\FarmHub\Source Code\FarmHub\FarmHub\obj\Debug\FarmHub.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\FarmHub.dll.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\FarmHub.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\FarmHub.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\csc.exe
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\csc.exe.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\csc.rsp
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\csi.exe
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\csi.exe.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\csi.rsp
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.AppContext.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Console.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\vbc.exe
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\vbc.exe.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\vbc.rsp
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Antlr3.Runtime.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\CKFinder.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Common.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\EntityFramework.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\EntityFramework.SqlServer.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Model.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Newtonsoft.Json.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Owin.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\PagedList.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\PagedList.Mvc.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Web.Helpers.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Web.Mvc.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Web.Optimization.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Web.Razor.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\WebGrease.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Common.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Model.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Model.dll.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\CKFinder.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\PagedList.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\PagedList.Mvc.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Web.Helpers.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Web.Mvc.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Web.Optimization.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Web.Razor.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Newtonsoft.Json.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Antlr3.Runtime.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\EntityFramework.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\EntityFramework.SqlServer.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.csprojAssemblyReference.cache
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CoreCompileInputs.cache
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CopyComplete
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub\FarmHub\FarmHub\obj\Debug\FarmHub.pdb
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\obj\Debug\FarmHub.csprojAssemblyReference.cache
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CoreCompileInputs.cache
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\FarmHub.dll.config
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\FarmHub.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\FarmHub.pdb
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\csc.exe
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\csc.exe.config
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\csc.rsp
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\csi.exe
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\csi.exe.config
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\csi.rsp
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.AppContext.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Console.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\vbc.exe
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\vbc.exe.config
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\vbc.rsp
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Antlr3.Runtime.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\CKFinder.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Common.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\EntityFramework.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\EntityFramework.SqlServer.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Security.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Model.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Newtonsoft.Json.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Owin.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\PagedList.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\PagedList.Mvc.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Web.Helpers.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Web.Mvc.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Web.Optimization.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Web.Razor.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Web.WebPages.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\WebGrease.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Common.pdb
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Model.pdb
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Model.dll.config
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\CKFinder.pdb
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\PagedList.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\PagedList.Mvc.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Web.Helpers.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Web.Mvc.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Web.Optimization.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Web.Razor.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Web.WebPages.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Newtonsoft.Json.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Antlr3.Runtime.pdb
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\EntityFramework.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\EntityFramework.SqlServer.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Security.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CopyComplete
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\obj\Debug\FarmHub.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\obj\Debug\FarmHub.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\FarmHub.dll.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\FarmHub.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\FarmHub.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\csc.exe
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\csc.exe.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\csc.rsp
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\csi.exe
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\csi.exe.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\csi.rsp
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.AppContext.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Console.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\vbc.exe
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\vbc.exe.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\vbc.rsp
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Antlr3.Runtime.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\CKFinder.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Common.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\EntityFramework.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\EntityFramework.SqlServer.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Model.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Newtonsoft.Json.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Owin.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\PagedList.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\PagedList.Mvc.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Web.Helpers.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Web.Mvc.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Web.Optimization.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Web.Razor.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Web.WebPages.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\WebGrease.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Common.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Model.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Model.dll.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\CKFinder.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\PagedList.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\PagedList.Mvc.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Web.Helpers.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Web.Mvc.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Web.Optimization.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Web.Razor.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Web.WebPages.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Newtonsoft.Json.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Antlr3.Runtime.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\EntityFramework.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\EntityFramework.SqlServer.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\obj\Debug\FarmHub.csprojAssemblyReference.cache
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CoreCompileInputs.cache
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CopyComplete
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\obj\Debug\FarmHub.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub3\FarmHub\FarmHub\obj\Debug\FarmHub.pdb
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\FarmHub.dll.config
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\FarmHub.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\FarmHub.pdb
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\csc.exe
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\csc.exe.config
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\csc.rsp
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\csi.exe
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\csi.exe.config
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\csi.rsp
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.AppContext.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Console.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\vbc.exe
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\vbc.exe.config
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\vbc.rsp
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Antlr3.Runtime.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\CKFinder.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Common.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\EntityFramework.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\EntityFramework.SqlServer.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Model.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Newtonsoft.Json.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Owin.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\PagedList.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\PagedList.Mvc.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Web.Helpers.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Web.Mvc.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Web.Optimization.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Web.Razor.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Web.WebPages.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\WebGrease.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Common.pdb
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Model.pdb
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Model.dll.config
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\CKFinder.pdb
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\PagedList.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\PagedList.Mvc.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Web.Helpers.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Web.Mvc.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Web.Optimization.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Web.Razor.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Web.WebPages.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Newtonsoft.Json.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Antlr3.Runtime.pdb
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\EntityFramework.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\EntityFramework.SqlServer.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\obj\Debug\FarmHub.csprojAssemblyReference.cache
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CoreCompileInputs.cache
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CopyComplete
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\obj\Debug\FarmHub.dll
+C:\Users\ChenLong\Desktop\Thesis Project\New folder\FarmHub3\FarmHub3\FarmHub\FarmHub\obj\Debug\FarmHub.pdb
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Quartz.dll
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Quartz.pdb
+C:\Users\ChenLong\Desktop\Thesis Project\FarmHub\FarmHub\bin\Quartz.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\FarmHub.dll.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\FarmHub.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\FarmHub.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\csc.exe
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\csc.exe.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\csc.rsp
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\csi.exe
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\csi.exe.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\csi.rsp
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.AppContext.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Console.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\vbc.exe
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\vbc.exe.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\vbc.rsp
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Antlr3.Runtime.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\CKFinder.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Common.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\EntityFramework.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\EntityFramework.SqlServer.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Security.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Model.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Newtonsoft.Json.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Owin.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\PagedList.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\PagedList.Mvc.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Quartz.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Web.Helpers.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Web.Mvc.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Web.Optimization.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Web.Razor.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Web.WebPages.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\WebGrease.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Common.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Model.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Model.dll.config
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\CKFinder.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\PagedList.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\PagedList.Mvc.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Quartz.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Quartz.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Web.Helpers.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Web.Mvc.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Web.Optimization.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Web.Razor.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Web.WebPages.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Newtonsoft.Json.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Antlr3.Runtime.pdb
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\EntityFramework.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\EntityFramework.SqlServer.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Security.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\obj\Debug\FarmHub.csprojAssemblyReference.cache
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CoreCompileInputs.cache
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CopyComplete
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\obj\Debug\FarmHub.dll
+C:\Users\trong\OneDrive\Máy tính\FarmHub4\FarmHub\FarmHub\obj\Debug\FarmHub.pdb
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\FarmHub.dll.config
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\FarmHub.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\FarmHub.pdb
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\csc.exe
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\csc.exe.config
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\csc.rsp
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\csi.exe
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\csi.exe.config
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\csi.rsp
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.AppContext.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Collections.Immutable.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Console.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.IO.Compression.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.IO.Pipes.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Reflection.Metadata.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Security.AccessControl.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Security.Claims.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.ValueTuple.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\vbc.exe
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\vbc.exe.config
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\vbc.rsp
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\roslyn\VBCSCompiler.exe.config
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Antlr3.Runtime.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\CKFinder.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Common.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\EntityFramework.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\EntityFramework.SqlServer.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Web.Infrastructure.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Model.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Newtonsoft.Json.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Owin.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\PagedList.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\PagedList.Mvc.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Quartz.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Web.Helpers.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Web.Mvc.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Web.Optimization.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Web.Razor.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Web.WebPages.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\WebGrease.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Common.pdb
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Model.pdb
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Model.dll.config
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\CKFinder.pdb
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\PagedList.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\PagedList.Mvc.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Quartz.pdb
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Quartz.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Web.Helpers.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Web.Mvc.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Web.Optimization.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Web.Razor.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Web.WebPages.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Web.WebPages.Deployment.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Web.WebPages.Razor.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Newtonsoft.Json.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Antlr3.Runtime.pdb
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\EntityFramework.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\EntityFramework.SqlServer.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Google.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\obj\Debug\FarmHub.csprojAssemblyReference.cache
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CoreCompileInputs.cache
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\obj\Debug\FarmHub.csproj.CopyComplete
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\obj\Debug\FarmHub.dll
+D:\Thesis v2.0\Source Code\FarmHub\FarmHub\obj\Debug\FarmHub.pdb

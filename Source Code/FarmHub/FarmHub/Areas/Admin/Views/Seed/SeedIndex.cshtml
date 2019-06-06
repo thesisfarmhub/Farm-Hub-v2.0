@@ -1,0 +1,134 @@
+﻿@model IEnumerable<Model.EF.SEED>
+
+@{
+    ViewBag.Title = "SeedIndex";
+    Layout = "~/Areas/Admin/Views/Shared/_Layouts.cshtml";
+}
+
+<link href="~/Assets/admin/css/Index.css" rel="stylesheet" />
+<link href="~/Assets/admin/css/BeautifulButton.css" rel="stylesheet" />
+
+<Center><h1>Danh Sách Giống Cây</h1></Center>
+
+<p>
+    <button class="small green button" title="Tạo đơn mới" onclick="location.href='@Url.Action("Create","Seed")'">Tạo Đơn Mới &nbsp;<span class="fa fa-plus"></span></button>
+</p>
+
+<table class="table table-striped table-bordered table-hover" id="Table">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Tên Giống
+            </th>
+
+            <th>
+                Mã giống
+            </th>
+
+            <th>
+                Thao Tác
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Id_Seed
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name_Seed)
+                    <input type="hidden" class="id" value="@item.Id_Seed" id="ID" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Code_Seed)
+                </td>
+
+                <td>
+                    <button onclick="location.href='@Url.Action("Edit", "Seed",new { id = item.Id_Seed })'" class="btn btn-warning" title="Chỉnh Sửa">
+                        <span class="fa fa-pen"></span>
+                    </button>
+
+                    <butto onclick="location.href='@Url.Action("Details", "Seed",new { id = item.Id_Seed })'" class="btn btn-primary" title="Xem Chi Tiết">
+                        <span class="fa fa-info"></span>
+                    </butto>
+
+                    <button class="btn btn-danger DeleteClass" role="deleteBtn">
+                        <span class="fa fa-trash"></span>
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script type="text/javascript">
+
+    $('document').ready(function () {
+        $('#Table').dataTable();
+
+
+        $('document').ready(function () {
+            $('#Table').dataTable();
+
+          
+
+            $('#Table').on('click', 'button[role="deleteBtn"]', function (e) {
+                var id = $(this).closest('tr').find('.id').val();
+                
+                e.preventDefault();
+
+                $.confirm({
+                    icon: 'fa fa-question-circle',
+                    boxWidth: '100%',
+                    title: '<h2>Xóa Giống Cây</h2>',
+                    content: '<h4>Bạn có muốn giống cây này?</h4>',
+                    type: 'red',
+                    typeAnimated: true,
+                    animationSpeed: 500,
+                    closeIcon: true,
+                    closeIconClass: 'fa fa-close',
+                    escapeKey: true,
+                    backgroundDismiss: false,
+                    columnClass: "col-md-4",
+                    autoClose: 'cancel|6000',
+                    buttons: {
+                        confirm: {
+                            text: "Xác Nhận",
+                            btnClass: "btn-red",
+
+                            action: function () {
+                                $.ajax({
+                                    type: "DELETE",
+                                    url: "/Admin/Seed/Delete/" + id,
+                                    contentType: "application/json; charset=utf-8",
+                                    method: 'DELETE',
+                                    datatype: "text",
+                                    serverSide: true,
+                                    success: function (data) {
+                                        window.location.reload();
+                                    },
+                                    error: function (data) {
+
+                                    }
+                                });
+                            }
+                        },
+
+                        cancel: {
+                            text: "Hủy",
+                        }
+                    }
+                });
+            });
+
+
+        })
+    })
+
+</script>

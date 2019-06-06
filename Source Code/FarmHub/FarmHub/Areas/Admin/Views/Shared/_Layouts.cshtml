@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>SB Admin - Blank Page</title>
+    <!-- Custom fonts for this template-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="~/Assets/admin/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet" />
+    <link href="~/Assets/admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link href="~/Assets/admin/css/sb-admin.css" rel="stylesheet">
+    <link href="~/Assets/common/CSS/Custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <style>
+        .panel-heading {
+            font-size: 15px;
+            font-weight: bold;
+        }
+        span,a{
+            font-size:13px !important;
+        }
+    </style>
+    <a href="~/Areas/Admin/Views/Shared/NavBar.cshtml">~/Areas/Admin/Views/Shared/NavBar.cshtml</a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+
+
+    <script src="/Assets/admin/vendor/jquery/jquery.min.js"></script>
+    <script src="~/Assets/admin/js/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="/Assets/admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="/Assets/admin/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for all pages-->
+    @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>*@
+    @*<script src="~/Scripts/jquery-3.3.1.min.js"></script>*@
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+
+</head>
+<body id="page-top">
+    @RenderPage("NavBar.cshtml")
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <ul class="sidebar navbar-nav" style="font-size:20px !important;">
+            <li class="nav-item">
+                <a class="nav-link" href="/Admin/User/UserIndex">
+                    <i class="fa fa-user"></i>
+                    <span>Quản Lí Tài Khoản</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Admin/Product/ProductIndex">
+                    <i class="fa fa-pepper-hot"></i>
+                    <span>Quản Lí Nông Sản</span>
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/Admin/Seed/SeedIndex">
+                    <i class="fa fa-seedling"></i>
+                    <span>Quản Lí Giống Cây</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Admin/FeedBack/FeedBackIndex">
+                    <i class="fa fa-comments-o"></i>
+                    <span>Quản Lí Phản hồi</span>
+                </a>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-exchange"></i>
+                    <span>Quản Lí Giao Dịch</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+                    <a class="dropdown-item" href="/Admin/Transaction/OnGoingTransaction">Giao Dịch Hiện Hành</a>
+                    <a class="dropdown-item" href="/Admin/Transaction/EndedTransaction">Giao Dịch Đã Kết Thúc</a>
+                </div>
+            </li>
+        </ul>
+        <div id="content-wrapper">
+            <div class="container-fluid">
+                <!-- Breadcrumbs-->
+
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">Dashboard</a>
+                    </li>
+                    <li class="breadcrumb-item active"> @RenderSection("header", required: false)</li>
+                </ol>
+                <!-- Page Content -->
+                @RenderBody()
+            </div>
+            <!-- /.container-fluid -->
+            <!-- Sticky Footer -->
+            <footer class="sticky-footer">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright © Your Website 2019</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- /.content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JavaScript-->
+
+
+   
+
+    @RenderSection("FooterScript", required: false);
+</body>
+</html>

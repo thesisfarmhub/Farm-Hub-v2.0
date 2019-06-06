@@ -1,0 +1,92 @@
+﻿@model IEnumerable<Model.EF.TRANSACTION_ORDER>
+
+@{
+    ViewBag.Title = "OnGoingTransaction";
+    Layout = "~/Areas/Admin/Views/Shared/_Layouts.cshtml";
+}
+
+<Center><h1>Danh Sách Giao Dịch Hiện Hành</h1></Center>
+
+
+<table class="table table-striped table-bordered table-hover" id="Table">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Ngày Cập Nhật
+            </th>
+
+            <th>
+                Tên Nông Sản
+            </th>
+
+            <th>
+                Giá
+            </th>
+            <th>
+                Khối Lượng
+            </th>
+            <th>
+                Thương Lái
+            </th>
+            <th>
+                Nông Trại
+            </th>
+            <th>
+                Chủ Nông Trại
+            </th>
+            <th>
+                Trạng Thái
+            </th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Transaction_Date)
+                </td>
+                <td>
+                    @(item.PURCHASE_OFFER_DETAIL.PURCHASE_OFFER.PRODUCT.Name_Product + "("
+                                                        + item.PURCHASE_OFFER_DETAIL.PURCHASE_OFFER.SEED.Name_Seed + ")" )
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Transaction_Price)
+                </td>
+                <td>
+                    @(item.Transaction_Mass + "("
+                                                         + item.Transaction_Unitmass + ")")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PURCHASE_OFFER_DETAIL.PURCHASE_OFFER.TRADER.Name_Trader)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SALE_OFFER_DETAIL.SALE_OFFER.FARM.Name_Farm)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SALE_OFFER_DETAIL.SALE_OFFER.FARM.FARMER.Name_Farmer)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.STATUS_TRANS.Name_StatusTrans)
+                </td>
+            </tr>
+        }
+    </tbody>
+
+
+</table>
+
+
+<script type="text/javascript">
+
+    $('document').ready(function () {
+        $('#Table').dataTable();
+
+    })
+
+</script>

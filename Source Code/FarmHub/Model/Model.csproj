@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{86E9DF40-07D9-422E-96E2-ADD04E90C82F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dao\Admin\ProductDao.cs" />
+    <Compile Include="Dao\Admin\SeedDao.cs" />
+    <Compile Include="Dao\Admin\TransactionDao.cs" />
+    <Compile Include="Dao\Admin\UserDao.cs" />
+    <Compile Include="Dao\Authentication\EditPasswordDao.cs" />
+    <Compile Include="Dao\Authentication\FeedBackDao.cs" />
+    <Compile Include="Dao\Authentication\LoginDao.cs" />
+    <Compile Include="Dao\Authentication\TransactionScheduleDao.cs" />
+    <Compile Include="Dao\Authentication\UserAuthenDAO.cs" />
+    <Compile Include="Dao\Farmer\FarmDAO.cs" />
+    <Compile Include="Dao\Farmer\FarmerDAO.cs" />
+    <Compile Include="Dao\Farmer\FarmerOrderDao.cs" />
+    <Compile Include="Dao\Farmer\FarmerTransactionDao.cs" />
+    <Compile Include="Dao\Farmer\MarketTransHisDAO.cs" />
+    <Compile Include="Dao\Farmer\FarmerOfferDao.cs" />
+    <Compile Include="Dao\Farmer\ProductDAO.cs" />
+    <Compile Include="Dao\Farmer\ProductDetailDAO.cs" />
+    <Compile Include="Dao\Farmer\ProductKindDAO.cs" />
+    <Compile Include="Dao\Farmer\PurchaseOfferDAO.cs" />
+    <Compile Include="Dao\Farmer\PurchaseOfferDetailDao.cs" />
+    <Compile Include="Dao\Farmer\SaleOfferDAO.cs" />
+    <Compile Include="Dao\Farmer\SaleOfferDetailDao.cs" />
+    <Compile Include="Dao\Farmer\SeedDAO.cs" />
+    <Compile Include="Dao\Farmer\TransactionOrderDAO.cs" />
+    <Compile Include="Dao\Trader\OfferDao.cs" />
+    <Compile Include="Dao\Trader\OrderDao.cs" />
+    <Compile Include="Dao\Trader\PurchaseOfferDao.cs" />
+    <Compile Include="Dao\Trader\PurchaseOfferDetailDao.cs" />
+    <Compile Include="Dao\Trader\RegisterDao.cs" />
+    <Compile Include="Dao\Trader\SaleOfferDao.cs" />
+    <Compile Include="Dao\Trader\TraderDAO.cs" />
+    <Compile Include="Dao\Trader\TraderTransactionDao.cs" />
+    <Compile Include="DTO\Common\FeedBackDTO.cs" />
+    <Compile Include="DTO\Common\TopicDTO.cs" />
+    <Compile Include="DTO\Farmer\FarmDTO.cs" />
+    <Compile Include="DTO\Farmer\FarmerOrderDTO.cs" />
+    <Compile Include="DTO\Farmer\FarmerTopProductDTO.cs" />
+    <Compile Include="DTO\Farmer\FarmerTransactionDTO.cs" />
+    <Compile Include="DTO\Farmer\FarmerTransDTO.cs" />
+    <Compile Include="DTO\Farmer\ProductDetailDTO.cs" />
+    <Compile Include="DTO\Farmer\ProductDTO.cs" />
+    <Compile Include="DTO\Farmer\PurchaseOfferDetailDTO.cs" />
+    <Compile Include="DTO\Farmer\PurchaseOfferDTO.cs" />
+    <Compile Include="DTO\Farmer\SaleOfferChartDTO.cs" />
+    <Compile Include="DTO\Farmer\SaleOfferDTO.cs" />
+    <Compile Include="DTO\Farmer\FarmerOfferDTO.cs" />
+    <Compile Include="DTO\Farmer\SeedDTO.cs" />
+    <Compile Include="DTO\Farmer\TraderTransactionDTO.cs" />
+    <Compile Include="DTO\Farmer\UnitMassDTO.cs" />
+    <Compile Include="DTO\Trader\LoginDTO.cs" />
+    <Compile Include="DTO\Trader\ProductDTO.cs" />
+    <Compile Include="DTO\Trader\PurchaseOfferChartDTO.cs" />
+    <Compile Include="DTO\Trader\PurchaseOfferDTO.cs" />
+    <Compile Include="DTO\Trader\SaleOfferDTO.cs" />
+    <Compile Include="DTO\Trader\SeedDTO.cs" />
+    <Compile Include="DTO\Trader\TopProductDetailsDTO.cs" />
+    <Compile Include="DTO\Trader\TraderOfferDTO.cs" />
+    <Compile Include="DTO\Farmer\FarmerRegister.cs" />
+    <Compile Include="DTO\Trader\Register.CS" />
+    <Compile Include="DTO\Trader\TraderOrderDTO.cs" />
+    <Compile Include="DTO\Trader\TraderTransactionDTO.cs" />
+    <Compile Include="DTO\Trader\UnitMassDTO.cs" />
+    <Compile Include="EF\FARM.cs" />
+    <Compile Include="EF\FARMER.cs" />
+    <Compile Include="EF\FARMER_PREFERENCE.cs" />
+    <Compile Include="EF\FARMER_PREFERENCE_DETAIL.cs" />
+    <Compile Include="EF\FarmHubDbContext.cs" />
+    <Compile Include="EF\FEED_BACK.cs" />
+    <Compile Include="EF\MARKET_TRANS_HIS.cs" />
+    <Compile Include="EF\MASS_UNIT.cs" />
+    <Compile Include="EF\PRODUCT.cs" />
+    <Compile Include="EF\PRODUCT_DETAIL.cs" />
+    <Compile Include="EF\PRODUCT_KIND.cs" />
+    <Compile Include="EF\PURCHASE_OFFER.cs" />
+    <Compile Include="EF\PURCHASE_OFFER_DETAIL.cs" />
+    <Compile Include="EF\SALE_OFFER.cs" />
+    <Compile Include="EF\SALE_OFFER_DETAIL.cs" />
+    <Compile Include="EF\SEED.cs" />
+    <Compile Include="EF\STATUS_TRANS.cs" />
+    <Compile Include="EF\TOPIC.cs" />
+    <Compile Include="EF\TRADER.cs" />
+    <Compile Include="EF\TRADER_PREFERENCE.cs" />
+    <Compile Include="EF\TRADER_PREFERENCE_DETAIL.cs" />
+    <Compile Include="EF\TRANSACTION_ORDER.cs" />
+    <Compile Include="EF\USER_AUTHENTICATION.cs" />
+    <Compile Include="EF\USER_KIND.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\PagedList.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{05b432a3-3e8e-48fc-81d6-a1dc0e09bd5f}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

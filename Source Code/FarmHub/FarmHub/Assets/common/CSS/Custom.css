@@ -1,0 +1,14 @@
+﻿.centered {
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.panel-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body{
+    font-size: 14px;
+}

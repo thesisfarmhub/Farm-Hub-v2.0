@@ -1,0 +1,61 @@
+﻿@model Model.EF.USER_AUTHENTICATION
+
+
+@{
+    ViewBag.Title = "EditPassword";
+    Layout = "~/Views/Shared/_Layouts.cshtml";
+}
+@section header{
+    Sửa mật khẩu
+}
+
+
+@using (Html.BeginForm("EditPassword", "EditPassword", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id_User)
+
+
+
+        <div class="form-group">
+            <div class="col-md-3">
+                <label>Mật khẩu cũ</label>
+                <input tye="password" class="form-control" name="OldPassword" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-3">
+                <label>Nhập mật khẩu mới</label>
+                <input tye="password" class="form-control" name="NewPassword" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-3">
+                <label>Nhập lại mật khẩu mới</label>
+                <input tye="password" class="form-control" name="NewPassworConfirm" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-3">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-outline-primary" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+

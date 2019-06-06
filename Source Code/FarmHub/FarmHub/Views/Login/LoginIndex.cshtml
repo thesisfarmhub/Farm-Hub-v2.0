@@ -1,0 +1,149 @@
+﻿@model Model.DTO.Trader.LoginDTO
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login V3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+
+    <link href="~/Assets/Login/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--===============================================================================================-->
+
+    <link href="~/Assets/Login/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!--===============================================================================================-->
+
+    <link href="~/Assets/Login/fonts/iconic/css/material-design-iconic-font.min.css" rel="stylesheet" />
+    <!--===============================================================================================-->
+
+    <link href="~/Assets/Login/vendor/animate/animate.css" rel="stylesheet" />
+    <!--===============================================================================================-->
+
+    <link href="~/Assets/Login/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" />
+    <!--===============================================================================================-->
+
+    <link href="~/Assets/Login/vendor/animsition/css/animsition.min.css" rel="stylesheet" />
+    <!--===============================================================================================-->
+
+    <link href="~/Assets/Login/vendor/select2/select2.min.css" rel="stylesheet" />
+    <!--===============================================================================================-->
+
+    <link href="~/Assets/Login/vendor/daterangepicker/daterangepicker.css" rel="stylesheet" />
+    <!--===============================================================================================-->
+
+    <link href="~/Assets/Login/css/util.css" rel="stylesheet" />
+    <link href="~/Assets/Login/css/main.css" rel="stylesheet" />
+    <!--===============================================================================================-->
+</head>
+<body>
+    <div class="limiter">
+        <div class="container-login100" style="background-image: url('/Assets/Login/images/RiceField.jpg');">
+            <div class="wrap-login100">
+
+                <span class="login100-form-logo">
+                    <img src="~/Assets/Login/images/Wheat.png" width="100" height="100" />
+                </span>
+
+                <span class="login100-form-title p-b-34 p-t-27">
+                    Đăng Nhập
+                </span>
+
+
+
+                @using (Html.BeginForm("Login", "Login", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true, "", new {@style="color:yellow"})
+
+                    <div class="wrap-input100 validate-input" data-validate="Vui lòng nhập tên tài khoản">
+                        @* <input class="input100" type="text" id="username" placeholder="Tên tài khoản" autocomplete="off">*@
+                        @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "input100", @placeholder = "Tên tài khoản", autocomplete = "off" } })
+                        <span class="focus-input100" data-placeholder="&#xf207;"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input input-group" data-validate="Vui lòng nhập mật khẩu">
+                        @Html.EditorFor(model => model.PassWord, new { htmlAttributes = new { @class = "input100", @placeholder = "Mật Khẩu", autocomplete = "off", @type = "password", id = "password" } })
+                        <span class="focus-input100" data-placeholder="&#xf191;"></span>
+                    </div>
+
+
+                    <div class="contact100-form-checkbox">
+                        <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+                        @*@Html.CheckBoxFor(model => model.RememberMe, new { htmlAttribute = new { @class = "input-checkbox100" } })*@
+                        <label class="label-checkbox100" for="ckb1">
+                            Nhớ mật khẩu
+                        </label>
+                    </div>
+
+                    <div class="container-login100-form-btn">
+                        <button id="submit" class="login100-form-btn" type="submit">
+                            Xác Nhận
+                        </button>
+                    </div>
+
+
+                    <div class="text-center p-t-90">
+                        <a class="txt1" href="#">
+                            Forgot Password?
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+
+    <div id="dropDownSelect1"></div>
+
+    <!--===============================================================================================-->
+
+    <script src="~/Assets/Login/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+
+    <script src="~/Assets/Login/vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+
+    <script src="~/Assets/Login/vendor/bootstrap/js/popper.js"></script>
+
+    <script src="~/Assets/Login/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+
+    <script src="~/Assets/Login/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+
+    <script src="~/Assets/Login/vendor/daterangepicker/moment.min.js"></script>
+
+    <script src="~/Assets/Login/vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+
+    <script src="~/Assets/Login/vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+
+    <script src="~/Assets/Login/js/main.js"></script>
+
+    <script type="text/javascript">
+
+        $('document').ready(function () {
+            $("input[type='text']").attr("autocomplete", "off");
+        })
+
+        $(".toggle-password").click(function () {
+
+            $(this).toggleClass("fa-eye fa-eye-slash");
+            var input = $($(this).attr("toggle"));
+            if (input.attr("type") == "password") {
+                input.attr("type", "text");
+            } else {
+                input.attr("type", "password");
+            }
+        });
+
+
+
+    </script>
+</body>
+</html>

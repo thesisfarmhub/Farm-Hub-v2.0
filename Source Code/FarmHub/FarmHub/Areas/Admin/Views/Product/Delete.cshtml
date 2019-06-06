@@ -1,0 +1,58 @@
+﻿@model Model.EF.PRODUCT
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_Layouts.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Bạn có </h3>
+<div>
+    <h4>PRODUCT</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PRODUCT_KIND.Name_ProductKind)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PRODUCT_KIND.Name_ProductKind)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name_Product)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name_Product)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Image_Product)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Image_Product)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Is_Deleted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Is_Deleted)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> 
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+
+</div>
