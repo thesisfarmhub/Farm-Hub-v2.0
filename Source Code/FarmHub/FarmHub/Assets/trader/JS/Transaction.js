@@ -80,7 +80,7 @@ $(document).ready(function () {
     var purTbl = $("#transactionOfferTbl").DataTable({
 
         "ajax": {
-            "url": "/Transaction/GetListImportantTransaction",
+            "url": "/TraderTransaction/GetListImportantTransaction",
             "type": "GET",
             "datatypye": "json"
         },
@@ -202,7 +202,7 @@ $(document).ready(function () {
                     btnClass: "btn-default",
                     action: function () {
                         $.ajax({
-                            "url": "/Transaction/Handler?Command=" + "Delivered" + "&transactionId=" + transactionId,
+                            "url": "/TraderTransaction/Handler?Command=" + "Delivered" + "&transactionId=" + transactionId,
                             "type": "POST",
                             "datatypye": "json",
                             success: function (data) {
@@ -246,7 +246,7 @@ $(document).ready(function () {
                     btnClass: "btn-default",
                     action: function () {
                         $.ajax({
-                            "url": "/Transaction/Handler?Command=" + "Extend" + "&transactionId=" + transactionId,
+                            "url": "/TraderTransaction/Handler?Command=" + "Extend" + "&transactionId=" + transactionId,
                             "type": "POST",
                             "datatypye": "json",
                             success: function (data) {
@@ -290,7 +290,7 @@ $(document).ready(function () {
                     btnClass: "btn-default",
                     action: function () {
                         $.ajax({
-                            "url": "/Transaction/Handler?Command=" + "Delivered" + "&transactionId=" + transactionId,
+                            "url": "/TraderTransaction/Handler?Command=" + "Delivered" + "&transactionId=" + transactionId,
                             "type": "POST",
                             "datatypye": "json",
                             success: function (data) {
@@ -334,7 +334,7 @@ $(document).ready(function () {
                     btnClass: "btn-default",
                     action: function () {
                         $.ajax({
-                            "url": "/Transaction/Handler?Command=" + "NotDelivered" + "&transactionId=" + transactionId,
+                            "url": "/TraderTransaction/Handler?Command=" + "NotDelivered" + "&transactionId=" + transactionId,
                             "type": "POST",
                             "datatypye": "json",
                             success: function (data) {

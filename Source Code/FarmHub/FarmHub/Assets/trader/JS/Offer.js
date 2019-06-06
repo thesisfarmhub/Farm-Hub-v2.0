@@ -195,7 +195,7 @@ $(document).ready(function () {
             {
                 "render": function (data, type, rowData ) {
 
-                    var detailbtnHTML = '<button type="button" class="small blue button" role="purchaseDetailBtn"  data-toggle="Detailtooltip" title="Xem Chi tiết Đơn" >Xem Chi Tiết</i></span></button>'; 
+                    var detailbtnHTML = '<button type="button" class="small blue button" role="purchaseDetailBtn"  data-toggle="Detailtooltip" title="Xem Chi tiết Đơn" ><span class="fa fa-info"></button>'; 
                     var deletebtnHTML = ' <button class="small red button " type="button" role="deleteBtn" data-toggle="Deletetooltip" title="Xóa Đơn" " style="   padding: 4px 8px;"><span class="glyphicon glyphicon-trash"> </span> </button >';
 
                     var bargainImg = '<img src="/Assets/Images/Bargain.png" title=" Có thể Thương Lượng " width="22" height="22"/>  &nbsp;';
@@ -286,7 +286,7 @@ $(document).ready(function () {
             { "data": "massName" },
             { "data": "trueMass" },
             { "data": "price" },
-            { "defaultContent": '<button type="button" class="small blue button" role="orderBtn"  data-toggle="Detailtooltip" title="Xem Chi tiết Đơn" >Xem Chi Tiết</i></span></button>' },
+            { "defaultContent": '<button type="button" class="small blue button" role="orderBtn"  data-toggle="Detailtooltip" title="Xem Chi tiết Đơn" ><span class="fa fa-info"></button>' },
         ],
         "language": {
             "url": "https://cdn.datatables.net/plug-ins/1.10.19/i18n/Vietnamese.json",
@@ -356,7 +356,7 @@ $(document).ready(function () {
                         if (NOO == 0) {
                             $.ajax({
                                 type: "DELETE",
-                                url: "/Offer/CallDeleteOffer/" + id,
+                                url: "/TraderOffer/CallDeleteOffer/" + id,
                                 contentType: "application/json; charset=utf-8",
                                 method: 'DELETE',
                                 datatype: "text",

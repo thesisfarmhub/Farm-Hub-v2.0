@@ -148,7 +148,7 @@ $('document').ready(function () {
                                 datatype: "text",
                                 serverSide: true,
                                 success: function (data) {
-                                    window.location.href = window.location.origin + "/Offer/TraderOfferIndex";
+                                    window.location.href = window.location.origin + "/TraderOffer/TraderOfferIndex";
                                 },
                                 error: function (data) {
                                     alert("Error response is: " + data);
@@ -221,7 +221,7 @@ $('document').ready(function () {
                                                                     serverSide: true,
 
                                                                     success: function (data) {
-                                                                        window.location.href = window.location.origin + "/Offer/TraderOfferIndex";
+                                                                        window.location.href = window.location.origin + "/TraderOffer/TraderOfferIndex";
                                                                     },
 
                                                                     error: function (data) {

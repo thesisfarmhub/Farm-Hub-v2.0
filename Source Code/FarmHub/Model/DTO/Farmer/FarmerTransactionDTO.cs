@@ -18,7 +18,7 @@ namespace Model.DTO.Farmer
         public int? price { get; set; }
         public int? quantity { get; set; }
         public int? unitName { get; set; }
-        public int? totalMoney { get; set; }
+        public double? totalMoney { get; set; }
         public int? payingDay { get; set; }
         public int? deliveringDay { get; set; }
         public string StatusName { get; set; }
