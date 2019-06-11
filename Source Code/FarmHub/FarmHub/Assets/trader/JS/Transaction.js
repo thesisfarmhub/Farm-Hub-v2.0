@@ -78,7 +78,7 @@ $('#weightbegin, #weightend').keyup(function () {
 $(document).ready(function () {
     var transOffertbl = $("#transactionOfferTbl");
     var purTbl = $("#transactionOfferTbl").DataTable({
-
+        "aaSorting": [[0, "desc"]],
         "ajax": {
             "url": "/TraderTransaction/GetListImportantTransaction",
             "type": "GET",
@@ -125,13 +125,20 @@ $(document).ready(function () {
                     var tfDisabledClass = '', etDisabledClass = '', ndDisabledClass = '', cancelDisabledClass = '';
                     var tfDisabled = '', etDisabled = '', ndDisabled = '', cancelDisabled = '';
 
+                    if (rowData['StatusName'] == "Đã Đồng Ý") {
+                        ndDisabledClass = 'disabledBtn';
+                        ndDisabled = 'disabled';
 
-                    if (rowData['StatusName'] == "Đã Đồng Ý" || rowData['StatusName'] == "Chưa Nhận Được Tiền " ) {
+                    }
+
+                    else if (rowData['StatusName'] == "Chưa Nhận Được Tiền " ) {
                         ndDisabledClass = 'disabledBtn';
                         ndDisabled = 'disabled';
                         etDisabledClass = 'disabledBtn';
                         etDisabled = 'disabled';
                     }
+
+                     
 
                     else if (rowData['StatusName'] == "Sẵn Sàng Giao Hàng") {
                         tfDisabledClass = 'disabledBtn';
@@ -450,18 +457,18 @@ $(document).ready(function () {
         var id = transOffertbl.DataTable().row($(this).closest('tr')[0]).data()['transId'];
 
     });
-
-    function readURL(input) {
-        if (input.files && input.files[0]) {
-            var reader = new FileReader();
-
-            reader.onload = function (e) {
-                $('#blah')
-                    .attr('src', e.target.result);
-            };
-
-            reader.readAsDataURL(input.files[0]);
-        }
-    }
-
 })
+
+function readURL(input) {
+    console.log(input);
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            $('#blah')
+                .attr('src', e.target.result);
+        };
+
+        reader.readAsDataURL(input.files[0]);
+    }
+}

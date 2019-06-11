@@ -1,8 +1,10 @@
 ﻿using Model.Dao.Farmer;
 using Model.Dao.Trader;
 using Model.DTO.Trader;
+using Model.EF;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -48,8 +50,22 @@ namespace FarmHub.Controllers
         }
 
         [HttpPost]
-        public JsonResult Handler(string Command,int transactionId)
+        public JsonResult Handler(string Command,int transactionId,TRANSACTION_ORDER model)
         {
+            if (model.ImageFile != null)
+            {
+                string fileName = null;
+                string fileExtension = null;
+
+                fileName = Path.GetFileNameWithoutExtension(model.ImageFile.FileName);
+                fileExtension = Path.GetExtension(model.ImageFile.FileName);
+                fileName = fileName + DateTime.Now.ToString("yymmssfff") + fileExtension;
+
+                model.Image_Invoice = "/Data/Image/Trader/Invoices/" + fileName;
+                fileName = Path.Combine(Server.MapPath("/Data/Image/Trader/Invoices/"), fileName);
+                model.ImageFile.SaveAs(fileName);
+            }
+
             dao.ExecuteHandler(Command, transactionId);
             return Json(new object[] { new object() }, JsonRequestBehavior.AllowGet);
         }

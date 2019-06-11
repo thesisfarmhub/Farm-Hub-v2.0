@@ -32,13 +32,16 @@ namespace Model.EF
 
         public double? Transaction_TotalMoney { get; set; }
 
-        public byte? Id_StatusTrans { get; set; }
-
         public byte? Paying_Time { get; set; }
 
         public byte? Delivering_Time { get; set; }
 
+        public byte? Id_StatusTrans { get; set; }
+
         public bool? Is_Deleted { get; set; }
+
+        [NotMapped]
+        public HttpPostedFileBase ImageFile { get; set; }
 
         public virtual PRODUCT_DETAIL PRODUCT_DETAIL { get; set; }
 
@@ -47,8 +50,5 @@ namespace Model.EF
         public virtual SALE_OFFER_DETAIL SALE_OFFER_DETAIL { get; set; }
 
         public virtual STATUS_TRANS STATUS_TRANS { get; set; }
-
-        [NotMapped]
-        public HttpPostedFileBase ImageFile { get; set; }
     }
 }

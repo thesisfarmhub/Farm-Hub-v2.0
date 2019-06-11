@@ -18,7 +18,7 @@
                     <div class="mu-title">
                         <span class="mu-subtitle">Nông Trại</span>
                         <h2>CHỈNH SỬA THÔNG TIN</h2>
-                        <i class="fas fa-tractor"></i>
+                        <i style="margin-right: -9px" class="fas fa-tractor"></i>
                         <span class="mu-title-bar"></span>
                     </div>
                     @using (Html.BeginForm())
@@ -34,43 +34,42 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <input type="hidden" name="Id_Farmer" value="@Model.Id_Farmer">
-                                            <input type="text" class="form-control" placeholder="Tên Chủ Nông Trại" value="@Model.FARMER.Name_Farmer" disabled />
+                                            <input type="text" class="form-control" title="Tên Chủ Nông Trại" value="@Model.FARMER.Name_Farmer" disabled />
                                             @Html.ValidationMessageFor(model => model.FARMER.Name_Farmer, "", new { @class = "text-danger" })
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control checkNameFarm" placeholder="Tên Nông Trại" name="Name_Farm" value="@Model.Name_Farm" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
+                                            <input type="text" class="form-control checkNameFarm" title="Tên Nông Trại" name="Name_Farm" value="@Model.Name_Farm" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
                                             @Html.ValidationMessageFor(model => model.Name_Farm, "", new { @class = "text-danger" })
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control checkAddressFarm" placeholder="Địa Chỉ Nông Trại" name="Address_Farm" value="@Model.Address_Farm" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
+                                            <input type="text" class="form-control checkAddressFarm" title="Địa Chỉ Nông Trại" name="Address_Farm" value="@Model.Address_Farm" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
                                             @Html.ValidationMessageFor(model => model.Address_Farm, "", new { @class = "text-danger" })
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="number" class="form-control limitSeven" placeholder="Diện Tích Nông Trại" name="Acreage" value="@Model.Acreage" onkeypress='return event.charCode != 69 && event.charCode != 101 && event.charCode != 45 && event.charCode != 43 && event.charCode != 46' required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
+                                            <input type="number" class="form-control limitSeven" title="Diện Tích Nông Trại" name="Acreage" value="@Model.Acreage" onkeypress='return event.charCode != 69 && event.charCode != 101 && event.charCode != 45 && event.charCode != 43 && event.charCode != 46' required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
                                             @Html.ValidationMessageFor(model => model.Acreage, "", new { @class = "text-danger" })
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control checkCityFarm" placeholder="Thành Phố" name="City_Farm" value="@Model.City_Farm" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
+                                            <input type="text" class="form-control checkCityFarm" title="Thành Phố" name="City_Farm" value="@Model.City_Farm" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
                                             @Html.ValidationMessageFor(model => model.City_Farm, "", new { @class = "text-danger" })
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <h4><span class="label label-success">Nông Trại Đang Hoạt Động</span></h4>
-                                            @*<input type="text" class="form-control" placeholder="Nông Trại Đang Hoạt Động" disabled>*@
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <textarea class="form-control limitTwoHundred" cols="30" rows="10" placeholder="Your Message" name="Description_Farm" value="@Model.Description_Farm">@Model.Description_Farm</textarea>
+                                            <textarea class="form-control limitTwoHundred" cols="30" rows="10" title="Mô tả" name="Description_Farm" value="@Model.Description_Farm">@Model.Description_Farm</textarea>
                                             @Html.ValidationMessageFor(model => model.Description_Farm, "", new { @class = "text-danger" })
                                         </div>
                                     </div>
@@ -123,8 +122,8 @@
         var elem = $(".checkNameFarm");
         if (elem) {
             elem.keydown(function () {
-                if (elem.val().length > 45)
-                    elem.val(elem.val().substr(0, 45));
+                if (elem.val().length > 20)
+                    elem.val(elem.val().substr(0, 20));
             });
         }
     });
@@ -133,8 +132,8 @@
         var elem = $(".checkAddressFarm");
         if (elem) {
             elem.keydown(function () {
-                if (elem.val().length > 45)
-                    elem.val(elem.val().substr(0, 45));
+                if (elem.val().length > 20)
+                    elem.val(elem.val().substr(0, 20));
             });
         }
     });
@@ -143,8 +142,8 @@
         var elem = $(".checkCityFarm");
         if (elem) {
             elem.keydown(function () {
-                if (elem.val().length > 45)
-                    elem.val(elem.val().substr(0, 45));
+                if (elem.val().length > 20)
+                    elem.val(elem.val().substr(0, 20));
             });
         }
     });

@@ -19,7 +19,7 @@ namespace FarmHub.Controllers
 
             var listPO = purchaseOfferDAO.ListPOByTraderID(session); // Full list PO
 
-            var suitalbleSaleOffers = purchaseOfferDAO.SuitalbeSaleOffers(listPO, 2); // Show list suitable limit on Home Page
+            var suitalbleSaleOffers = purchaseOfferDAO.SuitalbeSaleOffers(listPO, 1); // Show list suitable limit on Home Page
 
             var listTopProducts = purchaseOfferDAO.ListTopProductDetails();
 

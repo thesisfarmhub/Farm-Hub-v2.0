@@ -1,0 +1,20 @@
+
+Source Code/FarmHub/\.vs/
+
+Source Code/FarmHub/Common/
+
+Source Code/FarmHub/Model/bin/
+
+Source Code/FarmHub/Model/obj/
+
+*.user
+
+Source Code/FarmHub/FarmHub/App_Start/
+
+Source Code/FarmHub/FarmHub/bin/
+
+Source Code/FarmHub/FarmHub/obj/
+
+*.csproj
+
+*.config

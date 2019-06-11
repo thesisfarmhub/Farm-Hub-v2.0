@@ -26,6 +26,7 @@
 
         public int? Id_Seed { get; set; }
 
+        [StringLength(50)]
         public string Geography_Location { get; set; }
 
         [StringLength(200)]
@@ -33,19 +34,31 @@
 
         public int? Min_Mass { get; set; }
 
+        [StringLength(50)]
         public string Name_Crop { get; set; }
 
+        [Required]
+        [DataType(DataType.DateTime, ErrorMessage = "Xin nhập đúng định dạng tháng/ngày/năm")]
         public DateTime? Start_Time { get; set; }
 
+        [Required]
+        [DataType(DataType.DateTime, ErrorMessage = "Xin nhập đúng định dạng tháng/ngày/năm")]
         public DateTime? End_Time { get; set; }
 
+        [Required]
+        [DataType(DataType.DateTime, ErrorMessage = "Xin nhập đúng định dạng tháng/ngày/năm")]
         public DateTime? Harvest_StartTime { get; set; }
 
+        [Required]
+        [DataType(DataType.DateTime, ErrorMessage = "Xin nhập đúng định dạng tháng/ngày/năm")]
         public DateTime? Harvest_EndTime { get; set; }
 
         public int? Quantity_Expected { get; set; }
 
         public bool? Is_Deleted { get; set; }
+
+        [NotMapped]
+        public HttpPostedFileBase ImageFile { get; set; }
 
         public virtual FARM FARM { get; set; }
 
@@ -55,9 +68,6 @@
         public virtual PRODUCT PRODUCT { get; set; }
 
         public virtual SEED SEED { get; set; }
-
-        [NotMapped]
-        public HttpPostedFileBase ImageFile { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<SALE_OFFER> SALE_OFFER { get; set; }

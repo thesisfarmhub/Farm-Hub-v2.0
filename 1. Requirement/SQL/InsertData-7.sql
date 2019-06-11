@@ -92,147 +92,147 @@ begin tran
 	--PRODUCT--
 
 	--Quả--
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (1,N'Dưa Hấu','\Data\Image\Farmer\Base\watermelon.jpeg', 0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (1,N'Táo','\Data\Image\Farmer\Base\apple.jpeg',0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (1,N'Sầu Riêng','\Data\Image\Farmer\Base\durian.jpeg',0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (1,N'Cam','\Data\Image\Farmer\Base\orange.jpeg',0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (1,N'Chuối','\Data\Image\Farmer\Base\banana.jpeg',0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (1,N'Nho','\Data\Image\Farmer\Base\grapes.jpeg',0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (1,N'Dâu','\Data\Image\Farmer\Base\strawberry.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (1,N'Dưa Hấu','/Data/Image/Farmer/Base/watermelon.jpeg', 0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (1,N'Táo','/Data/Image/Farmer/Base/apple.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (1,N'Sầu Riêng','/Data/Image/Farmer/Base/durian.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (1,N'Cam','/Data/Image/Farmer/Base/orange.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (1,N'Chuối','/Data/Image/Farmer/Base/banana.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (1,N'Nho','/Data/Image/Farmer/Base/grapes.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (1,N'Dâu','/Data/Image/Farmer/Base/strawberry.jpeg',0)
 
 	--Rau--
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (2,N'Đậu','\Data\Image\Farmer\Base\beans.jpeg',0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (2,N'Cải Bắp','\Data\Image\Farmer\Base\cabbage.jpeg',0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (2,N'Rau Muống','\Data\Image\Farmer\Base\water-spinach.jpeg',0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (2,N'Bông cải xanh','\Data\Image\Farmer\Base\broccoli.jpeg',0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (2,N'Cà Chua','\Data\Image\Farmer\Base\tomato.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (2,N'Đậu','/Data/Image/Farmer/Base/beans.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (2,N'Cải Bắp','/Data/Image/Farmer/Base/cabbage.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (2,N'Rau Muống','/Data/Image/Farmer/Base/water-spinach.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (2,N'Bông cải xanh','/Data/Image/Farmer/Base/broccoli.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (2,N'Cà Chua','/Data/Image/Farmer/Base/tomato.jpeg',0)
 
 	--Củ--
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (3,N'Củ Khoai Tây','\Data\Image\Farmer\Base\potato.jpeg',0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (3,N'Củ Cải Đỏ','\Data\Image\Farmer\Base\radish.jpeg',0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (3,N'Củ Cà Rốt','\Data\Image\Farmer\Base\carrot.jpeg',0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (3,N'Củ Dền','\Data\Image\Farmer\Base\beetroot.jpeg',0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (3,N'Củ Su Hào','\Data\Image\Farmer\Base\kohlrabi-bulbs.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (3,N'Củ Khoai Tây','/Data/Image/Farmer/Base/potato.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (3,N'Củ Cải Đỏ','/Data/Image/Farmer/Base/radish.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (3,N'Củ Cà Rốt','/Data/Image/Farmer/Base/carrot.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (3,N'Củ Dền','/Data/Image/Farmer/Base/beetroot.jpeg',0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (3,N'Củ Su Hào','/Data/Image/Farmer/Base/kohlrabi-bulbs.jpeg',0)
 
 	--Nấm--
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (4,N'Nấm Hương','\Data\Image\Farmer\Base\shiitake.jpeg', 0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (4,N'Nấm Mộc Nhĩ','\Data\Image\Farmer\Base\fungus.jpeg', 0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (4,N'Nấm Rơm','\Data\Image\Farmer\Base\mushoom.jpeg', 0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (4,N'Nấm Linh Chi','\Data\Image\Farmer\Base\lingzhi-mushroom.jpeg', 0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (4,N'Nấm Kim Châm','\Data\Image\Farmer\Base\enokitake.jpeg', 0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (4,N'Nấm Hương','/Data/Image/Farmer/Base/shiitake.jpeg', 0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (4,N'Nấm Mộc Nhĩ','/Data/Image/Farmer/Base/fungus.jpeg', 0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (4,N'Nấm Rơm','/Data/Image/Farmer/Base/mushroom.jpeg', 0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (4,N'Nấm Linh Chi','/Data/Image/Farmer/Base/lingzhi-mushroom.jpeg', 0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (4,N'Nấm Kim Châm','/Data/Image/Farmer/Base/enokitake.jpeg', 0)
 
 	--Các Loại Hạt--
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (5,N'Hạt Hạnh Nhân','\Data\Image\Farmer\Base\almond.jpeg', 0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (5,N'Hạt Điều','\Data\Image\Farmer\Base\cashew.jpeg', 0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (5,N'Hạt Hồ Đào','\Data\Image\Farmer\Base\pecan.jpeg', 0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (5,N'Hạt Dẻ','\Data\Image\Farmer\Base\chesnut.jpeg', 0)
-	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (5,N'Hạt Đậu Phộng','\Data\Image\Farmer\Base\peanut.jpeg', 0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (5,N'Hạt Hạnh Nhân','/Data/Image/Farmer/Base/almond.jpeg', 0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (5,N'Hạt Điều','/Data/Image/Farmer/Base/cashew.jpeg', 0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (5,N'Hạt Hồ Đào','/Data/Image/Farmer/Base/pecan.jpeg', 0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (5,N'Hạt Dẻ','/Data/Image/Farmer/Base/chestnut.jpeg', 0)
+	Insert into PRODUCT (Id_ProductKind,Name_Product,Image_Product,Is_Deleted) values (5,N'Hạt Đậu Phộng','/Data/Image/Farmer/Base/peanut.jpeg', 0)
 
 	--SEED--
 
 	--Dưa Hấu--
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Không Hạt','SDA001',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Khổng Lồ','SDA002',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Lai F1','SDA003',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Ruột Vàng','SDA004',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Tí Hon','SDA005',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Vỏ Vàng','SDA006',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Hắc Mĩ Nhân','SDA007',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (1, N'Không Hạt','SDA001',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (1, N'Khổng Lồ','SDA002',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (1, N'Lai F1','SDA003',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (1, N'Ruột Vàng','SDA004',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (1, N'Tí Hon','SDA005',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (1, N'Vỏ Vàng','SDA006',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (1, N'Hắc Mĩ Nhân','SDA007',0)
 
 	--Táo--
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Đài Loan','SDB001',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Thái Lan','SDB002',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Đào Vàng','SDB003',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Mèo','SDB004',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Gia Lộc','SDB005',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Kiku','SDB006',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Fuji','SDB007',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (2, N'Đài Loan','SDB001',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (2, N'Thái Lan','SDB002',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (2, N'Đào Vàng','SDB003',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (2, N'Mèo','SDB004',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (2, N'Gia Lộc','SDB005',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (2, N'Kiku','SDB006',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (2, N'Fuji','SDB007',0)
 
 	--Sầu Riêng--
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Khổ Qua','SDC001',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Cái Mơn','SDC002',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Ruột Đỏ','SDC003',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Musang King','SDC004',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Monthong Thái','SDC005',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Ri6','SDC006',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Cái Mơn','SDC007',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (3, N'Khổ Qua','SDC001',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (3, N'Cái Mơn','SDC002',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (3, N'Ruột Đỏ','SDC003',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (3, N'Musang King','SDC004',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (3, N'Monthong Thái','SDC005',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (3, N'Ri6','SDC006',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (3, N'Dona','SDC007',0)
 
 	--Cam--
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Cao Phong Hòa Bình','SDD001',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Sành Hà Giang','SDD002',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Bù Hà Tĩnh','SDD003',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Khe Mây Hà Tĩnh','SDD004',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Xoàn Lai Vung','SDD005',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Sành Hàm Yên','SDD006',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Vinh','SDD007',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (4, N'Cao Phong Hòa Bình','SDD001',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (4, N'Sành Hà Giang','SDD002',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (4, N'Bù Hà Tĩnh','SDD003',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (4, N'Khe Mây Hà Tĩnh','SDD004',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (4, N'Xoàn Lai Vung','SDD005',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (4, N'Sành Hàm Yên','SDD006',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (4, N'Vinh','SDD007',0)
 
 	--Chuối--
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Tiêu','SDE001',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Ngự','SDE002',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Sứ','SDE003',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Tiêu Hồng','SDE004',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Tây Thái','SDE005',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Cau','SDE006',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Gạo','SDE007',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (5, N'Tiêu','SDE001',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (5, N'Ngự','SDE002',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (5, N'Sứ','SDE003',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (5, N'Tiêu Hồng','SDE004',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (5, N'Tây Thái','SDE005',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (5, N'Cau','SDE006',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (5, N'Gạo','SDE007',0)
 
 	--Nho--
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Xanh Ninh Thuận','SDF001',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Đỏ Ninh Thuận','SDF002',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Đen Ninh Thuận','SDF003',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Pháp','SDF004',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Không Hạt','SDF005',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Mỹ','SDF006',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Syrah','SDF007',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (6, N'Xanh Ninh Thuận','SDF001',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (6, N'Đỏ Ninh Thuận','SDF002',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (6, N'Đen Ninh Thuận','SDF003',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (6, N'Pháp','SDF004',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (6, N'Không Hạt','SDF005',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (6, N'Mỹ','SDF006',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (6, N'Syrah','SDF007',0)
 
 	--Dâu--
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Tây Chịu Nhiệt','SDG001',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Nhật Bản','SDG002',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'New Zealand','SDG003',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Mỹ Đã','SDG004',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Trắng','SDG005',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Khổng Lồ','SDG006',0)
-	Insert into SEED (Name_Seed,Code_Seed,Is_Deleted) values (N'Hàn Quốc','SDG007',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (7, N'Tây Chịu Nhiệt','SDG001',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (7,N'Nhật Bản','SDG002',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (7,N'New Zealand','SDG003',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (7,N'Mỹ Đã','SDG004',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (7,N'Trắng','SDG005',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (7,N'Khổng Lồ','SDG006',0)
+	Insert into SEED (Id_Product,Name_Seed,Code_Seed,Is_Deleted) values (7,N'Hàn Quốc','SDG007',0)
 
 	--PRODUCT_DETAIL--
 
 	--Vạn Lục--
 
 	--Dưa Hấu--
-	Insert into PRODUCT_DETAIL values (1,1,1,N'Long An','\Data\Image\Farmer\Base\watermelon1.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
-	Insert into PRODUCT_DETAIL values (1,1,2,N'Long An','\Data\Image\Farmer\Base\watermelon2.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)
-	Insert into PRODUCT_DETAIL values (1,1,3,N'Long An','\Data\Image\Farmer\Base\watermelon3.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
+	Insert into PRODUCT_DETAIL values (1,1,1,N'Long An','/Data/Image/Farmer/Base/watermelon1.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
+	Insert into PRODUCT_DETAIL values (1,1,2,N'Long An','/Data/Image/Farmer/Base/watermelon2.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)
+	Insert into PRODUCT_DETAIL values (1,1,3,N'Long An','/Data/Image/Farmer/Base/watermelon3.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
 
 	--Táo--
-	Insert into PRODUCT_DETAIL values (2,1,8,N'Đà Lạt','\Data\Image\Farmer\Base\apple1.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,400,0)	
-	Insert into PRODUCT_DETAIL values (2,1,9,N'Đà Lạt','\Data\Image\Farmer\Base\apple2.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,400,0)	
-	Insert into PRODUCT_DETAIL values (2,1,10,N'Đà Lạt','\Data\Image\Farmer\Base\apple3.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
+	Insert into PRODUCT_DETAIL values (2,1,8,N'Đà Lạt','/Data/Image/Farmer/Base/apple1.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,400,0)	
+	Insert into PRODUCT_DETAIL values (2,1,9,N'Đà Lạt','/Data/Image/Farmer/Base/apple2.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,400,0)	
+	Insert into PRODUCT_DETAIL values (2,1,10,N'Đà Lạt','/Data/Image/Farmer/Base/apple3.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
 	
 	--Sầu Riêng--
-	Insert into PRODUCT_DETAIL values (3,1,15,N'Tiền Giang','\Data\Image\Farmer\Base\durian1.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)	
-	Insert into PRODUCT_DETAIL values (3,1,16,N'Tiền Giang','\Data\Image\Farmer\Base\durian2.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)	
-	Insert into PRODUCT_DETAIL values (3,1,17,N'Tiền Giang','\Data\Image\Farmer\Base\durian3.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,600,0)
+	Insert into PRODUCT_DETAIL values (3,1,15,N'Tiền Giang','/Data/Image/Farmer/Base/durian1.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)	
+	Insert into PRODUCT_DETAIL values (3,1,16,N'Tiền Giang','/Data/Image/Farmer/Base/durian2.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)	
+	Insert into PRODUCT_DETAIL values (3,1,17,N'Tiền Giang','/Data/Image/Farmer/Base/durian3.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,600,0)
 		
 	--Kim Điền--
 
 	--Cam--
-	Insert into PRODUCT_DETAIL values (4,2,22,N'Hà Tĩnh','\Data\Image\Farmer\Base\orange1.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
-	Insert into PRODUCT_DETAIL values (4,2,23,N'Hà Tĩnh','\Data\Image\Farmer\Base\orange2.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)
-	Insert into PRODUCT_DETAIL values (4,2,24,N'Hà Tĩnh','\Data\Image\Farmer\Base\orange3.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,400,0)
+	Insert into PRODUCT_DETAIL values (4,2,22,N'Hà Tĩnh','/Data/Image/Farmer/Base/orange1.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
+	Insert into PRODUCT_DETAIL values (4,2,23,N'Hà Tĩnh','/Data/Image/Farmer/Base/orange2.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)
+	Insert into PRODUCT_DETAIL values (4,2,24,N'Hà Tĩnh','/Data/Image/Farmer/Base/orange3.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,400,0)
 
 	--Chuối--
-	Insert into PRODUCT_DETAIL values (5,2,29,N'Hà Nam','\Data\Image\Farmer\Base\banana1.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,500,0)
-	Insert into PRODUCT_DETAIL values (5,2,30,N'Hà Nam','\Data\Image\Farmer\Base\banana2.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
-	Insert into PRODUCT_DETAIL values (5,2,31,N'Hà Nam','\Data\Image\Farmer\Base\banana3.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)
+	Insert into PRODUCT_DETAIL values (5,2,29,N'Hà Nam','/Data/Image/Farmer/Base/banana1.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,500,0)
+	Insert into PRODUCT_DETAIL values (5,2,30,N'Hà Nam','/Data/Image/Farmer/Base/banana2.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
+	Insert into PRODUCT_DETAIL values (5,2,31,N'Hà Nam','/Data/Image/Farmer/Base/banana3.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)
 
 	--Nho--
-	Insert into PRODUCT_DETAIL values (6,2,36,N'Ninh Thuận','\Data\Image\Farmer\Base\grapes1.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)
-	Insert into PRODUCT_DETAIL values (6,2,37,N'Ninh Thuận','\Data\Image\Farmer\Base\grapes2.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,100,0)
-	Insert into PRODUCT_DETAIL values (6,2,38,N'Ninh Thuận','\Data\Image\Farmer\Base\grapes3.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
+	Insert into PRODUCT_DETAIL values (6,2,36,N'Ninh Thuận','/Data/Image/Farmer/Base/grapes1.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)
+	Insert into PRODUCT_DETAIL values (6,2,37,N'Ninh Thuận','/Data/Image/Farmer/Base/grapes2.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,100,0)
+	Insert into PRODUCT_DETAIL values (6,2,38,N'Ninh Thuận','/Data/Image/Farmer/Base/grapes3.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
 
 	--Dâu--
-	Insert into PRODUCT_DETAIL values (7,2,43,N'Đà Lạt','\Data\Image\Farmer\Base\strawberry1.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)
-	Insert into PRODUCT_DETAIL values (7,2,44,N'Đà Lạt','\Data\Image\Farmer\Base\strawberry2.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
-	Insert into PRODUCT_DETAIL values (7,2,45,N'Đà Lạt','\Data\Image\Farmer\Base\strawberry3.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,400,0)
+	Insert into PRODUCT_DETAIL values (7,2,43,N'Đà Lạt','/Data/Image/Farmer/Base/strawberry1.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)
+	Insert into PRODUCT_DETAIL values (7,2,44,N'Đà Lạt','/Data/Image/Farmer/Base/strawberry2.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
+	Insert into PRODUCT_DETAIL values (7,2,45,N'Đà Lạt','/Data/Image/Farmer/Base/strawberry3.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,400,0)
 	
 	--** SALE_OFFER **--
 

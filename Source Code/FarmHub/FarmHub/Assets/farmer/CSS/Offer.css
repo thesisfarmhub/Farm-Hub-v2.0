@@ -7,6 +7,12 @@
    
 }
 
+.bigInput {
+    height: 40px;
+    font-size: 15px;
+    padding: 10px;
+}
+
 th {
     font-size: 12px;
 }
@@ -35,6 +41,10 @@ ul{
     height: 40px;
     font-size: 15px;
     padding: 10px;
+}
+
+.BlackBoarder {
+    border: 0.5px solid black !important;
 }
 
 ::placeholder {

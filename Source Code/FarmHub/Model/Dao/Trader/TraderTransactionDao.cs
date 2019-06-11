@@ -1,6 +1,7 @@
 ﻿using Model.EF;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,9 +34,12 @@ namespace Model.Dao.Trader
         public void ExecuteHandler(string Command, int transactionId)
         {
             var model = db.TRANSACTION_ORDER.Find(transactionId);
+
             switch (Command)
             {
                 case "Transfered":
+                   
+
                     model.Transaction_Date = DateTime.Now;
                     model.Id_StatusTrans = 1;//Đã Chuyển Tiền
                     db.SaveChanges();
@@ -48,15 +52,16 @@ namespace Model.Dao.Trader
                     db.SaveChanges();
                     break;
 
-                case "Delivered":
-                    model.Transaction_Date = DateTime.Now;
-                    model.Id_StatusTrans = 9;//Đã Nhận Được Hàng 
-                    db.SaveChanges();
-                    break;
+                //case "Delivered":
+                //    model.Transaction_Date = DateTime.Now;
+                //    model.Id_StatusTrans = 9;//Đã Nhận Được Hàng 
+                //    db.SaveChanges();
+                //    break;
 
                 case "NotDelivered":
                     model.Transaction_Date = DateTime.Now;
-                    model.Id_StatusTrans = 8;//Chưa Nhận Được Hàng 
+                    model.Id_StatusTrans = 15;//hủy
+                    //model.SALE_OFFER_DETAIL.SALE_OFFER.FARM
                     db.SaveChanges();
                     break;
 

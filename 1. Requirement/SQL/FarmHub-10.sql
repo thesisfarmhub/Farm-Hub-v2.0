@@ -110,15 +110,6 @@ Create Table FARM
 	Foreign Key (Id_Farmer) references FARMER(Id_Farmer)
 );
 
-Create Table SEED
-(
-	Id_Seed int not null primary key identity(1,1),
-	Name_Seed nvarchar(50),
-	Code_Seed nvarchar(50),
-	Is_Deleted bit
-	-- Foreign Key -- 	
-);
-
 Create Table PRODUCT
 (
 	Id_Product int not null primary key identity(1,1),
@@ -128,6 +119,17 @@ Create Table PRODUCT
 	Is_Deleted bit
 	-- Foreign Key --
 	Foreign Key (Id_ProductKind) references PRODUCT_KIND(Id_ProductKind)
+);
+
+Create Table SEED
+(
+	Id_Seed int not null primary key identity(1,1),
+	Id_Product int,
+	Name_Seed nvarchar(50),
+	Code_Seed nvarchar(50),
+	Is_Deleted bit	
+	-- Foreign Key -- 
+	Foreign Key (Id_Product) references PRODUCT(Id_Product)
 );
 
 Create table PRODUCT_DETAIL
@@ -302,7 +304,7 @@ Create Table TRANSACTION_ORDER
 	Transaction_Mass int,
 	Transaction_Unitmass nvarchar(10),
 	Transaction_Price int,
-	Transaction_TotalMoney int,
+	Transaction_TotalMoney float,
 	Paying_Time tinyint,
 	Delivering_Time tinyint,
 	--DeliverTime int,
@@ -389,8 +391,8 @@ Create Proc CreatePurchaseDetail @Id_PurchasesOffer int ,@Quantity_PurchaseOffer
 as
 	begin
 		
-		insert into PURCHASE_OFFER_DETAIL(Id_PurchasesOffer,Quantity_PurchaseOfferDetail)
-		values (@Id_PurchasesOffer,@Quantity_PurchaseOfferDetail)
+		insert into PURCHASE_OFFER_DETAIL(Id_PurchasesOffer,Quantity_PurchaseOfferDetail,Fine,Is_Deleted)
+		values (@Id_PurchasesOffer,@Quantity_PurchaseOfferDetail,0,0)
 		 
 	end
 
@@ -400,15 +402,15 @@ Create Proc CreateSaleDetail @Id_SaleOffer int ,@Quantity_SaleOfferDetail int
 as
 	begin
 	
-		insert into SALE_OFFER_DETAIL(Id_SaleOffer,Quantity_SaleOfferDetail)
-		values (@Id_SaleOffer,@Quantity_SaleOfferDetail)
+		insert into SALE_OFFER_DETAIL(Id_SaleOffer,Quantity_SaleOfferDetail,Fine,Is_Deleted)
+		values (@Id_SaleOffer,@Quantity_SaleOfferDetail,0,0)
 		
 	end
 
 --Insert into Transaction
 go
 
-Create Proc CreateTransactionOrder @Id_SaleOfferDetail int,@Id_PurchaseOfferDetail int ,@Id_ProductDetail int ,@Transaction_Mass int,@Transaction_Unitmass nvarchar(10),@Transaction_Price int ,@Transaction_TotalMoney int,@Paying_Time tinyint,@Delivering_Time tinyint,@Id_StatusTrans tinyint
+Create Proc CreateTransactionOrder @Id_SaleOfferDetail int,@Id_PurchaseOfferDetail int ,@Id_ProductDetail int ,@Transaction_Mass int,@Transaction_Unitmass nvarchar(10),@Transaction_Price int ,@Transaction_TotalMoney float,@Paying_Time tinyint,@Delivering_Time tinyint,@Id_StatusTrans tinyint
 as
 	
 	begin

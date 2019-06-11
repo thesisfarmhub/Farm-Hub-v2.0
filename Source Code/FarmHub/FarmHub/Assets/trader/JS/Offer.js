@@ -145,16 +145,13 @@ $('#Saleweightbegin, #Saleweightend').keyup(function () {
 
 //Data=Table PurchaseOffer
 $(document).ready(function () {
-    $('[data-tooltip="Newtooltip"]').tooltip();
-    $('[data-toggle="Deletetooltip"]').tooltip();
-    $('[data-toggle="Detailtooltip"]').tooltip();
-    $('[data-toggle="Bargaintooltip"]').tooltip();
+   
 
     var purchaseOfferTbl = $("#purchaseOfferTbl");
     var saleOffertbl = $("#saleOfferTbl");
 
     var purTbl = purchaseOfferTbl.DataTable({
-   
+        "aaSorting": [[0, "desc"]],
         paging: true,
         scrollCollapse: true,
         "ajax": {
@@ -164,7 +161,18 @@ $(document).ready(function () {
         },
 
         "columns": [
-            { "data": "createdDate" },
+            {
+                "data": "createdDate",
+                render: function (data, type, rowData) {
+                    if (type == "sort") {
+                        var str = data.split('/');
+                        console.log(str);
+                        return new Date(str[2], str[1], str[0]).getTime();
+
+                    }
+                    return data;
+                }
+            },
             { "data": "canBargain" },
             {
                 "data": "productName",
@@ -476,20 +484,19 @@ $(document).ready(function () {
             var dataType = 'application/x-www-form-urlencoded; charset=utf-8';
             $.ajax({
                 type: "POST",
-                url: "/Offer/CreatePurchaseOffer",
+                url: "/TraderOffer/CreatePurchaseOffer",
                 data: purchaseOffer,
                 dataType: 'json',
                 contentType: dataType,
                 success: function (data) {
-                    if (data == "success") {
-                        alert("success");
+                   
                         window.location.reload();
-                    }
+                  
                     
                 },
                 error: function () {
-                    //alert("error");
-                    window.location.reload();
+                    alert("Tạo mới không thành công!");
+                   
                 }
             });
 

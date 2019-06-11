@@ -2,9 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Model.Dao.Admin
 {
     public class ProductDao
@@ -20,12 +17,19 @@ namespace Model.Dao.Admin
             return db.PRODUCTs.Where(x => x.Is_Deleted == false).OrderByDescending(x => x.Id_Product);
         }
 
-        public void Create(PRODUCT model)
+        public bool Create(PRODUCT model)
         {
-            model.Is_Deleted = false;
-
-            db.PRODUCTs.Add(model);
-            db.SaveChanges();
+            try
+            {
+                model.Is_Deleted = false;
+                db.PRODUCTs.Add(model);
+                db.SaveChanges();
+                return true;
+            }
+            catch(Exception)
+            {
+                return false;
+            }
         }
 
         public PRODUCT Details(int id_Product)
@@ -33,15 +37,21 @@ namespace Model.Dao.Admin
             return db.PRODUCTs.Find(id_Product);
         }
 
-        public void Edit(PRODUCT model)
+        public bool Update(PRODUCT model)
         {
-            var targetUpdate = db.PRODUCTs.Find(model.Id_Product);
-
-            targetUpdate.Id_ProductKind = model.Id_ProductKind;
-            targetUpdate.Name_Product = model.Name_Product;
-            targetUpdate.Image_Product = model.Image_Product;
-
-            db.SaveChanges();
+            try
+            {
+                var targetUpdate = db.PRODUCTs.Find(model.Id_Product);
+                targetUpdate.Id_ProductKind = model.Id_ProductKind;
+                targetUpdate.Name_Product = model.Name_Product;
+                targetUpdate.Image_Product = model.Image_Product;
+                db.SaveChanges();
+                return true;
+            }
+            catch(Exception)
+            {
+                return false;
+            }
 
         }
 

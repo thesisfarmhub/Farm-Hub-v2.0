@@ -234,6 +234,7 @@ $('document').ready(function () {
                                                         Cancle: {
                                                             text:"Hủy"
                                                         }
+
                                                     }
                                                 })
                                             }

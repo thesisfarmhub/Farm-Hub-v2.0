@@ -21,7 +21,7 @@ namespace FarmHub.Areas.Farmer.Controllers
 
             var listSaleOfferLimit = saleOfferDao.ListSaleOfferByFarmerID(session, 5); // only show litmit SO on Home Page
             var listSaleOffer = saleOfferDao.ListSaleOfferByFarmerID(session);
-            var suitablePurchaseOffer = saleOfferDao.SuitablePurchaseOffer(listSaleOffer, 2); // only show litmit suitable on Home Page
+            var suitablePurchaseOffer = saleOfferDao.SuitablePurchaseOffer(listSaleOffer, 1); // only show litmit suitable on Home Page
             var listTopProducts = saleOfferDao.ListTopProductDetails();
 
             var farmerHomePageModel = new FarmerHomePageModel

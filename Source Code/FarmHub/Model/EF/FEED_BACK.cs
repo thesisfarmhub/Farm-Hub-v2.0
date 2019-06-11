@@ -18,10 +18,10 @@ namespace Model.EF
         [StringLength(50)]
         public string Title_FeedBack { get; set; }
 
+        public int? Id_Transaction { get; set; }
+
         [StringLength(200)]
         public string Description_FeedBack { get; set; }
-       
-        public int? Id_Transaction { get; set; }
 
         public bool? Is_Deleted { get; set; }
 

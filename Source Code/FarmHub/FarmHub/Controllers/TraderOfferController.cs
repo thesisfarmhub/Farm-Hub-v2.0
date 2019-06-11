@@ -158,7 +158,7 @@ namespace FarmHub.Controllers
                 dao.Insert(model, traderId);
             }
             //return "{\"msg\":\"success\"}";
-            return Content("success");
+            return Json(new object[] { new object() }, JsonRequestBehavior.AllowGet);
         }
 
         [HttpDelete]

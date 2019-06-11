@@ -19,6 +19,8 @@ namespace Model.EF
         [Key]
         public int Id_Seed { get; set; }
 
+        public int? Id_Product { get; set; }
+
         [StringLength(50)]
         public string Name_Seed { get; set; }
 
@@ -26,6 +28,8 @@ namespace Model.EF
         public string Code_Seed { get; set; }
 
         public bool? Is_Deleted { get; set; }
+
+        public virtual PRODUCT PRODUCT { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PRODUCT_DETAIL> PRODUCT_DETAIL { get; set; }

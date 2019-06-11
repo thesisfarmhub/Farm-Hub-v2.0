@@ -1,5 +1,6 @@
 ﻿using FarmHub.Models;
 using Model.Dao.Farmer;
+using Model.DTO.Farmer;
 using Model.DTO.Trader;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +25,9 @@ namespace FarmHub.Controllers
             };
 
             // ChartJS
+
+            #region Purchase Offer ChartJS
+
             var listPO = purchaseOfferDAO.ListAllActive();
 
             var productNames = listPO.Select(x => x.PRODUCT.Name_Product).Distinct();
@@ -50,12 +54,45 @@ namespace FarmHub.Controllers
             }
             ViewBag.NUMBEROFOFFERS = numberOfOffers; // Number of orders
 
+            #endregion
+
+            #region Sale Offer ChartJS
+
+            var listSO = saleOfferDAO.ListAllActive();
+
+            var saleProductNames = listSO.Select(x => x.PRODUCT_DETAIL.PRODUCT.Name_Product).Distinct();
+            ViewBag.SALEPRODUCTNAMES = saleProductNames; // Label: Product Names
+
+            var saleOfferChartDTO = listSO.GroupBy(x => x.PRODUCT_DETAIL.PRODUCT.Name_Product).Select(x => new SaleOfferChartDTO
+            {
+                NumberOfOrders = x.Select(id => id.Id_SaleOffer).Count(),
+                SaleOfferAvgPrice = (int)x.Average(p => p.Price_Offer),
+                SaleOfferTotalQuantity = (int)x.Sum(qu => qu.Quantity_SaleOffer)
+            }).ToList();
+
+            List<int> salePrices = new List<int>();
+            foreach (var item in saleOfferChartDTO)
+            {
+                salePrices.Add(item.SaleOfferAvgPrice);
+            }
+            ViewBag.SALEPRICES = salePrices.ToList(); // Data: Prices
+
+            List<int> saleNumberOfOffers = new List<int>();
+            foreach (var item in saleOfferChartDTO)
+            {
+                saleNumberOfOffers.Add(item.NumberOfOrders);
+            }
+            ViewBag.SALENUMBEROFOFFERS = numberOfOffers; // Number of orders
+
+            #endregion
+
             return View(homePageModel);
         }
 
         #region Function
 
         readonly PurchaseOfferDao purchaseOfferDAO = new PurchaseOfferDao();
+        readonly SaleOfferDAO saleOfferDAO = new SaleOfferDAO();
 
         #endregion
 

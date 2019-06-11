@@ -6,51 +6,51 @@
 }
 <h2>Create</h2>
 
-@using (Html.BeginForm("Create","Product",FormMethod.Post, new { enctype = "multipart/form-data" })) 
+@using (Html.BeginForm("Create", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     @Html.AntiForgeryToken()
-    
-<div class="form-horizontal">
-    <h4>PRODUCT</h4>
-    <hr />
-    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
-    <div class="form-group">
-        @Html.LabelFor(model => model.Id_ProductKind, "Id_ProductKind", htmlAttributes: new { @class = "control-label col-md-2" })
-        <div class="col-md-10">
+    <div class="form-horizontal">
+        <h4>PRODUCT</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
-            @Html.DropDownList("Id_ProductKind", null, htmlAttributes: new { @class = "form-control" })
-            @Html.ValidationMessageFor(model => model.Id_ProductKind, "", new { @class = "text-danger" })
-        </div>
-    </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Id_ProductKind, "Id_ProductKind", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
 
-    <div class="form-group">
-        @Html.LabelFor(model => model.Name_Product, htmlAttributes: new { @class = "control-label col-md-2" })
-        <div class="col-md-10">
-            @Html.EditorFor(model => model.Name_Product, new { htmlAttributes = new { @class = "form-control" } })
-            @Html.ValidationMessageFor(model => model.Name_Product, "", new { @class = "text-danger" })
-        </div>
-    </div>
-
-    <div class="form-group">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div>
-                <label for="anhSanPham" style="color:aliceblue">Ảnh sản phẩm</label>
-                <input type="file" class="form-control-file" onchange="readURL(this);" id="anhSanPham" name="ImageFile" style="color:aliceblue">
-                <img style="max-width:80px; max-height:120px" id="blah" src="http://placehold.it/180" alt="your image" />
+                @Html.DropDownList("Id_ProductKind", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Id_ProductKind, "", new { @class = "text-danger" })
             </div>
         </div>
-        
-        
-    </div>
 
-    <div class="form-group">
-        <div class="col-md-offset-2 col-md-10">
-            <input type="submit" value="Create" class="btn btn-default" />
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name_Product, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input name="Name_Product" id="searchInput" class="form-control" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')"/>
+                @Html.ValidationMessageFor(model => model.Name_Product, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div>
+                    <label for="anhSanPham" style="color:aliceblue">Ảnh sản phẩm</label>
+                    <input type="file" class="form-control-file" onchange="readURL(this);" id="anhSanPham" name="ImageFile" style="color:aliceblue">
+                    <img style="max-width:80px; max-height:120px" id="blah" src="http://placehold.it/180" alt="your image" />
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
         </div>
     </div>
-</div>
 }
 
 <div>
@@ -70,4 +70,31 @@
             reader.readAsDataURL(input.files[0]);
         }
     }
+</script>
+
+<!--Auto Complete-->
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+<link rel="stylesheet" href="code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+
+<script>
+    $("#searchInput").autocomplete({
+        source: function (request, response) {
+            $.ajax({
+                url: '@Url.Action("GetSearchValue", "Product")',
+                dataType: "json",
+                data: { search: $("#searchInput").val() },
+                success: function (data) {
+                    response($.map(data, function (item) {
+                        return { label: item.Name_Product, value: item.Name_Product };
+                    }));
+                },
+                error: function (xhr, status, error) {
+                    alert("Error");
+                }
+            });
+        }
+    });
 </script>

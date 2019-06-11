@@ -9,7 +9,6 @@
     <title>Create Product Details</title>
 </head>
 
-
 <!-- Start Reservation section -->
 <section id="mu-reservation">
     <div class="container">
@@ -19,10 +18,10 @@
                     <div class="mu-title">
                         <span class="mu-subtitle">Nông Sản</span>
                         <h2>TẠO MỚI</h2>
-                        <i class="fas fa-tractor"></i>
+                        <i style="margin-right: -9px" class="fas fa-tractor"></i>
                         <span class="mu-title-bar"></span>
                     </div>
-                    @using (Html.BeginForm("Create", "ProductDetails", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    @using (Html.BeginForm("Create", "ProductDetails", FormMethod.Post, new { enctype = "multipart/form-data", id = "myForm" }))
                     {
                         <div class="mu-reservation-content">
                             <form class="mu-reservation-form">
@@ -35,74 +34,69 @@
 
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            @Html.DropDownList("Id_Product", null, htmlAttributes: new { @class = "form-control" })
-                                            @Html.ValidationMessageFor(model => model.Id_Product, "", new { @class = "text-danger" })
-
+                                            <select id="comboboxProduct" title="Tên nông sản" class="form-control" name="Id_Product" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
+                                                <option value="" selected disabled hidden>
+                                                    Chọn nông sản
+                                                </option>
+                                                @foreach (var item in ViewBag.PRODUCTS)
+                                                {
+                                                    <option value="@item.Id_Product">
+                                                        @item.Name_Product
+                                                    </option>
+                                                }
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             @Html.DropDownList("FarmIDForPD", null, htmlAttributes: new { @class = "form-control", @disabled = "disabled" })
-                                            @*@Html.ValidationMessageFor(model => model.Id_Farm, "", new { @class = "text-danger" })*@
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            @Html.DropDownList("Id_Seed", null, htmlAttributes: new { @class = "form-control" })
-                                            @Html.ValidationMessageFor(model => model.Id_Seed, "", new { @class = "text-danger" })
+                                            <select id="comboboxSeed" title="Tên giống" class="form-control" name="Id_Seed" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
+                                                <option value="" selected disabled hidden>Chọn nông sản sau đó chọn giống</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control checkGeography" placeholder="Thổ nhưỡng" name="Geography_Location" />
-                                            @*@Html.EditorFor(model => model.Geography_Location, new { htmlAttributes = new { @class = "form-control", placeholder = "Thổ nhưỡng" } })*@
+                                            <input type="text" class="form-control checkGeography" placeholder="Thổ nhưỡng" name="Geography_Location" title="Thổ nhưỡng" />
                                             @Html.ValidationMessageFor(model => model.Geography_Location, "", new { @class = "text-danger" })
                                         </div>
                                     </div>
-                                    @*<div class="col-md-6">
-                                            <div class="form-group">
-                                                @Html.EditorFor(model => model.Min_Mass, new { htmlAttributes = new { @class = "form-control", placeholder = "Khối lượng bán nhỏ nhất" } })
-                                                @Html.ValidationMessageFor(model => model.Min_Mass, "", new { @class = "text-danger" })
-                                            </div>
-                                        </div>*@
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control checkNameCrop" placeholder="Tên vụ mùa" name="Name_Crop" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" />
-                                            @*@Html.EditorFor(model => model.Name_Crop, new { htmlAttributes = new { @class = "form-control", placeholder = "Tên vụ mùa" } })*@
+                                            <input type="text" class="form-control checkNameCrop" placeholder="Tên vụ mùa" name="Name_Crop" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" title="Tên vụ mùa" />
                                             @Html.ValidationMessageFor(model => model.Name_Crop, "", new { @class = "text-danger" })
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Thời điểm bắt đầu vụ mùa: tháng/ngày/năm" name="Start_Time" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" />
-                                            @*@Html.EditorFor(model => model.Start_Time, new { htmlAttributes = new { @class = "form-control", @type = "datetime", @title = "Thời điểm bắt đầu vụ mùa", placeholder = "Thời điểm bắt đầu vụ mùa: tháng/ngày/năm" } })*@
+                                            <input type="text" class="form-control startTime" placeholder="Thời điểm bắt đầu vụ mùa: tháng/ngày/năm" name="Start_Time" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" title="Thời điểm bắt đầu vụ mùa" />
                                             @Html.ValidationMessageFor(model => model.Start_Time, "", new { @class = "text-danger" })
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Thời điểm kết thúc vụ mùa: tháng/ngày/năm" name="End_Time" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" />
-                                            @*@Html.EditorFor(model => model.End_Time, new { htmlAttributes = new { @class = "form-control", @type = "datetime", @title = "Thời điểm kết thúc vụ mùa", placeholder = "Thời điểm kết thúc vụ mùa: tháng/ngày/năm" } })*@
+                                            <input type="text" class="form-control" placeholder="Thời điểm kết thúc vụ mùa: tháng/ngày/năm" name="End_Time" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" title="Thời điểm kết thúc vụ mùa" />
                                             @Html.ValidationMessageFor(model => model.End_Time, "", new { @class = "text-danger" })
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Thời điểm bắt đầu thu hoạch: tháng/ngày/năm" name="Harvest_StartTime" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" />
-                                            @*@Html.EditorFor(model => model.Harvest_StartTime, new { htmlAttributes = new { @class = "form-control", @type = "datetime", @title = "Thời điểm bắt đầu thu hoạch", placeholder = "Thời điểm bắt đầu thu hoạch: tháng/ngày/năm" } })*@
+                                            <input type="text" class="form-control" placeholder="Thời điểm bắt đầu thu hoạch: tháng/ngày/năm" name="Harvest_StartTime" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" title="Thời điểm bắt đầu thu hoạch" />
                                             @Html.ValidationMessageFor(model => model.Harvest_StartTime, "", new { @class = "text-danger" })
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Thời điểm kết thúc thu hoạch: tháng/ngày/năm" name="Harvest_EndTime" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" />
-                                            @*@Html.EditorFor(model => model.Harvest_EndTime, new { htmlAttributes = new { @class = "form-control", @type = "datetime", @title = "Thời điểm kết thúc thu hoạch", placeholder = "Thời điểm kết thúc thu hoạch: tháng/ngày/năm" } })*@
+                                            <input type="text" class="form-control" placeholder="Thời điểm kết thúc thu hoạch: tháng/ngày/năm" name="Harvest_EndTime" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" title="Thời điểm kết thúc thu hoạch" />
                                             @Html.ValidationMessageFor(model => model.Harvest_EndTime, "", new { @class = "text-danger" })
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="number" class="form-control limitSeven" placeholder="Sản lượng dự kiến" name="Quantity_Expected" onkeypress='return event.charCode != 69 && event.charCode != 101 && event.charCode != 45 && event.charCode != 43 && event.charCode != 46' required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
-                                        @*@Html.EditorFor(model => model.Quantity_Expected, new { htmlAttributes = new { @class = "form-control", @title = "Sản lượng dự kiến", placeholder = "Sản lượng dự kiến" } })*@
+                                        <input type="number" class="form-control limitSeven" placeholder="Sản lượng dự kiến" name="Quantity_Expected" onkeypress='return event.charCode != 69 && event.charCode != 101 && event.charCode != 45 && event.charCode != 43 && event.charCode != 46' required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" title="Sản lượng dự kiến" />
                                         @Html.ValidationMessageFor(model => model.Quantity_Expected, "", new { @class = "text-danger" })
                                         <div class="form-group">
                                         </div>
@@ -123,7 +117,7 @@
                                 </div>
 
                                 <center>
-                                    <button type="submit" class="mu-readmore-btn">Tạo Mới</button>
+                                    <button type="submit" onclick="validate()" class="mu-readmore-btn">Tạo Mới</button>
 
                                     <button type="button" onclick="history.go(-1)" class="mu-readmore-btn">Quay Về</button>
                                 </center>
@@ -137,8 +131,10 @@
             </div>
         </div>
     </div>
+    
 </section>
 <!-- End Reservation section -->
+
 <!--S.Scripts For Image-->
 <script>
     function readURL(input) {
@@ -155,15 +151,6 @@
     }
 </script>
 <!--E.Scripts For Image-->
-
-@if (ViewBag.CreateSuccessfully != null)
-{
-    <script type="text/javascript">
-        window.onload = function () {
-            $('#myAlert').show('fade');
-        };
-    </script>
-}
 
 <script>
 
@@ -193,8 +180,8 @@
         var elem = $(".checkGeography");
         if (elem) {
             elem.keydown(function () {
-                if (elem.val().length > 45)
-                    elem.val(elem.val().substr(0, 45));
+                if (elem.val().length > 30)
+                    elem.val(elem.val().substr(0, 30));
             });
         }
     });
@@ -203,10 +190,29 @@
         var elem = $(".checkNameCrop");
         if (elem) {
             elem.keydown(function () {
-                if (elem.val().length > 45)
-                    elem.val(elem.val().substr(0, 45));
+                if (elem.val().length > 20)
+                    elem.val(elem.val().substr(0, 20));
             });
         }
     });
+</script>
 
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#comboboxProduct').on('change', function () {
+            var productID = $('#comboboxProduct').val();
+            $.ajax({
+                type: 'GET',
+                data: { productID: productID },
+                url: '@Url.Action("LoadSeeds", "ProductDetails")',
+                success: function (result) {
+                    var s = '<option value="" selected disabled hidden>Chọn giống</option>';
+                    for (var i = 0; i < result.length; i++) {
+                        s += '<option value="' + result[i].Id_Seed + '">' + result[i].Name_Seed + '</option>';
+                    }
+                    $('#comboboxSeed').html(s);
+                }
+            });
+        });
+    });
 </script>

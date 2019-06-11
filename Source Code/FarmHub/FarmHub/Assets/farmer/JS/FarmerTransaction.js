@@ -77,6 +77,8 @@ $('#weightbegin, #weightend').keyup(function () {
 $(document).ready(function () {
     var transOffertbl = $("#transactionOfferTbl");
     var purTbl = $("#transactionOfferTbl").DataTable({
+
+        "aaSorting": [[0, "desc"]],
         "ajax": {
             "url": `${window.location.origin}/FarmerTransaction/GetListTransaction`,
             "type": "GET",
@@ -92,7 +94,18 @@ $(document).ready(function () {
 
         "scrollCollapse": true,
         "columns": [
-            { "data": "endTransDay" },
+            {
+                "data": "endTransDay",
+                render: function (data, type, rowData) {
+                    if (type == "sort") {
+                        var str = data.split('/');
+                        console.log(str);
+                        return new Date(str[2], str[1], str[0]).getTime();
+
+                    }
+                    return data;
+                }
+            },
             {
                 "data": "productName",
                 "render": function (data, type, rowData) {
@@ -162,7 +175,7 @@ $(document).ready(function () {
                     var readybtnHTML = `<button type="button" class="small green button ${rdDisabledClass}" role="readyBtn" title="Sẵn Sàng Giao Hàng"  ${rdDisabled}><span class="fas fa-people-carry"></span> </button>`;
                     var notReceivedMoneybtnHTML = ` <button class="small blue button ${nrDisabledClass}" type="button" role="notReceivedBtn"  title="Chưa Nhận Được Tiền"${nrDisabled}><span class="fas fa-strikethrough"></span></button >`;
                     var extendbtnHTML = ` <button type="button" class="small yellow button ${etDisabledClass}"  role="extendBtn" title="Gia Hạn Thời Gian Giao Hàng" ${etDisabled}><span class="fa fa-clock-o"></span></button >`;
-                    var viewInvoiceHTML = `<button type="button" class="small green button ${viDisabledClass}" role="viewBtn" title="Xem hóa đơn chuyển tiền" data-toggle="modal" data-target="#NewOfferModal" ${viDisabled}><span class="fa fa-file-invoice"></span> </button>`;
+                    var viewInvoiceHTML = `<button type="button" class="small green button ${viDisabledClass}" role="viewBtn" title="Xem hóa đơn chuyển tiền"  ${viDisabled}><span class="fa fa-file-invoice"></span> </button>`;
                     var reportbtnHTML = ' <button class="small blue button" type="button" role="reportBtn"  title="Tố cáo" ><span class="fa fa-flag"></span> </button >';
                     var cancelbtnHTML = ` <button class="small red button " type="button" role="cancelBtn"  title="Hủy Thỏa Thuận"><span class="fa fa-ban"></span></button >`;
                     //var optionbtnHTML = ` <div class="dropdown"><button class="small blue button dropdown-toggle" type = "button" data - toggle="dropdown" ><span class="fa fa-bars"></span></button > <ul class="dropdown-menu"> <li><a role="extendbtnHTML" id="extendbtnHTML" >Gia Hạn Giao Tiền</a></li> <li><a role="reportBtn" id="reportBtn" >Tố Cáo</a></li> </ul></div>`;
@@ -412,9 +425,17 @@ $(document).ready(function () {
 
     });
 
-    transOffertbl.on('click', 'button[role="viewBtn"]', function () {
-        var id = transOffertbl.DataTable().row($(this).closest('tr')[0]).data()['id'];
+    
 
+    transOffertbl.on('click', 'button[role="viewBtn"]', function () {
+        var imageAdd = transOffertbl.DataTable().row($(this).closest('tr')[0]).data()['invoiceImage'];
+        var traderName = transOffertbl.DataTable().row($(this).closest('tr')[0]).data()['traderName'];
+
+        //alert("image: " + imageAdd);
+        $("#invoiceImage").attr("src", imageAdd);
+        $("#myModal").css("display", "block");
+      
+        $('#caption').html('Hóa Đơn Chuyển Tiền Từ Thương Lái ' + traderName + ".");
     });
 
     transOffertbl.on('click', 'button[role="reportBtn"]', function () {
@@ -422,4 +443,9 @@ $(document).ready(function () {
 
 
     });
+
+    $(".close").on('click', function (e) {
+            $("#myModal").css("display", "none");
+        }
+    );
 })

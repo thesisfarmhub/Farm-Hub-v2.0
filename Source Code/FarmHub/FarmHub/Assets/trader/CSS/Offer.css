@@ -175,7 +175,8 @@ th, td {
 }
 
 div.dataTables_wrapper {
-    max-width: 700px;
+    max-width: 1270px;
+    margin:auto;
     
 }
 

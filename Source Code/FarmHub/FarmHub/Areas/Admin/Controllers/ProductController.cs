@@ -1,4 +1,5 @@
-﻿using Model.Dao.Admin;
+﻿using FarmHub.Areas.Admin.Models;
+using Model.Dao.Admin;
 using Model.EF;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,18 @@ namespace FarmHub.Areas.Admin.Controllers
             ViewBag.Id_ProductKind = new SelectList(dao.GetProductKind(), "Id_ProductKind", "Name_ProductKind", productKindID);
         }
 
+        // Auto Complete
+        public JsonResult GetSearchValue(string search)
+        {
+            FarmHubDbContext db = new FarmHubDbContext();
+            List<ProductAutoCompleteModel> allSearch = db.PRODUCTs.Where(x => x.Name_Product.Contains(search)).Select(x => new ProductAutoCompleteModel
+            {
+                Id_Product = x.Id_Product,
+                Name_Product = x.Name_Product
+            }).ToList();
+            return new JsonResult { Data = allSearch, JsonRequestBehavior = JsonRequestBehavior.AllowGet };
+        }
+
         public ActionResult Create()
         {
             SetViewBagProductKind();
@@ -35,31 +48,39 @@ namespace FarmHub.Areas.Admin.Controllers
         [HttpPost]
         public ActionResult Create(PRODUCT model)
         {
+            string fileName = null;
+            string fileExtension = null;
 
-            if (ModelState.IsValid)
+            try
             {
-                string fileName = null;
-                string fileExtension = null;
-
                 fileName = Path.GetFileNameWithoutExtension(model.ImageFile.FileName);
                 fileExtension = Path.GetExtension(model.ImageFile.FileName);
                 fileName = fileName + DateTime.Now.ToString("yymmssfff") + fileExtension;
 
                 model.Image_Product = "/Data/Image/Farmer/Base/" + fileName;
                 fileName = Path.Combine(Server.MapPath("/Data/Image/Farmer/Base/"), fileName);
-
                 model.ImageFile.SaveAs(fileName);
 
-
-                dao.Create(model);
             }
-            return RedirectToAction("ProductIndex");
-        }
+            catch (Exception)
+            {
+                ModelState.AddModelError("", "Hình ảnh không được để trống");
+                SetViewBagProductKind();
+                return View(model);
+            }
 
-        public ActionResult Details(int id)
-        {
-            var productModel = dao.Details(id);
-            return View(productModel);
+            var result = dao.Create(model);
+
+            if (result)
+            {
+                return RedirectToAction("ProductIndex");
+            }
+            else
+            {
+                ModelState.AddModelError("", "Tạo mới thất bại !!!");
+                SetViewBagProductKind();
+                return View(model);
+            }
         }
 
         public ActionResult Edit(int id)
@@ -69,26 +90,58 @@ namespace FarmHub.Areas.Admin.Controllers
 
             var model = dao.Details(id);
             return View(model);
-
         }
 
         [HttpPost]
         public ActionResult Edit(PRODUCT model)
         {
-            string fileName = Path.GetFileNameWithoutExtension(model.ImageFile.FileName);
-            string fileExtension = Path.GetExtension(model.ImageFile.FileName);
-            fileName = fileName + DateTime.Now.ToString("yymmssfff") + fileExtension;
+            string fileName = null;
+            string fileExtension = null;
 
-            model.Image_Product = "/Data/Image/Farmer/Base/" + fileName;
-            fileName = Path.Combine(Server.MapPath("/Data/Image/Farmer/Base/"), fileName);
-
-            model.ImageFile.SaveAs(fileName);
-
-            if (ModelState.IsValid)
+            try
             {
-                dao.Edit(model);
+                fileName = Path.GetFileNameWithoutExtension(model.ImageFile.FileName);
+                fileExtension = Path.GetExtension(model.ImageFile.FileName);
+                fileName = fileName + DateTime.Now.ToString("yymmssfff") + fileExtension;
+                model.Image_Product = "/Data/Image/Farmer/Base/" + fileName;
+                fileName = Path.Combine(Server.MapPath("/Data/Image/Farmer/Base/"), fileName);
+                model.ImageFile.SaveAs(fileName);
             }
-            return RedirectToAction("ProductIndex");
+            catch (Exception)
+            {
+                ModelState.AddModelError("", "Hình ảnh không được để trống");
+
+                // Set and select value from ViewBag
+                var productKindID = new FarmHubDbContext().PRODUCTs.Find(model.Id_Product).Id_ProductKind;
+                SetViewBagProductKind(productKindID);
+
+                var productModelState = dao.Details(model.Id_Product);
+                return View(productModelState);
+            }
+
+            var result = dao.Update(model);
+
+            if (result)
+            {
+                return RedirectToAction("ProductIndex");
+            }
+            else
+            {
+                ModelState.AddModelError("", "Cập nhật thất bại");
+
+                // Set and select value from ViewBag
+                var productKindID = new FarmHubDbContext().PRODUCTs.Find(model.Id_Product).Id_ProductKind;
+                SetViewBagProductKind(productKindID);
+
+                var productModelState = dao.Details(model.Id_Product);
+                return View(productModelState);
+            }
+        }
+
+        public ActionResult Details(int id)
+        {
+            var productModel = dao.Details(id);
+            return View(productModel);
         }
 
         [HttpDelete]

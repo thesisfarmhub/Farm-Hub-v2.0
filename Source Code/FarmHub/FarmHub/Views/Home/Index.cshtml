@@ -11,14 +11,24 @@
 
     <style>
         #chart_container {
-            width: 400px;
-            height: 200px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .w3-border {
+            border: 1px solid #ccc !important;
+            padding: 0.01em 16px;
+            border-radius: 16px;
+            box-sizing: inherit;
+        }
+
+        .w3-color {
+            background-color: #ffffff;
         }
     </style>
 
 </head>
-
-<!-- Start Chef Section - TRENDING: Top 5 nông sản bán chạy/bán ế nhất-->
+<!-- Start Chef Section - TRENDING: Top 7 nông sản bán chạy/bán ế nhất-->
 <section id="mu-chef">
     <div class="container">
         <div class="row">
@@ -27,7 +37,7 @@
                     <div class="mu-title">
                         <span class="mu-subtitle">Top 7</span>
                         <h2>NÔNG SẢN ĐẶT MUA NHIỀU NHẤT</h2>
-                        <i class="fa fa-spoon"></i>
+                        <i style="margin-right: -9px" class="fas fa-tractor"></i>
                         <span class="mu-title-bar"></span>
                     </div>
                     <div class="mu-chef-content">
@@ -54,97 +64,104 @@
     </div>
 </section>
 <!-- End Chef Section -->
-<!-- Start Counter Section Top 4 Products -->
-@*<section id="mu-counter">
-        <div class="mu-counter-overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="mu-counter-area">
-                            <ul class="mu-counter-nav">
-                                @foreach (var item in Model.ListTopProducts.Take(4))
-                                {
-                                    <li class="col-md-3 col-sm-3 col-xs-12">
-                                        <div class="mu-single-counter">
-                                            <span>@item.Name_Product</span>
-                                            <h3><span class="counter">@item.Quantity_PurchaseOffer</span><sup>+tons</sup></h3>
-                                            <p>@item.Name_Seed</p>
-                                        </div>
-                                    </li>
-                                }
-                            </ul>
+<!--Start ChartJS Nhu cầu mua-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="mu-chef-area">
+                <div class="mu-chef-content">
+
+                    <div class="col-md-6">
+                        <div id="chart_container">
+                            <canvas id="bar_chart"></canvas>
                         </div>
                     </div>
+
+                    <div class="col-md-6">
+                        <div id="chart_container">
+                            <canvas id="bar_chart2"></canvas>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
-    </section>*@
-<!-- End Counter Section -->
-<!-- Start About us - GIAO DỊCH ĐANG DIỄN RA -->
-<section id="mu-about-us">
+    </div>
+</div>
+<!--End ChartJS-->
+<!--Start ChartJS Nhu cầu bán-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="mu-chef-area">
+                <div class="mu-chef-content">
+
+                    <div class="col-md-6">
+                        <div id="chart_container">
+                            <canvas id="bar_chart3"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div id="chart_container">
+                            <canvas id="bar_chart4"></canvas>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End ChartJS-->
+<!-- Start GIAO DỊCH ĐANG DIỄN RA -->
+<section id="mu-chef">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="mu-about-us-area">
+                <div class="mu-chef-area">
                     <div class="mu-title">
                         <span class="mu-subtitle">Mua Bán</span>
                         <h2>CÁC GIAO DỊCH ĐANG DIỄN RA</h2>
-                        <i class="fa fa-spoon"></i>
+                        <i style="margin-right: -9px" class="fas fa-tractor"></i>
                         <span class="mu-title-bar"></span>
                     </div>
-                    <div class="row">
-                        <div class="col-md-9">
-                            <section id="mu-chef">
-                                <div class="mu-chef-area">
-                                    <div class="mu-chef-content">
-                                        <ul class="mu-chef-nav">
-                                            @foreach (var item in Model.ListPurchaseOffer)
-                                            {
-                                                <li>
-                                                    <div class="mu-single-chef">
-                                                        <figure class="mu-single-chef-img">
-                                                            <img src="@item.PRODUCT.Image_Product" alt="chef img">
-                                                        </figure>
-                                                        <div class="mu-single-chef-info">
-                                                            <h4>@item.PRODUCT.Name_Product</h4>
-                                                            <span>@item.Quantity_PurchaseOffer tấn - @item.Price_Purchase VNĐ</span>
-                                                        </div>
-                                                        <div class="mu-single-chef-social">
-                                                            <button onclick="location.href = '@Url.Action("LoginIndex","Login")'" type="button" class="mu-readmore-btn">Chi Tiết</button>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            }
-                                        </ul>
+                    <div class="mu-chef-content">
+                        <ul class="mu-chef-nav">
+                            @foreach (var item in Model.ListPurchaseOffer)
+                            {
+                                <li>
+                                    <div class="mu-single-chef">
+                                        <figure class="mu-single-chef-img">
+                                            <img src="@item.PRODUCT.Image_Product" alt="chef img">
+                                        </figure>
+                                        <div class="mu-single-chef-info">
+                                            <h4>@item.PRODUCT.Name_Product</h4>
+                                            <span>@item.Quantity_PurchaseOffer tấn - @item.Price_Purchase VNĐ</span>
+                                        </div>
+                                        <div class="mu-single-chef-social">
+                                            <button onclick="location.href = '@Url.Action("LoginIndex","Login")'" type="button" class="mu-readmore-btn">Chi Tiết</button>
+                                        </div>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="mu-about-us-right">
-
-                                <div id="chart_container">
-                                    <canvas id="bar_chart"></canvas>
-                                </div>
-
-                                <div id="chart_container">
-                                    <canvas id="bar_chart2"></canvas>
-                                </div>
-
-                            </div>
-                        </div>
+                                </li>
+                            }
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- End About us - TOP PRODUCTS -->
-<!-- ChartJS -->
+<!-- End GIAO DỊCH ĐANG DIỄN RA -->
+<!-- ChartJS Script -->
 <script>
-    var productNames =@Html.Raw(Json.Encode(ViewBag.PRODUCTNAMES));
+    var productNames = @Html.Raw(Json.Encode(ViewBag.PRODUCTNAMES));
     var numberOfOffers = @Html.Raw(Json.Encode(ViewBag.NUMBEROFOFFERS));
     var prices = @Html.Raw(Json.Encode(ViewBag.PRICES));
+
+    var saleProductNames = @Html.Raw(Json.Encode(ViewBag.SALEPRODUCTNAMES));
+    var saleNumberOfOffers = @Html.Raw(Json.Encode(ViewBag.SALENUMBEROFOFFERS));
+    var salePrices = @Html.Raw(Json.Encode(ViewBag.SALEPRICES));
 
     var ctx = $("#bar_chart");
     var barChart = new Chart(ctx, {
@@ -285,4 +302,146 @@
             }
         }
     });
+
+    var ctx = $("#bar_chart3");
+    var barChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: saleProductNames,
+            datasets: [
+                {
+                    label: "Số lượng nhu cầu bán",
+                    fill: false,
+                    data: saleNumberOfOffers,
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    boderWidth: 1
+                }
+            ]
+        },
+
+        options: {
+            responsive: true,
+            title: {
+                display: true,
+                text: 'Nhu cầu bán trên thị trường'
+            },
+            tooltips: {
+                mode: 'index',
+                intersect: false,
+            },
+            hover: {
+                mode: 'nearest',
+                intersect: true
+            },
+            scales: {
+                xAxes: [{
+                    display: true,
+                    scaleLabel: {
+                        display: true,
+                        //labelString: 'Product Names'
+                    },
+                    ticks: {
+                        beginAtZero: false
+                    }
+                }],
+                yAxes: [{
+                    display: true,
+                    scaleLabel: {
+                        display: true,
+                        //labelString: 'Value'
+                    },
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }]
+            }
+        }
+    });
+
+    var ctx = $("#bar_chart4");
+    var barChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: saleProductNames,
+            datasets: [
+                {
+                    label: "Giá",
+                    fill: false,
+                    data: salePrices,
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    boderWidth: 1
+                }
+            ]
+        },
+
+        options: {
+            responsive: true,
+            title: {
+                display: true,
+                text: 'Nhu cầu bán trên thị trường'
+            },
+            tooltips: {
+                mode: 'index',
+                intersect: false,
+            },
+            hover: {
+                mode: 'nearest',
+                intersect: true
+            },
+            scales: {
+                xAxes: [{
+                    display: true,
+                    scaleLabel: {
+                        display: true,
+                        //labelString: 'Product Names'
+                    },
+                    ticks: {
+                        beginAtZero: false
+                    }
+                }],
+                yAxes: [{
+                    display: true,
+                    scaleLabel: {
+                        display: true,
+                        //labelString: 'Value'
+                    },
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }]
+            }
+        }
+    });
+
 </script>
+<!--End ChartJS Script -->

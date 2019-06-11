@@ -19,34 +19,49 @@ namespace Model.Dao.Trader
         {
             db = new FarmHubDbContext();
         }
-        public int InsertTrader(Register entity)
+
+        public int InsertUser(Register entity)
         {
-            entity.UserAu.Status_User = 0;
             entity.UserAu.Created_Date = DateTime.Now;
-            entity.UserAu.Id_UserKind = 2;
+            entity.UserAu.Status_User = 2;//Chưa Hoạt Động
+            entity.UserAu.Is_Deleted = false;
 
             db.USER_AUTHENTICATION.Add(entity.UserAu);
+            db.SaveChanges();
+
+            return db.USER_AUTHENTICATION.Max(x => x.Id_User);
+        }
+
+        public int InsertTrader(Register entity,bool gender)
+        {
+
+            var userId=InsertUser(entity);
+
+            entity.trader.Id_User = userId;
+            entity.trader.Gender_Trader = gender;
+            entity.trader.Is_Deleted = false;
+            
             db.TRADERs.Add(entity.trader);
             
             db.SaveChanges();
 
-            return entity.UserAu.Id_User;
+            return db.TRADERs.Max(x => x.Id_Trader);
         }
 
-        public int InsertFarmer(Register entity)
+        public int InsertFarmer(Register entity,bool gender)
         {
-            entity.UserAu.Status_User = 0;
-            entity.UserAu.Created_Date = DateTime.Now;
-            entity.UserAu.Id_UserKind = 1;
-   
-            db.USER_AUTHENTICATION.Add(entity.UserAu);
+            var userId = InsertUser(entity);
+
+            entity.farmer.Id_User = userId;
+            entity.farmer.Gender_Farmer = gender;
+            entity.farmer.Is_Deleted = false;
+            
             db.FARMERs.Add(entity.farmer);
 
             db.SaveChanges();
 
-            return entity.UserAu.Id_User;
+            return db.FARMERs.Max(x => x.Id_Farmer);
         }
     }
-
 }
 

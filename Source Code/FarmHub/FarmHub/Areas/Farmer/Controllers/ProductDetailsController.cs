@@ -24,12 +24,21 @@ namespace FarmHub.Areas.Farmer.Controllers
             return View(productModel);
         }
 
+        // Load SEEDS base on ID_Product
+        public ActionResult LoadSeeds(int productID)
+        {
+            return Json(new FarmHubDbContext().SEEDs.Where(x => x.Id_Product == productID).Select(s => new
+            {
+                s.Id_Seed,
+                s.Name_Seed
+            }).ToList(), JsonRequestBehavior.AllowGet);
+        }
+
         // GET: Farmer/ProductDetails/Create
         public ActionResult Create()
         {
             FarmIDForViewBag();
-            SetViewBagProduct();
-            SetViewBagSeed();
+            ViewBag.PRODUCTS = new FarmHubDbContext().PRODUCTs.Where(x => x.Is_Deleted == false).ToList();
             return View();
         }
 
@@ -55,8 +64,9 @@ namespace FarmHub.Areas.Farmer.Controllers
             {
                 ModelState.AddModelError("", "Hình ảnh không được để trống");
                 FarmIDForViewBag();
-                SetViewBagProduct();
-                SetViewBagSeed();
+                //SetViewBagProduct();
+                //SetViewBagSeed();
+                ViewBag.PRODUCTS = new FarmHubDbContext().PRODUCTs.Where(x => x.Is_Deleted == false).ToList();
                 return View(pdModel);
             }
 
@@ -65,20 +75,16 @@ namespace FarmHub.Areas.Farmer.Controllers
 
             if (result > 0)
             {
-                // Session
-                var session = Convert.ToInt32(Session["FarmerID"]);
-                var db = new FarmHubDbContext();
-                var farmerID = db.FARMERs.Find(session).Id_Farmer;
-                var farmID = db.FARMs.FirstOrDefault(x => x.Id_Farmer == farmerID).Id_Farm;
+                var farmID = Convert.ToInt32(Session["FarmID"]);
                 return RedirectToAction("Index", new { id = farmID });
-
             }
             else
             {
                 ModelState.AddModelError("", "Tạo mới thất bại !!!");
                 FarmIDForViewBag();
-                SetViewBagProduct();
-                SetViewBagSeed();
+                //SetViewBagProduct();
+                //SetViewBagSeed();
+                ViewBag.PRODUCTS = new FarmHubDbContext().PRODUCTs.Where(x => x.Is_Deleted == false).ToList();
                 return View(pdModel);
             }
         }
@@ -89,10 +95,12 @@ namespace FarmHub.Areas.Farmer.Controllers
             // Set and select value from ViewBag
             var farmID = new FarmHubDbContext().PRODUCT_DETAIL.Find(id).Id_Farm;
             SetViewBagFarm(farmID);
-            var producID = new FarmHubDbContext().PRODUCT_DETAIL.Find(id).Id_Product;
-            SetViewBagProduct(producID);
-            var seedID = new FarmHubDbContext().PRODUCT_DETAIL.Find(id).Id_Seed;
-            SetViewBagSeed(seedID);
+            //var producID = new FarmHubDbContext().PRODUCT_DETAIL.Find(id).Id_Product;
+            //SetViewBagProduct(producID);
+            //var seedID = new FarmHubDbContext().PRODUCT_DETAIL.Find(id).Id_Seed;
+            //SetViewBagSeed(seedID);
+            ViewBag.PRODUCTS = new FarmHubDbContext().PRODUCTs.Where(x => x.Is_Deleted == false).ToList();
+            ViewBag.SEEDS = new FarmHubDbContext().SEEDs.Where(x => x.Is_Deleted == false).ToList();
 
             var pdModel = dao.Details(id);
             return View(pdModel);
@@ -121,10 +129,12 @@ namespace FarmHub.Areas.Farmer.Controllers
                 // Set and select value from ViewBag
                 var farmmID = new FarmHubDbContext().PRODUCT_DETAIL.Find(productDetailsModel.Id_ProductDetail).Id_Farm;
                 SetViewBagFarm(farmmID);
-                var producID = new FarmHubDbContext().PRODUCT_DETAIL.Find(productDetailsModel.Id_ProductDetail).Id_Product;
-                SetViewBagProduct(producID);
-                var seedID = new FarmHubDbContext().PRODUCT_DETAIL.Find(productDetailsModel.Id_ProductDetail).Id_Seed;
-                SetViewBagSeed(seedID);
+                //var producID = new FarmHubDbContext().PRODUCT_DETAIL.Find(productDetailsModel.Id_ProductDetail).Id_Product;
+                //SetViewBagProduct(producID);
+                //var seedID = new FarmHubDbContext().PRODUCT_DETAIL.Find(productDetailsModel.Id_ProductDetail).Id_Seed;
+                //SetViewBagSeed(seedID);
+                ViewBag.PRODUCTS = new FarmHubDbContext().PRODUCTs.Where(x => x.Is_Deleted == false).ToList();
+                ViewBag.SEEDS = new FarmHubDbContext().SEEDs.Where(x => x.Is_Deleted == false).ToList();
 
                 var productDetailsModelState = dao.Details(productDetailsModel.Id_ProductDetail);
                 return View(productDetailsModelState);
@@ -134,11 +144,7 @@ namespace FarmHub.Areas.Farmer.Controllers
 
             if (result)
             {
-                // Session
-                var session = Convert.ToInt32(Session["FarmerID"]);
-                var db = new FarmHubDbContext();
-                var farmerID = db.FARMERs.Find(session).Id_Farmer;
-                var farmID = db.FARMs.FirstOrDefault(x => x.Id_Farmer == farmerID).Id_Farm;
+                var farmID = Convert.ToInt32(Session["FarmID"]);
                 return RedirectToAction("Index", new { id = farmID });
             }
             else
@@ -148,10 +154,12 @@ namespace FarmHub.Areas.Farmer.Controllers
                 // Set and select value from ViewBag
                 var farmmID = new FarmHubDbContext().PRODUCT_DETAIL.Find(productDetailsModel.Id_ProductDetail).Id_Farm;
                 SetViewBagFarm(farmmID);
-                var producID = new FarmHubDbContext().PRODUCT_DETAIL.Find(productDetailsModel.Id_ProductDetail).Id_Product;
-                SetViewBagProduct(producID);
-                var seedID = new FarmHubDbContext().PRODUCT_DETAIL.Find(productDetailsModel.Id_ProductDetail).Id_Seed;
-                SetViewBagSeed(seedID);
+                //var producID = new FarmHubDbContext().PRODUCT_DETAIL.Find(productDetailsModel.Id_ProductDetail).Id_Product;
+                //SetViewBagProduct(producID);
+                //var seedID = new FarmHubDbContext().PRODUCT_DETAIL.Find(productDetailsModel.Id_ProductDetail).Id_Seed;
+                //SetViewBagSeed(seedID);
+                ViewBag.PRODUCTS = new FarmHubDbContext().PRODUCTs.Where(x => x.Is_Deleted == false).ToList();
+                ViewBag.SEEDS = new FarmHubDbContext().SEEDs.Where(x => x.Is_Deleted == false).ToList();
 
                 var productDetailsModelState = dao.Details(productDetailsModel.Id_ProductDetail);
                 return View(productDetailsModelState);

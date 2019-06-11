@@ -18,7 +18,7 @@
                     <div class="mu-title">
                         <span class="mu-subtitle">Nông Trại</span>
                         <h2>THÊM MỚI NÔNG TRẠI</h2>
-                        <i class="fas fa-tractor"></i>
+                        <i style="margin-right: -9px" class="fas fa-tractor"></i>
                         <span class="mu-title-bar"></span>
                     </div>
                     @using (Html.BeginForm("Create", "Farm", FormMethod.Post))
@@ -120,8 +120,8 @@
         var elem = $(".checkNameFarm");
         if (elem) {
             elem.keydown(function () {
-                if (elem.val().length > 45)
-                    elem.val(elem.val().substr(0, 45));
+                if (elem.val().length > 20)
+                    elem.val(elem.val().substr(0, 20));
             });
         }
     });
@@ -130,8 +130,8 @@
         var elem = $(".checkAddressFarm");
         if (elem) {
             elem.keydown(function () {
-                if (elem.val().length > 45)
-                    elem.val(elem.val().substr(0, 45));
+                if (elem.val().length > 20)
+                    elem.val(elem.val().substr(0, 20));
             });
         }
     });
@@ -140,8 +140,8 @@
         var elem = $(".checkCityFarm");
         if (elem) {
             elem.keydown(function () {
-                if (elem.val().length > 45)
-                    elem.val(elem.val().substr(0, 45));
+                if (elem.val().length > 20)
+                    elem.val(elem.val().substr(0, 20));
             });
         }
     });

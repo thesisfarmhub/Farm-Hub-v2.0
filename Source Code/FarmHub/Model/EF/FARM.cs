@@ -1,4 +1,4 @@
-﻿namespace Model.EF
+namespace Model.EF
 {
     using System;
     using System.Collections.Generic;
@@ -21,10 +21,13 @@
 
         public int? Id_Farmer { get; set; }
 
+        [StringLength(50)]
         public string Name_Farm { get; set; }
 
+        [StringLength(200)]
         public string Address_Farm { get; set; }
 
+        [StringLength(50)]
         public string City_Farm { get; set; }
 
         public int? Acreage { get; set; }

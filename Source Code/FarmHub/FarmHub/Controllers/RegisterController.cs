@@ -16,16 +16,13 @@ namespace FarmHub.Controllers
     public class RegisterController : Controller
     {
         // GET: Register
-        public ActionResult Index()
+        public ActionResult CreateRegister()
         {
             return View();
         }
 
-
-       
-
         [HttpPost]
-        public ActionResult CreateTrader(Register user)
+        public ActionResult CreateTrader(Register user, bool gender)
         {
             if (ModelState.IsValid)
             {
@@ -33,21 +30,29 @@ namespace FarmHub.Controllers
 
                 var encryptorMD5Pass = Encryptor.MD5Hash(user.UserAu.Password_User);
                 user.UserAu.Password_User = encryptorMD5Pass;
-
-                long id = dao.InsertTrader(user);
+                user.UserAu.Id_UserKind = 2;
+                user.UserAu.Penalty = 3;
+                long id = dao.InsertTrader(user, gender);
                 if (id > 0)
                 {
-                    return RedirectToAction("Index", "User");
+                    Session["FarmerId"] = id;
+                    return RedirectToAction("Index", "Trader");
                 }
+
                 else
                 {
                     ModelState.AddModelError("", Common.ErrorList.REGISTER_ERROR);
                 }
+
             }
-            return View("Create");
-         }
+            else
+            {
+                ModelState.AddModelError("", Common.ErrorList.Wrong_Validation);
+            }
+            return View("CreateRegister");
+        }
         [HttpPost]
-        public ActionResult CreateFarmer(Register user)
+        public ActionResult CreateFarmer(Register user, bool gender)
         {
             if (ModelState.IsValid)
             {
@@ -55,18 +60,25 @@ namespace FarmHub.Controllers
 
                 var encryptorMD5Pass = Encryptor.MD5Hash(user.UserAu.Password_User);
                 user.UserAu.Password_User = encryptorMD5Pass;
-
-                long id = dao.InsertTrader(user);
+                user.UserAu.Id_UserKind = 1;
+                user.UserAu.Penalty = 5;
+                
+                long id = dao.InsertFarmer(user, gender);
                 if (id > 0)
                 {
-                    return RedirectToAction("Index", "User");
+                    Session["TraderId"] = id;
+                    return RedirectToAction("Index", "Farmer", new { area = "Farmer" });
                 }
                 else
                 {
                     ModelState.AddModelError("", Common.ErrorList.REGISTER_ERROR);
                 }
             }
-            return View("Create");
+            else
+            {
+                ModelState.AddModelError("", Common.ErrorList.Wrong_Validation);
+            }
+            return View("CreateRegister");
         }
 
 

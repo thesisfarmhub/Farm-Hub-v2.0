@@ -29,7 +29,7 @@ namespace Model.Dao.Farmer
                                         && x.Id_StatusTrans != 10
                                         && x.Id_StatusTrans != 9);
 
-            return modelList.OrderByDescending(x => x.Transaction_Date);
+            return modelList;
         }
 
         public void ExecuteHandler(string Command, int transactionId)

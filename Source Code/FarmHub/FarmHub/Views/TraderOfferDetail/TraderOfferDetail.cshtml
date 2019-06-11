@@ -28,33 +28,30 @@
 <div class="row">
     <div class="col-md-4">
 
-        <div class="col-md-6">
+        <div class="col-md-12">
             <div class="mu-about-us-left" style="padding-top:70px;">
-                <img src="@Url.Content(Model.image)" style="height:300px; width:500px" />
 
-                <ul>
-                    <li>Tên Nông Sản: @Html.DisplayFor(x => x.productName)</li>
-                    <li>Tên Giống: @Html.DisplayFor(x => x.seedName)</li>
-                    <li>Đơn Giá @Html.DisplayFor(x => x.price)</li>
-                    <li>Khối Lượng đặt ban đầu: @Html.DisplayFor(x => x.quantity)</li>
-                    <li>Khối Lượng còn lại: @Html.DisplayFor(x => x.remainQuantity)</li>
-                    <li>Đơn vị: @Html.DisplayFor(x => x.massName) </li>
-                    <li>Thời gian giao tiền: @Html.DisplayFor(x => x.payingTime) </li>
-                    <li>Thời gian giao hàng: @Html.DisplayFor(x => x.deliveringTime) </li>
+                <img src="@Url.Content(Model.image)" style="width:450px;height:300px; padding-bottomL20px;" />
 
+                <table class="table table-striped table-bordered table-hover" style="border:none; width: 100%">
+
+                    <tr><td>Tên Nông Sản:</td> <td>@Html.DisplayFor(x => x.productName)</td></tr>
+                    <tr><td>Tên Giống:</td> <td>@Html.DisplayFor(x => x.seedName)</td></tr>
+                    <tr><td>Đơn Giá</td> <td>@Html.DisplayFor(x => x.price)</td></tr>
+                    <tr><td>Khối Lượng đặt ban đầu:</td> <td>@Html.DisplayFor(x => x.quantity)</td></tr>
+                    <tr><td>Khối Lượng còn lại:</td> <td>@Html.DisplayFor(x => x.remainQuantity)</td></tr>
+                    <tr><td>Đơn vị:</td> <td>@Html.DisplayFor(x => x.massName)</td></tr>
+                    <tr><td>Thời gian giao tiền:</td> <td> @Html.DisplayFor(x => x.payingTime)</td></tr>
+                    <tr><td>Thời gian giao hàng:</td> <td>@Html.DisplayFor(x => x.deliveringTime) </td></tr>
                     @{var isAttachmentA = (Model.canBargain.Value ? "Có" : "Không");}
-                    <li>Có thể thương lượng: @Html.DisplayFor(modelItem => isAttachmentA)</li>
+                    <tr><td>Có thể thương lượng:</td> <td>@Html.DisplayFor(modelItem => isAttachmentA) </td></tr>
 
-                </ul>
+                </table>
                 
             </div>
         </div>
 
-        <div class="col-md-6">
-            <div class="mu-about-us-left">
-
-            </div>
-        </div>
+       
 
     </div>
     <div class="col-md-6">

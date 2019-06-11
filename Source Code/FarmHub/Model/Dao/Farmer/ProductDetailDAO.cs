@@ -47,10 +47,10 @@ namespace Model.Dao.Farmer
         // Create
         public int Create(PRODUCT_DETAIL productDetailModel)
         {
-            productDetailModel.Is_Deleted = false;
-            db.PRODUCT_DETAIL.Add(productDetailModel);
             try
             {
+                productDetailModel.Is_Deleted = false;
+                db.PRODUCT_DETAIL.Add(productDetailModel);
                 db.SaveChanges();
             }
             catch (Exception)
