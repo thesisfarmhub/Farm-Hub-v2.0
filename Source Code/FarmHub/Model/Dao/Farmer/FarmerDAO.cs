@@ -60,6 +60,7 @@ namespace Model.Dao.Farmer
 
             try
             {
+                targetUpdate.Id_Farmer = farmerModel.Id_Farmer;
                 targetUpdate.Id_User = farmerModel.Id_User;
                 targetUpdate.Name_Farmer = farmerModel.Name_Farmer;
                 targetUpdate.Birthday_Farmer = farmerModel.Birthday_Farmer;
@@ -67,13 +68,13 @@ namespace Model.Dao.Farmer
                 targetUpdate.Address_Farmer = farmerModel.Address_Farmer;
                 targetUpdate.Telephone_Farmer = farmerModel.Telephone_Farmer;
                 targetUpdate.Email_Farmer = farmerModel.Email_Farmer;
+
                 db.SaveChanges();
                 return true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return false;
-                throw new Exception(e.Message);
             }
         }
 

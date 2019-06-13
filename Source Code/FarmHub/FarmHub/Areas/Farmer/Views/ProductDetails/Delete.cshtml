@@ -10,7 +10,7 @@
 </head>
 
 <!-- Start About us -->
-<section id="mu-about-us" style="background-color:#233209; color:#ffffff">
+<section id="mu-about-us"  style="background-color:#808080">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -25,12 +25,11 @@
                         @Html.ValidationSummary(true, "", new { @class = "alert alert-danger", @role = "alert", @style = "text-align: center" })
                         <div class="col-md-6">
                             <div class="mu-about-us-left">
-                                <ul>
+                                <ul style="color:#ffffff">
                                     <li>Tên Trang Trại: @Html.DisplayFor(x => x.FARM.Name_Farm)</li>
                                     <li>Tên Nông Sản: @Html.DisplayFor(x => x.PRODUCT.Name_Product)</li>
                                     <li>Tên Giống: @Html.DisplayFor(x => x.SEED.Name_Seed)</li>
                                     <li>Thổ Nhưỡng: @Html.DisplayFor(x => x.Geography_Location)</li>
-                                    @*<li>Khối Lượng Bán Nhỏ Nhất: @Html.DisplayFor(x => x.Min_Mass)</li>*@
                                     <li>Tên Vụ Mùa: @Html.DisplayFor(x => x.Name_Crop) - Từ @Html.DisplayFor(x => x.Start_Time) đến @Html.DisplayFor(x => x.End_Time)</li>
                                     <li>Thời điểm bắt đầu vụ mùa: Từ @Html.DisplayFor(x => x.Start_Time) đến @Html.DisplayFor(x => x.End_Time) </li>
                                     <li>Thời Điểm Thu Hoạch: Từ @Html.DisplayFor(x => x.Harvest_StartTime) đến @Html.DisplayFor(x => x.Harvest_EndTime) </li>

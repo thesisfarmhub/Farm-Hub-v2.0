@@ -1,0 +1,42 @@
+﻿@model Model.EF.SEED
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layouts.cshtml";
+}
+
+<h2>Thông tin chi tiết</h2>
+
+<div>
+    <h4>GIỐNG CÂY</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên nông sản
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PRODUCT.Name_Product)
+        </dd>
+
+        <dt>
+            Tên giống cây
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name_Seed)
+        </dd>
+
+        <dt>
+            Mã giống
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Code_Seed)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id_Seed })
+</p>

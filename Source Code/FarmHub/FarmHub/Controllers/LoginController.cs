@@ -89,5 +89,12 @@ namespace FarmHub.Controllers
 
             return View("LoginIndex");
         }
+
+        public ActionResult Logout()
+        {
+            Session[Constant.USER_SESSION] = null;
+            return RedirectToAction("Index","Home");
+        }
+
     }
 }

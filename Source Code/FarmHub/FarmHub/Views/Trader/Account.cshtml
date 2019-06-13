@@ -1,0 +1,159 @@
+﻿@model Model.EF.TRADER
+
+@{
+    ViewBag.Title = "Account";
+    Layout = "~/Views/Shared/_Layouts.cshtml";
+}
+
+<head>
+    <title>Edit Account</title>
+
+</head>
+
+<!-- Start Reservation section -->
+<section id="mu-reservation" style="background-color:#808080">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mu-reservation-area">
+                    <div class="mu-title">
+                        <span class="mu-subtitle">Tài khoản cá nhân</span>
+                        <h2>CHỈNH SỬA THÔNG TIN</h2>
+                        <i style="margin-right: -9px" class="fas fa-tractor"></i>
+                        <span class="mu-title-bar"></span>
+                    </div>
+                    @using (Html.BeginForm(null, null, FormMethod.Post, new { id = "form" }))
+                    {
+                        <div class="mu-reservation-content">
+                            <form class="mu-reservation-form">
+                                @Html.AntiForgeryToken()
+                                @Html.ValidationSummary(true, "", new { @class = "alert alert-danger", @role = "alert", @style = "text-align: center" })
+                                <div class="row">
+
+                                    @Html.HiddenFor(model => model.Id_Trader)
+
+                                    @Html.HiddenFor(model => model.Id_User)
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control checkName" placeholder="Họ tên" title="Họ tên" name="Name_Trader" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" value="@Model.Name_Trader" />
+                                            @Html.ValidationMessageFor(model => model.Name_Trader, "", new { @class = "text-danger" })
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control checkBirthday" placeholder="Ngày sinh" title="Ngày sinh" name="Birthday_Trader" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" value="@Model.Birthday_Trader" />
+                                            @Html.ValidationMessageFor(model => model.Birthday_Trader, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <select title="Giới tính" class="form-control" name="Gender_Trader" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
+                                                @if (Model.Gender_Trader == true)
+                                                {
+                                                    <option selected value="@Model.Gender_Trader">
+                                                        Nam
+                                                    </option>
+                                                    <option value="false">
+                                                        Nữ
+                                                    </option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="true">
+                                                        Nam
+                                                    </option>
+                                                    <option selected value="@Model.Gender_Trader">
+                                                        Nữ
+                                                    </option>
+                                                }
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control checkAddress" placeholder="Địa chỉ" title="Địa chỉ" name="Address_Trader" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" value="@Model.Address_Trader" />
+                                            @Html.ValidationMessageFor(model => model.Address_Trader, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control checkTelephone" placeholder="Số điện thoại" title="Số điện thoại" name="Telephone_Trader" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" value="@Model.Telephone_Trader" />
+                                            @Html.ValidationMessageFor(model => model.Telephone_Trader, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control checkEmail" placeholder="Email" title="Email" name="Email_Trader" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')" value="@Model.Email_Trader" />
+                                            @Html.ValidationMessageFor(model => model.Email_Trader, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <center>
+                                    <button type="submit" class="mu-readmore-btn">Cập Nhật</button>
+                                </center>
+
+                            </form>
+                        </div>
+
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Reservation section -->
+
+<script>
+
+    $(document).ready(function () {
+        var elem = $(".checkName");
+        if (elem) {
+            elem.keydown(function () {
+                if (elem.val().length > 30)
+                    elem.val(elem.val().substr(0, 30));
+            });
+        }
+    });
+
+
+    $(document).ready(function () {
+        var elem = $(".checkAddress");
+        if (elem) {
+            elem.keydown(function () {
+                if (elem.val().length > 45)
+                    elem.val(elem.val().substr(0, 45));
+            });
+        }
+    });
+
+    $(document).ready(function () {
+        var elem = $(".checkTelephone");
+        if (elem) {
+            elem.keydown(function () {
+                if (elem.val().length > 9)
+                    elem.val(elem.val().substr(0, 9));
+            });
+        }
+    });
+
+    $(document).ready(function () {
+        var elem = $(".checkEmail");
+        if (elem) {
+            elem.keydown(function () {
+                if (elem.val().length > 45)
+                    elem.val(elem.val().substr(0, 45));
+            });
+        }
+    });
+
+</script>

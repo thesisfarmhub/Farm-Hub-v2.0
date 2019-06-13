@@ -1,10 +1,8 @@
 ﻿using FarmHub.Areas.Admin.Models;
 using Model.Dao.Admin;
 using Model.EF;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace FarmHub.Areas.Admin.Controllers
@@ -105,5 +103,12 @@ namespace FarmHub.Areas.Admin.Controllers
             dao.Delete(id);
             return Json(new object[] { new object() }, JsonRequestBehavior.AllowGet);
         }
+
+        public ActionResult Details(int id)
+        {
+            var seedModel = dao.Details(id);
+            return View(seedModel);
+        }
+
     }
 }

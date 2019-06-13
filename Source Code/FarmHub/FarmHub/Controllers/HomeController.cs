@@ -52,7 +52,7 @@ namespace FarmHub.Controllers
             {
                 numberOfOffers.Add(item.NumberOfOrders);
             }
-            ViewBag.NUMBEROFOFFERS = numberOfOffers; // Number of orders
+            ViewBag.NUMBEROFOFFERS = numberOfOffers.ToList(); // Number of orders
 
             #endregion
 
@@ -82,7 +82,7 @@ namespace FarmHub.Controllers
             {
                 saleNumberOfOffers.Add(item.NumberOfOrders);
             }
-            ViewBag.SALENUMBEROFOFFERS = numberOfOffers; // Number of orders
+            ViewBag.SALENUMBEROFOFFERS = saleNumberOfOffers.ToList(); // Number of orders
 
             #endregion
 

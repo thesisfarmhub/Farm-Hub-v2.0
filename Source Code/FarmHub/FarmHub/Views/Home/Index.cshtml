@@ -90,7 +90,7 @@
 </div>
 <!--End ChartJS-->
 <!--Start ChartJS Nhu cầu bán-->
-<div class="container">
+@*<div class="container">
     <div class="row">
         <div class="col-md-12">
             <div class="mu-chef-area">
@@ -112,7 +112,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>*@
 <!--End ChartJS-->
 <!-- Start GIAO DỊCH ĐANG DIỄN RA -->
 <section id="mu-chef">
@@ -175,19 +175,41 @@
                     data: numberOfOffers,
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
-                        'rgba(54, 162, 235, 0.2)',
-                        'rgba(255, 206, 86, 0.2)',
-                        'rgba(75, 192, 192, 0.2)',
-                        'rgba(153, 102, 255, 0.2)',
-                        'rgba(255, 159, 64, 0.2)'
+                        //'rgba(54, 162, 235, 0.2)',
+                        //'rgba(255, 206, 86, 0.2)',
+                        //'rgba(75, 192, 192, 0.2)',
+                        //'rgba(153, 102, 255, 0.2)',
+                        //'rgba(255, 159, 64, 0.2)'
                     ],
                     borderColor: [
                         'rgba(255, 99, 132, 1)',
+                        //'rgba(54, 162, 235, 1)',
+                        //'rgba(255, 206, 86, 1)',
+                        //'rgba(75, 192, 192, 1)',
+                        //'rgba(153, 102, 255, 1)',
+                        //'rgba(255, 159, 64, 1)'
+                    ],
+                    boderWidth: 1
+                },
+                {
+                    label: "Số lượng nhu cầu bán",
+                    fill: false,
+                    data: saleNumberOfOffers,
+                    backgroundColor: [
+                        //'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        //'rgba(255, 206, 86, 0.2)',
+                        //'rgba(75, 192, 192, 0.2)',
+                        //'rgba(153, 102, 255, 0.2)',
+                        //'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        //'rgba(255, 99, 132, 1)',
                         'rgba(54, 162, 235, 1)',
-                        'rgba(255, 206, 86, 1)',
-                        'rgba(75, 192, 192, 1)',
-                        'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)'
+                        //'rgba(255, 206, 86, 1)',
+                        //'rgba(75, 192, 192, 1)',
+                        //'rgba(153, 102, 255, 1)',
+                        //'rgba(255, 159, 64, 1)'
                     ],
                     boderWidth: 1
                 }
@@ -198,7 +220,7 @@
             responsive: true,
             title: {
                 display: true,
-                text: 'Nhu cầu mua trên thị trường'
+                text: 'Nhu cầu mua bán trên thị trường'
             },
             tooltips: {
                 mode: 'index',
@@ -240,164 +262,46 @@
             labels: productNames,
             datasets: [
                 {
-                    label: "Giá",
+                    label: "Giá mua",
                     fill: false,
                     data: prices,
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
-                        'rgba(54, 162, 235, 0.2)',
-                        'rgba(255, 206, 86, 0.2)',
-                        'rgba(75, 192, 192, 0.2)',
-                        'rgba(153, 102, 255, 0.2)',
-                        'rgba(255, 159, 64, 0.2)'
+                        //'rgba(54, 162, 235, 0.2)',
+                        //'rgba(255, 206, 86, 0.2)',
+                        //'rgba(75, 192, 192, 0.2)',
+                        //'rgba(153, 102, 255, 0.2)',
+                        //'rgba(255, 159, 64, 0.2)'
                     ],
                     borderColor: [
                         'rgba(255, 99, 132, 1)',
-                        'rgba(54, 162, 235, 1)',
-                        'rgba(255, 206, 86, 1)',
-                        'rgba(75, 192, 192, 1)',
-                        'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)'
+                        //'rgba(54, 162, 235, 1)',
+                        //'rgba(255, 206, 86, 1)',
+                        //'rgba(75, 192, 192, 1)',
+                        //'rgba(153, 102, 255, 1)',
+                        //'rgba(255, 159, 64, 1)'
                     ],
                     boderWidth: 1
-                }
-            ]
-        },
-
-        options: {
-            responsive: true,
-            title: {
-                display: true,
-                text: 'Nhu cầu mua trên thị trường'
-            },
-            tooltips: {
-                mode: 'index',
-                intersect: false,
-            },
-            hover: {
-                mode: 'nearest',
-                intersect: true
-            },
-            scales: {
-                xAxes: [{
-                    display: true,
-                    scaleLabel: {
-                        display: true,
-                        //labelString: 'Product Names'
-                    },
-                    ticks: {
-                        beginAtZero: false
-                    }
-                }],
-                yAxes: [{
-                    display: true,
-                    scaleLabel: {
-                        display: true,
-                        //labelString: 'Value'
-                    },
-                    ticks: {
-                        beginAtZero: true
-                    }
-                }]
-            }
-        }
-    });
-
-    var ctx = $("#bar_chart3");
-    var barChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: saleProductNames,
-            datasets: [
+                },
                 {
-                    label: "Số lượng nhu cầu bán",
-                    fill: false,
-                    data: saleNumberOfOffers,
-                    backgroundColor: [
-                        'rgba(255, 99, 132, 0.2)',
-                        'rgba(54, 162, 235, 0.2)',
-                        'rgba(255, 206, 86, 0.2)',
-                        'rgba(75, 192, 192, 0.2)',
-                        'rgba(153, 102, 255, 0.2)',
-                        'rgba(255, 159, 64, 0.2)'
-                    ],
-                    borderColor: [
-                        'rgba(255, 99, 132, 1)',
-                        'rgba(54, 162, 235, 1)',
-                        'rgba(255, 206, 86, 1)',
-                        'rgba(75, 192, 192, 1)',
-                        'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)'
-                    ],
-                    boderWidth: 1
-                }
-            ]
-        },
-
-        options: {
-            responsive: true,
-            title: {
-                display: true,
-                text: 'Nhu cầu bán trên thị trường'
-            },
-            tooltips: {
-                mode: 'index',
-                intersect: false,
-            },
-            hover: {
-                mode: 'nearest',
-                intersect: true
-            },
-            scales: {
-                xAxes: [{
-                    display: true,
-                    scaleLabel: {
-                        display: true,
-                        //labelString: 'Product Names'
-                    },
-                    ticks: {
-                        beginAtZero: false
-                    }
-                }],
-                yAxes: [{
-                    display: true,
-                    scaleLabel: {
-                        display: true,
-                        //labelString: 'Value'
-                    },
-                    ticks: {
-                        beginAtZero: true
-                    }
-                }]
-            }
-        }
-    });
-
-    var ctx = $("#bar_chart4");
-    var barChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: saleProductNames,
-            datasets: [
-                {
-                    label: "Giá",
+                    label: "Giá bán",
                     fill: false,
                     data: salePrices,
                     backgroundColor: [
-                        'rgba(255, 99, 132, 0.2)',
+                        //'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',
-                        'rgba(255, 206, 86, 0.2)',
-                        'rgba(75, 192, 192, 0.2)',
-                        'rgba(153, 102, 255, 0.2)',
-                        'rgba(255, 159, 64, 0.2)'
+                        //'rgba(255, 206, 86, 0.2)',
+                        //'rgba(75, 192, 192, 0.2)',
+                        //'rgba(153, 102, 255, 0.2)',
+                        //'rgba(255, 159, 64, 0.2)'
                     ],
                     borderColor: [
-                        'rgba(255, 99, 132, 1)',
+                        //'rgba(255, 99, 132, 1)',
                         'rgba(54, 162, 235, 1)',
-                        'rgba(255, 206, 86, 1)',
-                        'rgba(75, 192, 192, 1)',
-                        'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)'
+                        //'rgba(255, 206, 86, 1)',
+                        //'rgba(75, 192, 192, 1)',
+                        //'rgba(153, 102, 255, 1)',
+                        //'rgba(255, 159, 64, 1)'
                     ],
                     boderWidth: 1
                 }
@@ -408,7 +312,7 @@
             responsive: true,
             title: {
                 display: true,
-                text: 'Nhu cầu bán trên thị trường'
+                text: 'Nhu cầu mua bán trên thị trường'
             },
             tooltips: {
                 mode: 'index',
@@ -442,6 +346,146 @@
             }
         }
     });
+
+    //var ctx = $("#bar_chart3");
+    //var barChart = new Chart(ctx, {
+    //    type: 'line',
+    //    data: {
+    //        labels: saleProductNames,
+    //        datasets: [
+    //            {
+    //                label: "Số lượng nhu cầu bán",
+    //                fill: false,
+    //                data: saleNumberOfOffers,
+    //                backgroundColor: [
+    //                    'rgba(255, 99, 132, 0.2)',
+    //                    'rgba(54, 162, 235, 0.2)',
+    //                    'rgba(255, 206, 86, 0.2)',
+    //                    'rgba(75, 192, 192, 0.2)',
+    //                    'rgba(153, 102, 255, 0.2)',
+    //                    'rgba(255, 159, 64, 0.2)'
+    //                ],
+    //                borderColor: [
+    //                    'rgba(255, 99, 132, 1)',
+    //                    'rgba(54, 162, 235, 1)',
+    //                    'rgba(255, 206, 86, 1)',
+    //                    'rgba(75, 192, 192, 1)',
+    //                    'rgba(153, 102, 255, 1)',
+    //                    'rgba(255, 159, 64, 1)'
+    //                ],
+    //                boderWidth: 1
+    //            }
+    //        ]
+    //    },
+
+    //    options: {
+    //        responsive: true,
+    //        title: {
+    //            display: true,
+    //            text: 'Nhu cầu bán trên thị trường'
+    //        },
+    //        tooltips: {
+    //            mode: 'index',
+    //            intersect: false,
+    //        },
+    //        hover: {
+    //            mode: 'nearest',
+    //            intersect: true
+    //        },
+    //        scales: {
+    //            xAxes: [{
+    //                display: true,
+    //                scaleLabel: {
+    //                    display: true,
+    //                    //labelString: 'Product Names'
+    //                },
+    //                ticks: {
+    //                    beginAtZero: false
+    //                }
+    //            }],
+    //            yAxes: [{
+    //                display: true,
+    //                scaleLabel: {
+    //                    display: true,
+    //                    //labelString: 'Value'
+    //                },
+    //                ticks: {
+    //                    beginAtZero: true
+    //                }
+    //            }]
+    //        }
+    //    }
+    //});
+
+    //var ctx = $("#bar_chart4");
+    //var barChart = new Chart(ctx, {
+    //    type: 'line',
+    //    data: {
+    //        labels: saleProductNames,
+    //        datasets: [
+    //            {
+    //                label: "Giá",
+    //                fill: false,
+    //                data: salePrices,
+    //                backgroundColor: [
+    //                    'rgba(255, 99, 132, 0.2)',
+    //                    'rgba(54, 162, 235, 0.2)',
+    //                    'rgba(255, 206, 86, 0.2)',
+    //                    'rgba(75, 192, 192, 0.2)',
+    //                    'rgba(153, 102, 255, 0.2)',
+    //                    'rgba(255, 159, 64, 0.2)'
+    //                ],
+    //                borderColor: [
+    //                    'rgba(255, 99, 132, 1)',
+    //                    'rgba(54, 162, 235, 1)',
+    //                    'rgba(255, 206, 86, 1)',
+    //                    'rgba(75, 192, 192, 1)',
+    //                    'rgba(153, 102, 255, 1)',
+    //                    'rgba(255, 159, 64, 1)'
+    //                ],
+    //                boderWidth: 1
+    //            }
+    //        ]
+    //    },
+
+    //    options: {
+    //        responsive: true,
+    //        title: {
+    //            display: true,
+    //            text: 'Nhu cầu bán trên thị trường'
+    //        },
+    //        tooltips: {
+    //            mode: 'index',
+    //            intersect: false,
+    //        },
+    //        hover: {
+    //            mode: 'nearest',
+    //            intersect: true
+    //        },
+    //        scales: {
+    //            xAxes: [{
+    //                display: true,
+    //                scaleLabel: {
+    //                    display: true,
+    //                    //labelString: 'Product Names'
+    //                },
+    //                ticks: {
+    //                    beginAtZero: false
+    //                }
+    //            }],
+    //            yAxes: [{
+    //                display: true,
+    //                scaleLabel: {
+    //                    display: true,
+    //                    //labelString: 'Value'
+    //                },
+    //                ticks: {
+    //                    beginAtZero: true
+    //                }
+    //            }]
+    //        }
+    //    }
+    //});
 
 </script>
 <!--End ChartJS Script -->

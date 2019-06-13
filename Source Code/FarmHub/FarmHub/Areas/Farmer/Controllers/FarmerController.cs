@@ -1,4 +1,5 @@
 ﻿using FarmHub.Areas.Farmer.Models;
+using FarmHub.Common;
 using Model.Dao.Authentication;
 using Model.Dao.Farmer;
 using Model.DTO.Farmer;
@@ -8,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
+using System.Web.Routing;
 
 namespace FarmHub.Areas.Farmer.Controllers
 {
@@ -92,29 +94,36 @@ namespace FarmHub.Areas.Farmer.Controllers
             return View(farmerHomePageModel);
         }
 
-        // ChartJS
-        public ActionResult Dashboard()
+        public ActionResult Logout()
         {
-            var list = new FarmHubDbContext().PURCHASE_OFFER.Where(x => x.Is_Deleted == false).ToList();
-            List<int> repartition = new List<int>();
-            List<int> prices = new List<int>();
-            var productNames = list.Select(x => x.PRODUCT.Name_Product).Distinct();
-            var quantityPurchaseOffer = list.GroupBy(x => x.PRODUCT.Name_Product).ToString();
+            Session[Constant.USER_SESSION] = null;
+            return RedirectToRoute("Farmer", new RouteValueDictionary(new { action = "Logout", controller = "Login" }));
+        }
 
-            foreach(var item in productNames)
+        public ActionResult Account()
+        {
+            var farmerID = Session["FarmerID"];
+            var farmer = new FarmHubDbContext().FARMERs.Find(farmerID);
+            return View(farmer);
+        }
+
+        [HttpPost]
+        public ActionResult Account(FARMER farmer)
+        {
+            var result = dao.Update(farmer);
+
+            if (result)
             {
-                repartition.Add(list.Count(x => x.PRODUCT.Name_Product == item));
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                ModelState.AddModelError("", "Cập nhật thất bại !!!");
+                var farmerModelState = dao.Details(farmer.Id_Farmer);
+                return View(farmerModelState);
             }
 
-            foreach(var item in quantityPurchaseOffer)
-            {
-                prices.Add(item);
-            }
 
-            ViewBag.PRODUCTNAMES = productNames;
-            ViewBag.REP = repartition.ToList();
-            ViewBag.PRICES = prices.ToList();
-            return View();
         }
 
         #region Function

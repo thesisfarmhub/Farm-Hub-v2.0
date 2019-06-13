@@ -54,19 +54,19 @@ begin tran
 
 	--FARMER--
 	Insert into FARMER (Id_User,Name_Farmer,Birthday_Farmer,Gender_Farmer,Address_Farmer,Telephone_Farmer,Email_Farmer,Is_Deleted) 
-	values (1,N'Lý Minh Duy',1/1/2019,1,N'Gò Vấp',0817777777,'lyminhduy@gmail.com',0)
+	values (1,N'Lý Minh Duy',1/1/1997,1,N'Gò Vấp',0817777777,'lyminhduy@gmail.com',0)
 	Insert into FARMER (Id_User,Name_Farmer,Birthday_Farmer,Gender_Farmer,Address_Farmer,Telephone_Farmer,Email_Farmer,Is_Deleted) 
-	values (2,N'Nguyễn Sam Huân',1/1/2019,1,N'Hóc Môn',0817777777,'samhuan1123@gmail.com',0)
+	values (2,N'Nguyễn Sam Huân',1/1/1997,1,N'Hóc Môn',0817777777,'samhuan1123@gmail.com',0)
 	Insert into FARMER (Id_User,Name_Farmer,Birthday_Farmer,Gender_Farmer,Address_Farmer,Telephone_Farmer,Email_Farmer,Is_Deleted) 
-	values (3,N'Nguyễn Anh Tuấn',1/1/2019,1,N'Cách Mạng Tháng Tám',0817777777,'tuananh05061997@gmail.com',0)
+	values (3,N'Nguyễn Anh Tuấn',1/1/1997,1,N'Cách Mạng Tháng Tám',0817777777,'tuananh05061997@gmail.com',0)
 
 	--TRADER--
 	Insert into TRADER (Id_User,Name_Trader,Birthday_Trader,Gender_Trader,Address_Trader,Telephone_Trader,Email_Trader,Is_Deleted) 
-	values (4,N'Nguyễn Minh Chiến',1/1/2019,1,N'Gò Vấp',0817999999,'chiennguyen7749@gmail.com',0)
+	values (4,N'Nguyễn Minh Chiến',1/1/1997,1,N'Gò Vấp',0817999999,'chiennguyen7749@gmail.com',0)
 	Insert into TRADER (Id_User,Name_Trader,Birthday_Trader,Gender_Trader,Address_Trader,Telephone_Trader,Email_Trader,Is_Deleted) 
-	values (5,N'Trần Anh Khoa',1/1/2019,1,N'Tân Bình',0817999999,'trananhkhoa97@gmail.com',0)
+	values (5,N'Trần Anh Khoa',1/1/1997,1,N'Tân Bình',0817999999,'trananhkhoa97@gmail.com',0)
 	Insert into TRADER (Id_User,Name_Trader,Birthday_Trader,Gender_Trader,Address_Trader,Telephone_Trader,Email_Trader,Is_Deleted) 
-	values (6,N'Trần Minh Hà',1/1/2019,1,N'Huế',0817999999,'minhhatran123@gmail.com',0)
+	values (6,N'Trần Minh Hà',1/1/1997,1,N'Huế',0817999999,'minhhatran123@gmail.com',0)
 
 	--MASS_UNIT--
 	Insert into MASS_UNIT(Name_MassUnit,Weight_To_Kg,Is_Deleted) values (N'Tấn', 1000,0)

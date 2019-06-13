@@ -1,7 +1,9 @@
 ﻿using FarmHub.Models;
 using Model.Dao.Farmer;
+using Model.Dao.Trader;
 using Model.DTO.Farmer;
 using Model.DTO.Trader;
+using Model.EF;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,7 +33,7 @@ namespace FarmHub.Controllers
             };
 
             // ChartJS        
-            
+
             #region Chart Purchase Offer
 
             var productNames = listPO.Select(x => x.PRODUCT.Name_Product).Distinct();
@@ -74,14 +76,14 @@ namespace FarmHub.Controllers
             }).ToList();
 
             List<int> soPrices = new List<int>();
-            foreach(var item in saleOfferChartDTO)
+            foreach (var item in saleOfferChartDTO)
             {
                 soPrices.Add(item.SaleOfferAvgPrice);
             }
             ViewBag.SO_PRICES = soPrices.ToList(); // Data: Sale Offer Prices
 
             List<int> soNumberOfOffers = new List<int>();
-            foreach(var item in saleOfferChartDTO)
+            foreach (var item in saleOfferChartDTO)
             {
                 soNumberOfOffers.Add(item.NumberOfOrders);
             }
@@ -92,10 +94,35 @@ namespace FarmHub.Controllers
             return View(traderHomePageModel);
         }
 
+        public ActionResult Account()
+        {
+            var traderID = Session["TraderId"];
+            var trader = new FarmHubDbContext().TRADERs.Find(traderID);
+            return View(trader);
+        }
+
+        [HttpPost]
+        public ActionResult Account(TRADER trader)
+        {
+            var result = traderDAO.Update(trader);
+
+            if (result)
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                ModelState.AddModelError("", "Cập nhật thất bại !!!");
+                var traderModelState = traderDAO.Details(trader.Id_Trader);
+                return View(traderModelState);
+            }
+        }
+
         #region Function 
 
         readonly Model.Dao.Trader.PurchaseOfferDao purchaseOfferDAO = new Model.Dao.Trader.PurchaseOfferDao();
         readonly SaleOfferDAO saleOfferDao = new SaleOfferDAO();
+        readonly TraderDAO traderDAO = new TraderDAO();
 
         #endregion
     }

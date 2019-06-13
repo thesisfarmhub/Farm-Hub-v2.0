@@ -124,21 +124,30 @@
                         </li>
 
                         <li><a href="/Farmer/MarketTransHis/Index">GỢI Ý GIÁ</a></li>
-                        <!--Show-->
-                        <li class="dropdown" id="loginRegisterLabel">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="blog-archive.html">TÀI KHOẢN<span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="/Register/CreateRegister">ĐĂNG KÝ TÀI KHOẢN</a></li>
-                                <li><a href="/Login/LoginIndex">ĐĂNG NHẬP</a></li>
-                            </ul>
-                        </li>
-                        <!--Show sau khi login-->
-                        @*<li class="dropdown" id="taiKhoanLabel" hidden>
-                                <a>Xin Chào</a>
-                                <ul>
-                                    <li></li>
+                        @{
+                            var session = (UserLoginSession)Session[FarmHub.Common.Constant.USER_SESSION];
+                        }
+
+                        @if (session == null)
+                        {
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="blog-archive.html">TÀI KHOẢN<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="/Register/CreateRegister">ĐĂNG KÝ TÀI KHOẢN</a></li>
+                                    <li><a href="/Login/LoginIndex">ĐĂNG NHẬP</a></li>
                                 </ul>
-                            </li>*@
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="blog-archive.html">XIN CHÀO @session.UserName<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href = "@Url.Action("Account","Farmer")">CHỈNH SỬA THÔNG TIN</a></li>
+                                    <li><a href = "@Url.Action("Logout","Farmer")">ĐĂNG XUẤT</a></li>
+                                </ul>
+                            </li>
+                        }
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
@@ -153,11 +162,11 @@
                 <div class="col-md-12">
                     <div class="mu-footer-area">
                         <div class="mu-footer-social">
-                            <a href="#"><span class="fa fa-facebook"></span></a>
-                            <a href="#"><span class="fa fa-twitter"></span></a>
-                            <a href="#"><span class="fa fa-google-plus"></span></a>
-                            <a href="#"><span class="fa fa-linkedin"></span></a>
-                            <a href="#"><span class="fa fa-youtube"></span></a>
+                            <a href="#"><span class="fab fa-facebook-square"></span></a>
+                            <a href="#"><span class="fab fa-twitter"></span></a>
+                            <a href="#"><span class="fab fa-google-plus-square"></span></a>
+                            <a href="#"><span class="fab fa-linkedin"></span></a>
+                            <a href="#"><span class="fab fa-youtube"></span></a>
                         </div>
 
                         <div class="mu-footer-copyright">
