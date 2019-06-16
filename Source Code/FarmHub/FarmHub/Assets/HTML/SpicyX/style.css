@@ -421,7 +421,7 @@ img {
     display: inline;
     float: left;
     width: 100%;
-    padding: 100px 0;
+    padding: 10px 0; /*Meow Edited*/
 }
 
     #mu-about-us .mu-about-us-area {
@@ -719,7 +719,7 @@ img {
 RESERVATION SECTION
 ====================*/
 #mu-reservation {
-    background-color: #222;
+    background-color: #ffffff; /*Meow Edited*/
     display: inline;
     float: left;
     padding: 100px 0;
@@ -733,7 +733,7 @@ RESERVATION SECTION
     }
 
         #mu-reservation .mu-reservation-area .mu-title h2 {
-            color: #fff;
+            color: black; /*Meow Edited*/
         }
 
         #mu-reservation .mu-reservation-area .mu-reservation-content {
@@ -1047,7 +1047,7 @@ RESERVATION SECTION
 }
 
     #mu-client-testimonial .mu-overlay {
-        background-color: rgba(0, 0, 0, 0.8);
+        /*background-color: rgba(0, 0, 0, 0.8);*/ /*Meow Edited*/
         display: inline;
         float: left;
         padding: 70px 0 100px;
@@ -1055,7 +1055,7 @@ RESERVATION SECTION
     }
 
         #mu-client-testimonial .mu-overlay .mu-title h2 {
-            color: #fff;
+            color: black;
         }
 
     #mu-client-testimonial .mu-client-testimonial-area {
@@ -1122,7 +1122,7 @@ RESERVATION SECTION
                                 }
 
                         #mu-client-testimonial .mu-client-testimonial-area .mu-testimonial-content .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-bio {
-                            color: #fff;
+                            color: black; /*Meow Edited*/
                             display: inline-block;
                             float: left;
                             margin-top: 5px;
@@ -1227,8 +1227,9 @@ RESERVATION SECTION
 #mu-chef {
     display: inline;
     float: left;
-    padding: 100px 0;
+    padding: 10px 0; /*Meow Edited*/
     width: 100%;
+    /*background-color:#ffffff;*/ /*Meow Edited*/
 }
 
     #mu-chef .mu-chef-area {
@@ -2208,6 +2209,7 @@ RESERVATION SECTION
     float: left;
     padding: 50px 0;
     width: 100%;
+    /*position: fixed;*/ /*Meow Edited*/
 }
 
     #mu-footer .mu-footer-area {

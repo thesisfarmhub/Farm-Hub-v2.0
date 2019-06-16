@@ -11,5 +11,7 @@ namespace FarmHub.Areas.Farmer.Models
         public List<List<PURCHASE_OFFER>> SuitablePurchaseOffer { get; set; }
 
         public List<FarmerTopProductDTO> FarmerListTopProduct { get; set; }
+
+        public List<PURCHASE_OFFER> PurchaseOfferYouMayLike { get; set; }
     }
 }

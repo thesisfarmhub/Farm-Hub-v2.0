@@ -23,7 +23,7 @@ namespace Model.Dao.Trader
         public int InsertUser(Register entity)
         {
             entity.UserAu.Created_Date = DateTime.Now;
-            entity.UserAu.Status_User = 2;//Chưa Hoạt Động
+            entity.UserAu.Status_User = false;//Chưa Hoạt Động
             entity.UserAu.Is_Deleted = false;
 
             db.USER_AUTHENTICATION.Add(entity.UserAu);

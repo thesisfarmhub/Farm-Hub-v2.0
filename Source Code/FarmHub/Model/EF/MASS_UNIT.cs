@@ -11,7 +11,6 @@ namespace Model.EF
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public MASS_UNIT()
         {
-            MARKET_TRANS_HIS = new HashSet<MARKET_TRANS_HIS>();
             PURCHASE_OFFER = new HashSet<PURCHASE_OFFER>();
             SALE_OFFER = new HashSet<SALE_OFFER>();
         }
@@ -26,9 +25,6 @@ namespace Model.EF
         public int? Weight_To_Kg { get; set; }
 
         public bool? Is_Deleted { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<MARKET_TRANS_HIS> MARKET_TRANS_HIS { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PURCHASE_OFFER> PURCHASE_OFFER { get; set; }

@@ -38,35 +38,29 @@ begin tran
 	Insert into USER_KIND (Name_UserKind) values ('Mod')
 
 	--USER_AUTHENTICATION--
-	Insert into USER_AUTHENTICATION values (1,'farmer1','202cb962ac59075b964b07152d234b70',1/1/2019,1,1,0)
-	Insert into USER_AUTHENTICATION values (1,'farmer2','202cb962ac59075b964b07152d234b70',1/1/2019,1,0,0)
-	Insert into USER_AUTHENTICATION values (1,'farmer3','202cb962ac59075b964b07152d234b70',1/1/2019,5,2,0)
+	Insert into USER_AUTHENTICATION values (1,'farmer1','202cb962ac59075b964b07152d234b70','1/1/2019',1,1,0)
+	Insert into USER_AUTHENTICATION values (1,'farmer2','202cb962ac59075b964b07152d234b70','1/1/2019',1,1,0)
+	Insert into USER_AUTHENTICATION values (1,'farmer3','202cb962ac59075b964b07152d234b70','1/1/2019',5,1,0)
 
-	Insert into USER_AUTHENTICATION values (2,'trader1','202cb962ac59075b964b07152d234b70',1/1/2019,1,1,0)
-	Insert into USER_AUTHENTICATION values (2,'trader2','202cb962ac59075b964b07152d234b70',1/1/2019,1,0,0)
-	Insert into USER_AUTHENTICATION values (2,'trader3','202cb962ac59075b964b07152d234b70',1/1/2019,3,2,0)
+	Insert into USER_AUTHENTICATION values (2,'trader1','202cb962ac59075b964b07152d234b70','1/1/2019',1,1,0)
+	Insert into USER_AUTHENTICATION values (2,'trader2','202cb962ac59075b964b07152d234b70','1/1/2019',1,1,0)
+	Insert into USER_AUTHENTICATION values (2,'trader3','202cb962ac59075b964b07152d234b70','1/1/2019',3,1,0)
 
-	Insert into USER_AUTHENTICATION values (3,'admin','202cb962ac59075b964b07152d234b70',1/1/2019,7,0,0 )
+	Insert into USER_AUTHENTICATION values (3,'admin','202cb962ac59075b964b07152d234b70','1/1/2019',7,1,0 )
 
-	Insert into USER_AUTHENTICATION values (4,'mod1','202cb962ac59075b964b07152d234b70',1/1/2019,7,0,0 )
-	Insert into USER_AUTHENTICATION values (4,'mod2','202cb962ac59075b964b07152d234b70',1/1/2019,7,0,0 )
-	Insert into USER_AUTHENTICATION values (4,'mod3','202cb962ac59075b964b07152d234b70',1/1/2019,7,0,0 )
+	Insert into USER_AUTHENTICATION values (4,'mod1','202cb962ac59075b964b07152d234b70','1/1/2019',7,1,0 )
+	Insert into USER_AUTHENTICATION values (4,'mod2','202cb962ac59075b964b07152d234b70','1/1/2019',7,1,0 )
+	Insert into USER_AUTHENTICATION values (4,'mod3','202cb962ac59075b964b07152d234b70','1/1/2019',7,1,0 )
 
 	--FARMER--
-	Insert into FARMER (Id_User,Name_Farmer,Birthday_Farmer,Gender_Farmer,Address_Farmer,Telephone_Farmer,Email_Farmer,Is_Deleted) 
-	values (1,N'Lý Minh Duy',1/1/1997,1,N'Gò Vấp',0817777777,'lyminhduy@gmail.com',0)
-	Insert into FARMER (Id_User,Name_Farmer,Birthday_Farmer,Gender_Farmer,Address_Farmer,Telephone_Farmer,Email_Farmer,Is_Deleted) 
-	values (2,N'Nguyễn Sam Huân',1/1/1997,1,N'Hóc Môn',0817777777,'samhuan1123@gmail.com',0)
-	Insert into FARMER (Id_User,Name_Farmer,Birthday_Farmer,Gender_Farmer,Address_Farmer,Telephone_Farmer,Email_Farmer,Is_Deleted) 
-	values (3,N'Nguyễn Anh Tuấn',1/1/1997,1,N'Cách Mạng Tháng Tám',0817777777,'tuananh05061997@gmail.com',0)
+	Insert into FARMER values (1,N'Lý Minh Duy','1/1/1997',1,N'Gò Vấp',0817777777,'lyminhduy@gmail.com',7,0,10,1,0)
+	Insert into FARMER values (2,N'Nguyễn Sam Huân','1/1/1997',1,N'Hóc Môn',0817777777,'samhuan1123@gmail.com',9,0,10,2,0)
+	Insert into FARMER values (3,N'Nguyễn Anh Tuấn','1/1/1997',1,N'Hòa Hưng',0817777777,'tuananh05061997@gmail.com',5,2,5,3,0)
 
 	--TRADER--
-	Insert into TRADER (Id_User,Name_Trader,Birthday_Trader,Gender_Trader,Address_Trader,Telephone_Trader,Email_Trader,Is_Deleted) 
-	values (4,N'Nguyễn Minh Chiến',1/1/1997,1,N'Gò Vấp',0817999999,'chiennguyen7749@gmail.com',0)
-	Insert into TRADER (Id_User,Name_Trader,Birthday_Trader,Gender_Trader,Address_Trader,Telephone_Trader,Email_Trader,Is_Deleted) 
-	values (5,N'Trần Anh Khoa',1/1/1997,1,N'Tân Bình',0817999999,'trananhkhoa97@gmail.com',0)
-	Insert into TRADER (Id_User,Name_Trader,Birthday_Trader,Gender_Trader,Address_Trader,Telephone_Trader,Email_Trader,Is_Deleted) 
-	values (6,N'Trần Minh Hà',1/1/1997,1,N'Huế',0817999999,'minhhatran123@gmail.com',0)
+	Insert into TRADER values (4,N'Nguyễn Minh Chiến','1/1/1997',1,N'Gò Vấp',0817999999,'chiennguyen7749@gmail.com',7,1,7,0,0)
+	Insert into TRADER values (5,N'Trần Anh Khoa','1/1/1997',1,N'Tân Bình',0817999999,'trananhkhoa97@gmail.com',5,1,5,0,0)
+	Insert into TRADER values (6,N'Trần Minh Hà','1/1/1997',1,N'Huế',0817999999,'minhhatran123@gmail.com',8,0,9,0,0)
 
 	--MASS_UNIT--
 	Insert into MASS_UNIT(Name_MassUnit,Weight_To_Kg,Is_Deleted) values (N'Tấn', 1000,0)
@@ -75,12 +69,9 @@ begin tran
 	Insert into MASS_UNIT(Name_MassUnit,Weight_To_Kg,Is_Deleted) values (N'Kg', 1,0)
 
 	--FARM--
-	Insert into FARM (Id_Farmer,Name_Farm,Address_Farm,City_Farm,Acreage,Description_Farm,Is_Deleted)
-	values (1,N'Nông Trại Vạn Lục',N'Gò Vấp',N'Hồ Chí Minh',100,N'Trang trại có thế mạnh thiên nhiên ban tặng (đất đai màu mỡ, lượng mưa dồi dào) quanh năm và những cánh đồng cỏ xanh sạch',0)
-	Insert into FARM (Id_Farmer,Name_Farm,Address_Farm,City_Farm,Acreage,Description_Farm,Is_Deleted)
-	values (1,N'Nông Trại Kim Điền',N'Đồng Bằng Sông Cửu Long',N'Đồng Bằng Sông Cửu Long',100,N'Là nơi được gọi là vựa lúa của Việt Nam',0)
-	Insert into FARM (Id_Farmer,Name_Farm,Address_Farm,City_Farm,Acreage,Description_Farm,Is_Deleted)
-	values (1,N'Nông Trại Đà Lạt',N'Đà Lạt',N'Đà Lạt',100,N'Đà lạt không chỉ nổi tiếng với phong cảnh nên thơ hữu tình, với đặc tính khí hậu chiều lòng người mà còn nổi tiếng bởi sức hút từ những mặt hàng nông sản tươi ngon và vô cùng đa dạng phong phú',0)
+	Insert into FARM values (1,N'Nông Trại Vạn Lục',N'Gò Vấp',N'Hồ Chí Minh',100,N'Trang trại có thế mạnh thiên nhiên ban tặng (đất đai màu mỡ, lượng mưa dồi dào) quanh năm và những cánh đồng cỏ xanh sạch',1,7,1,7,0,0)
+	Insert into FARM values (1,N'Nông Trại Kim Điền',N'Đồng Bằng Sông Cửu Long',N'Đồng Bằng Sông Cửu Long',100,N'Là nơi được gọi là vựa lúa của Việt Nam',0,4,0,7,1,0)
+	Insert into FARM values (1,N'Nông Trại Đà Lạt',N'Đà Lạt',N'Đà Lạt',100,N'Đà lạt không chỉ nổi tiếng với phong cảnh nên thơ hữu tình, với đặc tính khí hậu chiều lòng người mà còn nổi tiếng bởi sức hút từ những mặt hàng nông sản tươi ngon và vô cùng đa dạng phong phú',0,2,0,9,2,0)
 
 	--PRODUCT_KIND--
 	Insert into PRODUCT_KIND(Name_ProductKind,Is_Deleted) values (N'Quả',0)
@@ -198,41 +189,41 @@ begin tran
 	--Vạn Lục--
 
 	--Dưa Hấu--
-	Insert into PRODUCT_DETAIL values (1,1,1,N'Long An','/Data/Image/Farmer/Base/watermelon1.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
-	Insert into PRODUCT_DETAIL values (1,1,2,N'Long An','/Data/Image/Farmer/Base/watermelon2.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)
-	Insert into PRODUCT_DETAIL values (1,1,3,N'Long An','/Data/Image/Farmer/Base/watermelon3.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
+	Insert into PRODUCT_DETAIL values (1,1,1,N'Long An','/Data/Image/Farmer/Base/watermelon1.jpeg',N'Chính Vụ','1/2/2019',200,0)
+	Insert into PRODUCT_DETAIL values (1,1,2,N'Long An','/Data/Image/Farmer/Base/watermelon2.jpeg',N'Trái Vụ','2/3/2019',300,0)
+	Insert into PRODUCT_DETAIL values (1,1,3,N'Long An','/Data/Image/Farmer/Base/watermelon3.jpeg',N'Chính Vụ','9/4/2019',200,0)
 
 	--Táo--
-	Insert into PRODUCT_DETAIL values (2,1,8,N'Đà Lạt','/Data/Image/Farmer/Base/apple1.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,400,0)	
-	Insert into PRODUCT_DETAIL values (2,1,9,N'Đà Lạt','/Data/Image/Farmer/Base/apple2.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,400,0)	
-	Insert into PRODUCT_DETAIL values (2,1,10,N'Đà Lạt','/Data/Image/Farmer/Base/apple3.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
+	Insert into PRODUCT_DETAIL values (2,1,8,N'Đà Lạt','/Data/Image/Farmer/Base/apple1.jpeg',N'Trái Vụ','2/5/2019',400,0)	
+	Insert into PRODUCT_DETAIL values (2,1,9,N'Đà Lạt','/Data/Image/Farmer/Base/apple2.jpeg',N'Chính Vụ','2/6/2019',400,0)	
+	Insert into PRODUCT_DETAIL values (2,1,10,N'Đà Lạt','/Data/Image/Farmer/Base/apple3.jpeg',N'Trái Vụ','1/7/2019',200,0)
 	
 	--Sầu Riêng--
-	Insert into PRODUCT_DETAIL values (3,1,15,N'Tiền Giang','/Data/Image/Farmer/Base/durian1.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)	
-	Insert into PRODUCT_DETAIL values (3,1,16,N'Tiền Giang','/Data/Image/Farmer/Base/durian2.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)	
-	Insert into PRODUCT_DETAIL values (3,1,17,N'Tiền Giang','/Data/Image/Farmer/Base/durian3.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,600,0)
+	Insert into PRODUCT_DETAIL values (3,1,15,N'Tiền Giang','/Data/Image/Farmer/Base/durian1.jpeg',N'Chính Vụ','1/8/2019',200,0)	
+	Insert into PRODUCT_DETAIL values (3,1,16,N'Tiền Giang','/Data/Image/Farmer/Base/durian2.jpeg',N'Trái Vụ','11/9/2019',300,0)	
+	Insert into PRODUCT_DETAIL values (3,1,17,N'Tiền Giang','/Data/Image/Farmer/Base/durian3.jpeg',N'Chính Vụ','10/10/2019',600,0)
 		
 	--Kim Điền--
 
 	--Cam--
-	Insert into PRODUCT_DETAIL values (4,2,22,N'Hà Tĩnh','/Data/Image/Farmer/Base/orange1.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
-	Insert into PRODUCT_DETAIL values (4,2,23,N'Hà Tĩnh','/Data/Image/Farmer/Base/orange2.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)
-	Insert into PRODUCT_DETAIL values (4,2,24,N'Hà Tĩnh','/Data/Image/Farmer/Base/orange3.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,400,0)
+	Insert into PRODUCT_DETAIL values (4,2,22,N'Hà Tĩnh','/Data/Image/Farmer/Base/orange1.jpeg',N'Trái Vụ','8/11/2019',200,0)
+	Insert into PRODUCT_DETAIL values (4,2,23,N'Hà Tĩnh','/Data/Image/Farmer/Base/orange2.jpeg',N'Chính Vụ','1/12/2019',300,0)
+	Insert into PRODUCT_DETAIL values (4,2,24,N'Hà Tĩnh','/Data/Image/Farmer/Base/orange3.jpeg',N'Trái Vụ','1/1/2019',400,0)
 
 	--Chuối--
-	Insert into PRODUCT_DETAIL values (5,2,29,N'Hà Nam','/Data/Image/Farmer/Base/banana1.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,500,0)
-	Insert into PRODUCT_DETAIL values (5,2,30,N'Hà Nam','/Data/Image/Farmer/Base/banana2.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
-	Insert into PRODUCT_DETAIL values (5,2,31,N'Hà Nam','/Data/Image/Farmer/Base/banana3.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)
+	Insert into PRODUCT_DETAIL values (5,2,29,N'Hà Nam','/Data/Image/Farmer/Base/banana1.jpeg',N'Chính Vụ','1/2/2019',500,0)
+	Insert into PRODUCT_DETAIL values (5,2,30,N'Hà Nam','/Data/Image/Farmer/Base/banana2.jpeg',N'Trái Vụ','1/3/2019',200,0)
+	Insert into PRODUCT_DETAIL values (5,2,31,N'Hà Nam','/Data/Image/Farmer/Base/banana3.jpeg',N'Chính Vụ','1/4/2019',300,0)
 
 	--Nho--
-	Insert into PRODUCT_DETAIL values (6,2,36,N'Ninh Thuận','/Data/Image/Farmer/Base/grapes1.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)
-	Insert into PRODUCT_DETAIL values (6,2,37,N'Ninh Thuận','/Data/Image/Farmer/Base/grapes2.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,100,0)
-	Insert into PRODUCT_DETAIL values (6,2,38,N'Ninh Thuận','/Data/Image/Farmer/Base/grapes3.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
+	Insert into PRODUCT_DETAIL values (6,2,36,N'Ninh Thuận','/Data/Image/Farmer/Base/grapes1.jpeg',N'Trái Vụ','10/5/2019',300,0)
+	Insert into PRODUCT_DETAIL values (6,2,37,N'Ninh Thuận','/Data/Image/Farmer/Base/grapes2.jpeg',N'Chính Vụ','9/6/2019',100,0)
+	Insert into PRODUCT_DETAIL values (6,2,38,N'Ninh Thuận','/Data/Image/Farmer/Base/grapes3.jpeg',N'Trái Vụ','1/7/2019',200,0)
 
 	--Dâu--
-	Insert into PRODUCT_DETAIL values (7,2,43,N'Đà Lạt','/Data/Image/Farmer/Base/strawberry1.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,300,0)
-	Insert into PRODUCT_DETAIL values (7,2,44,N'Đà Lạt','/Data/Image/Farmer/Base/strawberry2.jpeg',100,N'Chính Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,200,0)
-	Insert into PRODUCT_DETAIL values (7,2,45,N'Đà Lạt','/Data/Image/Farmer/Base/strawberry3.jpeg',50,N'Trái Vụ',1/1/2019,1/2/2019,1/3/2019,1/4/2019,400,0)
+	Insert into PRODUCT_DETAIL values (7,2,43,N'Đà Lạt','/Data/Image/Farmer/Base/strawberry1.jpeg',N'Trái Vụ','4/8/2019',300,0)
+	Insert into PRODUCT_DETAIL values (7,2,44,N'Đà Lạt','/Data/Image/Farmer/Base/strawberry2.jpeg',N'Chính Vụ','5/9/2019',200,0)
+	Insert into PRODUCT_DETAIL values (7,2,45,N'Đà Lạt','/Data/Image/Farmer/Base/strawberry3.jpeg',N'Trái Vụ','6/10/2019',400,0)
 	
 	--** SALE_OFFER **--
 
@@ -247,119 +238,119 @@ begin tran
 	-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	-- ID_Farm = 1, ID_ProductDetails = 1 , ID_Seed = 1, ID_Product = 1, ID_Trader = 1 => DƯA HẤU
-	Insert into SALE_OFFER values (1, 1, 1, 1/1/2019, 10000, 100, 10, 0, 3, 3, 2, 0) -- ID = 1
+	Insert into SALE_OFFER values (1, 1, 1, '1/1/2019', 10000, 100, 10, 0, 3, 3, 2, 0) -- ID = 1
 	Insert into SALE_OFFER_DETAIL values (1, 45, 0, 0) -- ID = 1
 	Insert into SALE_OFFER_DETAIL values (1, 45, 0, 0) -- ID = 2
 
-	Insert into PURCHASE_OFFER values (1, 1, 1, 1, 1/1/2019, 10000, 45, 0, 0, 3, 3, 1, 0) -- ID = 1
+	Insert into PURCHASE_OFFER values (1, 1, 1, 1, '1/1/2019', 10000, 45, 0, 0, 3, 3, 1, 0) -- ID = 1
 	Insert into PURCHASE_OFFER_DETAIL values (1, 45, 0, 0) -- ID = 1
 
-	Insert into PURCHASE_OFFER values (1, 1, 1, 1, 2/2/2019, 10000, 45, 0, 0, 3, 3, 1, 0) -- ID = 2
+	Insert into PURCHASE_OFFER values (1, 1, 1, 1, '2/2/2019', 10000, 45, 0, 0, 3, 3, 1, 0) -- ID = 2
 	Insert into PURCHASE_OFFER_DETAIL values (2, 45, 0, 0) -- ID = 2
 
-	Insert into TRANSACTION_ORDER values (1, 1, 1, '\Data\Image\Trader\Invoices\xxxxxxx', 1/1/2019, 45, N'Tấn', 10000, 450000, 3, 3, 1, 0)
-	Insert into TRANSACTION_ORDER values (2, 2, 1, '\Data\Image\Trader\Invoices\xxxxxxx', 1/1/2019, 45, N'Tấn', 10000, 45000, 3, 3, 2, 0)
+	Insert into TRANSACTION_ORDER values (1, 1, 1, '\Data\Image\Trader\Invoices\xxxxxxx', '1/1/2019', 45, N'Tấn', 10000, 450000, 3, 3, 1, 0)
+	Insert into TRANSACTION_ORDER values (2, 2, 1, '\Data\Image\Trader\Invoices\xxxxxxx', '1/1/2019', 45, N'Tấn', 10000, 45000, 3, 3, 2, 0)
 	-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	--ID_Farm = 1, ID_ProductDetails = 2, ID_Seed = 2, ID_Product = 1, ID_Trader = 1 => DƯA HẤU
-	Insert into SALE_OFFER values (1, 1, 2, 2/2/2019, 20000, 200, 20, 1, 4, 4, 1, 0) -- ID = 2
+	Insert into SALE_OFFER values (1, 1, 2, '2/2/2019', 20000, 200, 20, 1, 4, 4, 1, 0) -- ID = 2
 	Insert into SALE_OFFER_DETAIL values (2, 100, 0, 0) -- ID = 3
 
-	Insert into PURCHASE_OFFER values (1, 1, 1, 2, 2/2/2019, 20000, 180, 0, 0, 4, 4, 1, 0) -- ID =  3
+	Insert into PURCHASE_OFFER values (1, 1, 1, 2, '2/2/2019', 20000, 180, 0, 0, 4, 4, 1, 0) -- ID =  3
 	Insert into PURCHASE_OFFER_DETAIL values (3, 180, 100000, 0) -- ID = 3
 
-	Insert into TRANSACTION_ORDER values (3, 3, 2, '\Data\Image\Trader\Invoices\xxxxxxx', 2/2/2019, 180, N'Tấn', 20000, 370000, 4, 4, 3, 0)
+	Insert into TRANSACTION_ORDER values (3, 3, 2, '\Data\Image\Trader\Invoices\xxxxxxx', '2/2/2019', 180, N'Tấn', 20000, 370000, 4, 4, 3, 0)
 	-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	--ID_Farm = 1, ID_ProductDetails = 3, ID_Seed = 3, ID_Product = 1, ID_Trader = 1 => DƯA HẤU
-	Insert into SALE_OFFER values (1, 1, 3, 3/3/2019, 30000, 300, 30, 1, 5, 5, 3, 0) -- ID = 3
+	Insert into SALE_OFFER values (1, 1, 3, '3/3/2019', 30000, 300, 30, 1, 5, 5, 3, 0) -- ID = 3
 	Insert into SALE_OFFER_DETAIL values (3, 100, 100000, 0) -- ID = 4
 	Insert into SALE_OFFER_DETAIL values (3, 120, 200000, 0 )-- ID = 5
 	Insert into SALE_OFFER_DETAIL values (3, 50, 0, 0)-- ID = 6
 
-	Insert into PURCHASE_OFFER values (1, 1, 1, 3, 3/3/2019, 30000, 100, 0, 0, 6, 6, 1, 0 )-- ID = 4
+	Insert into PURCHASE_OFFER values (1, 1, 1, 3, '3/3/2019', 30000, 100, 0, 0, 6, 6, 1, 0 )-- ID = 4
 	Insert into PURCHASE_OFFER_DETAIL values (4, 100, 0, 0)-- ID = 4
 
-	Insert into PURCHASE_OFFER values (1, 1, 1, 3, 4/4/2019, 30000, 120, 0, 0 , 6, 6, 1, 0)-- ID = 5
+	Insert into PURCHASE_OFFER values (1, 1, 1, 3, '4/4/2019', 30000, 120, 0, 0 , 6, 6, 1, 0)-- ID = 5
 	Insert into PURCHASE_OFFER_DETAIL values (5, 120, 0, 0)-- ID = 5
 
-	Insert into PURCHASE_OFFER values (1, 1, 1, 3, 5/5/2019, 30000, 50, 0, 0, 6, 6, 1, 0)-- ID = 6
+	Insert into PURCHASE_OFFER values (1, 1, 1, 3, '5/5/2019', 30000, 50, 0, 0, 6, 6, 1, 0)-- ID = 6
 	Insert into PURCHASE_OFFER_DETAIL values (6, 50, 0, 0)-- ID = 6
 
-	Insert into TRANSACTION_ORDER values (4, 4, 3, '\Data\Image\Trader\Invoices\xxxxxxx', 5/5/2019, 100, N'Tấn', 30000, 490000, 6, 6, 4, 0)
-	Insert into TRANSACTION_ORDER values (5, 5, 3, '\Data\Image\Trader\Invoices\xxxxxxx', 6/6/2019, 120, N'Tấn', 30000, 570000, 6, 6, 5, 0)
-	Insert into TRANSACTION_ORDER values (6, 6, 3, '\Data\Image\Trader\Invoices\xxxxxxx', 7/7/2019, 50, N'Tấn', 30000, 63000, 6, 6, 6, 0)
+	Insert into TRANSACTION_ORDER values (4, 4, 3, '\Data\Image\Trader\Invoices\xxxxxxx', '5/5/2019', 100, N'Tấn', 30000, 490000, 6, 6, 4, 0)
+	Insert into TRANSACTION_ORDER values (5, 5, 3, '\Data\Image\Trader\Invoices\xxxxxxx', '6/6/2019', 120, N'Tấn', 30000, 570000, 6, 6, 5, 0)
+	Insert into TRANSACTION_ORDER values (6, 6, 3, '\Data\Image\Trader\Invoices\xxxxxxx', '7/7/2019', 50, N'Tấn', 30000, 63000, 6, 6, 6, 0)
 	-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	--ID_Farm = 2, ID_ProductDetails = 10, ID_Seed = 22, ID_Product = 4, ID_Trader = 1
-	Insert into SALE_OFFER values (2, 1, 10, 5/5/2019, 40000, 400, 40, 0, 7, 7, 5, 0) -- ID = 4
+	Insert into SALE_OFFER values (2, 1, 10, '5/5/2019', 40000, 400, 40, 0, 7, 7, 5, 0) -- ID = 4
 	Insert into SALE_OFFER_DETAIL values (4, 40, 100000, 0) -- ID = 7
 	Insert into SALE_OFFER_DETAIL values (4, 100, 0, 0) -- ID = 8
 	Insert into SALE_OFFER_DETAIL values (4, 60, 200000, 0) -- ID = 9
 	Insert into SALE_OFFER_DETAIL values (4, 120, 0, 0) -- ID = 10
 	Insert into SALE_OFFER_DETAIL values (4, 70, 0, 0) -- ID = 11
 
-	Insert into PURCHASE_OFFER values (1, 1, 4, 22, 6/6/2019, 40000, 80, 40, 1, 7, 7, 1, 0) -- ID = 7
+	Insert into PURCHASE_OFFER values (1, 1, 4, 22, '6/6/2019', 40000, 80, 40, 1, 7, 7, 1, 0) -- ID = 7
 	Insert into PURCHASE_OFFER_DETAIL values (7, 40, 100000, 0) -- ID = 7
 
-	Insert into PURCHASE_OFFER values (1, 1, 4, 22, 7/7/2019, 30000, 200, 100, 0, 7, 7, 1, 0) -- ID = 8
+	Insert into PURCHASE_OFFER values (1, 1, 4, 22, '7/7/2019', 30000, 200, 100, 0, 7, 7, 1, 0) -- ID = 8
 	Insert into PURCHASE_OFFER_DETAIL values (8, 100, 20000, 0) -- ID = 8
 
-	Insert into PURCHASE_OFFER values (1, 1, 4, 22, 8/8/2019, 25000, 160, 100, 0, 7, 7, 1, 0) -- ID = 9
+	Insert into PURCHASE_OFFER values (1, 1, 4, 22, '8/8/2019', 25000, 160, 100, 0, 7, 7, 1, 0) -- ID = 9
 	Insert into PURCHASE_OFFER_DETAIL values (9, 60, 50000, 0) -- ID = 9
 
-	Insert into PURCHASE_OFFER values (1, 1, 4, 22, 9/9/2019, 30000, 220, 100, 1, 7, 7, 1, 0) -- ID = 10
+	Insert into PURCHASE_OFFER values (1, 1, 4, 22, '9/9/2019', 30000, 220, 100, 1, 7, 7, 1, 0) -- ID = 10
 	Insert into PURCHASE_OFFER_DETAIL values (10, 120, 0, 0) -- ID = 10
 
-	Insert into PURCHASE_OFFER values (1, 1, 4, 22, 10/10/2019, 40000, 270, 200, 1, 7, 7, 1, 0) -- ID = 11
+	Insert into PURCHASE_OFFER values (1, 1, 4, 22, '10/10/2019', 40000, 270, 200, 1, 7, 7, 1, 0) -- ID = 11
 	Insert into PURCHASE_OFFER_DETAIL values (11, 70, 30000, 0) -- ID = 11
 
-	Insert into TRANSACTION_ORDER values (7, 7, 10, '\Data\Image\Trader\Invoices\xxxxxxx', 5/5/2019, 40, N'Tấn', 40000, 550000, 7, 7, 7, 0)
-	Insert into TRANSACTION_ORDER values (8, 8, 10, '\Data\Image\Trader\Invoices\xxxxxxx', 6/6/2019, 100, N'Tấn', 40000, 680000, 7, 7, 8, 0)
-	Insert into TRANSACTION_ORDER values (9, 9, 10, '\Data\Image\Trader\Invoices\xxxxxxx', 7/6/2019, 60, N'Tấn', 30000, 749000, 7, 7, 9, 0)
-	Insert into TRANSACTION_ORDER values (10, 10, 10, '\Data\Image\Trader\Invoices\xxxxxxx', 8/7/2019, 120, N'Tấn', 30000, 880000, 7, 7, 10, 0)
-	Insert into TRANSACTION_ORDER values (11, 11, 10, '\Data\Image\Trader\Invoices\xxxxxxx', 8/7/2019, 70, N'Tấn', 30000,630000, 7, 7, 11, 0)
+	Insert into TRANSACTION_ORDER values (7, 7, 10, '\Data\Image\Trader\Invoices\xxxxxxx', '5/5/2019', 40, N'Tấn', 40000, 550000, 7, 7, 7, 0)
+	Insert into TRANSACTION_ORDER values (8, 8, 10, '\Data\Image\Trader\Invoices\xxxxxxx', '6/6/2019', 100, N'Tấn', 40000, 680000, 7, 7, 8, 0)
+	Insert into TRANSACTION_ORDER values (9, 9, 10, '\Data\Image\Trader\Invoices\xxxxxxx', '7/6/2019', 60, N'Tấn', 30000, 749000, 7, 7, 9, 0)
+	Insert into TRANSACTION_ORDER values (10, 10, 10, '\Data\Image\Trader\Invoices\xxxxxxx', '8/7/2019', 120, N'Tấn', 30000, 880000, 7, 7, 10, 0)
+	Insert into TRANSACTION_ORDER values (11, 11, 10, '\Data\Image\Trader\Invoices\xxxxxxx', '8/7/2019', 70, N'Tấn', 30000,630000, 7, 7, 11, 0)
 	-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	----ID_Farm = 1, ID_ProductDetails = 4, ID_Seed = 8, ID_Product = 2, ID_Trader = 1
-	Insert into SALE_OFFER values (1, 1, 4, 4/4/2019, 25000, 500, 50, 1, 7, 7, 2, 0) -- ID = 5
+	Insert into SALE_OFFER values (1, 1, 4, '4/4/2019', 25000, 500, 50, 1, 7, 7, 2, 0) -- ID = 5
 	Insert into SALE_OFFER_DETAIL values (5, 200, 200000, 0) -- ID = 12
 	Insert into SALE_OFFER_DETAIL values (5, 250, 0, 0) -- ID = 13
 
-	Insert into PURCHASE_OFFER values (1, 1, 2, 8, 4/4/2019, 15000, 280, 80, 1, 7, 7, 1, 0) -- ID = 12
+	Insert into PURCHASE_OFFER values (1, 1, 2, 8, '4/4/2019', 15000, 280, 80, 1, 7, 7, 1, 0) -- ID = 12
 	Insert into PURCHASE_OFFER_DETAIL values (12, 200, 100000, 0) -- ID = 12
 
-	Insert into PURCHASE_OFFER values (1, 1, 2, 8, 6/6/2019, 20000, 300, 50, 1, 7, 7, 1, 0) -- ID = 13
+	Insert into PURCHASE_OFFER values (1, 1, 2, 8, '6/6/2019', 20000, 300, 50, 1, 7, 7, 1, 0) -- ID = 13
 	Insert into PURCHASE_OFFER_DETAIL values (13, 250, 0, 0) -- ID = 13
 
-	Insert into TRANSACTION_ORDER values (12, 12, 4, '\Data\Image\Trader\Invoices\xxxxxxx', 8/8/2019, 200, N'Tấn', 25000, 550000, 7, 7, 12, 0)
-	Insert into TRANSACTION_ORDER values (13, 13, 4, '\Data\Image\Trader\Invoices\xxxxxxx', 9/9/2019, 250, N'Tấn', 25000, 650000, 7, 7, 13, 0)
+	Insert into TRANSACTION_ORDER values (12, 12, 4, '\Data\Image\Trader\Invoices\xxxxxxx', '8/8/2019', 200, N'Tấn', 25000, 550000, 7, 7, 12, 0)
+	Insert into TRANSACTION_ORDER values (13, 13, 4, '\Data\Image\Trader\Invoices\xxxxxxx', '9/9/2019', 250, N'Tấn', 25000, 650000, 7, 7, 13, 0)
 	-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	----ID_Farm = 1, ID_ProductDetails = 5, ID_Seed = 9, ID_Product = 2, ID_Trader = 1
-	Insert into SALE_OFFER values (1, 1, 5, 5/5/2019, 30000, 400, 40, 1, 7, 7, 2, 0) -- ID = 6
+	Insert into SALE_OFFER values (1, 1, 5, '5/5/2019', 30000, 400, 40, 1, 7, 7, 2, 0) -- ID = 6
 	Insert into SALE_OFFER_DETAIL values (6, 120, 0, 0) -- ID = 14
 	Insert into SALE_OFFER_DETAIL values (6, 140, 0, 0) -- ID = 15
 
-	Insert into PURCHASE_OFFER values (1, 1, 2, 9, 6/6/2019, 30000, 180, 60, 1, 7, 7, 1, 0) -- ID = 14
+	Insert into PURCHASE_OFFER values (1, 1, 2, 9, '6/6/2019', 30000, 180, 60, 1, 7, 7, 1, 0) -- ID = 14
 	Insert into PURCHASE_OFFER_DETAIL values (14, 120, 130000, 0) -- ID = 14
 
-	Insert into PURCHASE_OFFER values (1, 1, 2, 9, 6/6/2019, 30000, 240, 100, 0, 7, 7, 1, 0) -- ID = 15
+	Insert into PURCHASE_OFFER values (1, 1, 2, 9, '6/6/2019', 30000, 240, 100, 0, 7, 7, 1, 0) -- ID = 15
 	Insert into PURCHASE_OFFER_DETAIL values (15, 140, 200000, 0) -- ID = 15
 
-	Insert into TRANSACTION_ORDER values (14, 14, 5, '\Data\Image\Trader\Invoices\xxxxxxx', 7/7/2019, 120, N'Tấn', 30000, 450000, 7, 7, 14, 0)
-	Insert into TRANSACTION_ORDER values (15, 15, 5, '\Data\Image\Trader\Invoices\xxxxxxx', 8/8/2019, 140, N'Tấn', 30000, 550000, 7, 7, 15, 0)
+	Insert into TRANSACTION_ORDER values (14, 14, 5, '\Data\Image\Trader\Invoices\xxxxxxx', '7/7/2019', 120, N'Tấn', 30000, 450000, 7, 7, 14, 0)
+	Insert into TRANSACTION_ORDER values (15, 15, 5, '\Data\Image\Trader\Invoices\xxxxxxx', '8/8/2019', 140, N'Tấn', 30000, 550000, 7, 7, 15, 0)
 	-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	----ID_Farm = 1, ID_ProductDetails = 6, ID_Seed = 10, ID_Product = 2, ID_Trader = 1
 
-	Insert into SALE_OFFER values (1, 1, 6, 3/3/2019, 40000, 300, 30, 1, 7, 7, 1, 0) -- ID = 7
+	Insert into SALE_OFFER values (1, 1, 6, '3/3/2019', 40000, 300, 30, 1, 7, 7, 1, 0) -- ID = 7
 	Insert into SALE_OFFER_DETAIL values (7, 270, 0, 0)-- ID = 16
 
-	Insert into PURCHASE_OFFER values (1, 1, 2, 10, 5/5/2019, 35000, 300, 30, 1, 7, 7, 1, 0)-- ID = 16
+	Insert into PURCHASE_OFFER values (1, 1, 2, 10, '5/5/2019', 35000, 300, 30, 1, 7, 7, 1, 0)-- ID = 16
 	Insert into PURCHASE_OFFER_DETAIL values (16, 270, 200000, 0)-- ID = 16
 
-	Insert into TRANSACTION_ORDER values (16, 16, 6, '\Data\Image\Trader\Invoices\xxxxxxx', 7/7/2019, 270, N'Tấn', 40000, 800000, 7, 7, 16, 0)
+	Insert into TRANSACTION_ORDER values (16, 16, 6, '\Data\Image\Trader\Invoices\xxxxxxx', '7/7/2019', 270, N'Tấn', 40000, 800000, 7, 7, 16, 0)
 	-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	--** TOPIC **--
@@ -369,10 +360,27 @@ begin tran
 	Insert into TOPIC (Name_Topic) values(N'Góp ý')
 	Insert into TOPIC (Name_Topic) values(N'Tố cáo ')
 
+	--** FARMER_PREFERENCE **--
+	Insert into FARMER_PREFERENCE values (1, '1/1/2019')
+	Insert into FARMER_PREFERENCE values (2, '2/2/2019')
+	Insert into FARMER_PREFERENCE values (3, '3/3/2019')
+
+	--** FARMER_PREFERENCE_DETAIL **--
+	Insert into FARMER_PREFERENCE_DETAIL values (1, 1, 0)
+	Insert into FARMER_PREFERENCE_DETAIL values (1, 2, 0)
+	Insert into FARMER_PREFERENCE_DETAIL values (1, 3, 0)
+	Insert into FARMER_PREFERENCE_DETAIL values (1, 4, 0)
+
+	Insert into FARMER_PREFERENCE_DETAIL values (2, 3, 0)
+	Insert into FARMER_PREFERENCE_DETAIL values (2, 4, 0)
+	Insert into FARMER_PREFERENCE_DETAIL values (2, 5, 0)
+
+	Insert into FARMER_PREFERENCE_DETAIL values (3, 1, 0)
+
 	--** TRADER_PREFERENCE **--
-	Insert into TRADER_PREFERENCE values (1, 1/1/2019)
-	Insert into TRADER_PREFERENCE values (2, 2/2/2019)
-	Insert into TRADER_PREFERENCE values (3, 3/3/2019)
+	Insert into TRADER_PREFERENCE values (1, '1/1/2019')
+	Insert into TRADER_PREFERENCE values (2, '2/2/2019')
+	Insert into TRADER_PREFERENCE values (3, '3/3/2019')
 
 	--** TRADER_PREFERENCE_DETAIL **--
 	Insert into TRADER_PREFERENCE_DETAIL values (1, 1, 0)
@@ -381,8 +389,7 @@ begin tran
 	Insert into TRADER_PREFERENCE_DETAIL values (2, 3, 0)
 	Insert into TRADER_PREFERENCE_DETAIL values (2, 4, 0)
 
-	Insert into TRADER_PREFERENCE_DETAIL values (2, 5, 0)
-	Insert into TRADER_PREFERENCE_DETAIL values (2, 1, 0)
+	Insert into TRADER_PREFERENCE_DETAIL values (3, 1, 0)
 
 	--** FEED_BACK **--
 

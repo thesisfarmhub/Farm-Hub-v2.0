@@ -30,7 +30,7 @@ Create Table USER_AUTHENTICATION
 	Id_UserKind tinyint,
 	Name_User varchar(50),
 	Password_User varchar(50),
-	Created_Date datetime,
+	Created_Date date,
 	Penalty tinyint,
 	Status_User tinyint not null,
 	Is_Deleted bit
@@ -43,38 +43,20 @@ Create Table FARMER
 	Id_Farmer int not null primary key identity(1,1),
 	Id_User int,
 	Name_Farmer nvarchar(50),
-	Birthday_Farmer datetime,
+	Birthday_Farmer date,
 	Gender_Farmer bit,
 	Address_Farmer nvarchar(200),
 	Telephone_Farmer nvarchar(10),
 	Email_Farmer nvarchar(100),
+	Number_Of_Successful_Trans int ,
+	Number_Of_Cancelled_Trans int,
+	Prestige_Point float,
+	Status_Farmer tinyint,
 	Is_Deleted bit
 	-- Foreign Key --
 	Foreign Key (Id_User) references USER_AUTHENTICATION(Id_User)
 );
 
---Create Table FARMER_REGISTER
---(
---	Id_FarmerRegister int not null primary key identity(1,1),
---	Id_User int ,
---	Id_Farmer int,
-
---	Foreign Key (Id_User) references USER_AUTHENTICATION(Id_User),
---	Foreign Key (Id_Farmer) references FARMER(Id_Farmer)
---);
-
--- Nhập tiêu chí phân loại nông sản và thông tin các loại giống -- ✔
---Create Table CLASSIFICATION
---(
---	Id_Classification int not null primary key identity(1,1),
---	Name_Classification nvarchar(50),
---	Packing_Specifications nvarchar(50),
---	Color_Classification nvarchar(50),
---	Weight_Classification int,
---	Size_Classification nvarchar(50),
---	Is_Deleted bit
---	-- Foreign Key --
---);
 
  --Nhập thông tin nông sản sẽ trồng ở Nông Trại -- ✔
 Create Table PRODUCT_KIND
@@ -105,6 +87,11 @@ Create Table FARM
 	City_Farm nvarchar(50),
 	Acreage int,
 	Description_Farm nvarchar(250),
+	Penalty tinyint,
+	Number_Of_Successful_Trans int ,
+	Number_Of_Cancelled_Trans int,
+	Prestige_Point float,
+	Status_Farm tinyint,
 	Is_Deleted bit
 	-- Foreign Key --
 	Foreign Key (Id_Farmer) references FARMER(Id_Farmer)
@@ -127,9 +114,10 @@ Create Table SEED
 	Id_Product int,
 	Name_Seed nvarchar(50),
 	Code_Seed nvarchar(50),
-	Is_Deleted bit	
+	Is_Deleted bit
+
+	Foreign Key (Id_Product) references PRODUCT(Id_Product),
 	-- Foreign Key -- 
-	Foreign Key (Id_Product) references PRODUCT(Id_Product)
 );
 
 Create table PRODUCT_DETAIL
@@ -140,13 +128,8 @@ Create table PRODUCT_DETAIL
 	Id_Seed int,
 	Geography_Location nvarchar(50),
 	Image_ProductDetail varchar(200),
-	Min_Mass int,
-	--Crop--
 	Name_Crop nvarchar(50),
-	Start_Time datetime,
-	End_Time datetime,
-	Harvest_StartTime datetime,
-	Harvest_EndTime datetime,
+	Harvest_Time date,
 	Quantity_Expected int,
 	--Crop--	
 	Is_Deleted bit
@@ -169,22 +152,6 @@ Create table PRODUCT_DETAIL
 --	Foreign Key (Id_ProductDetail) references PRODUCT_DETAIL(Id_ProductDetail)
 --);
 
--- Xem lịch sử giá giao dịch của các vụ mùa trước -- ✔
-Create Table MARKET_TRANS_HIS
-(
-	Id_MarketTransHis int not null primary key identity(1,1),
-	Id_ProductDetail int,
-	Id_MassUnit tinyint,
-	City_Market nvarchar(50),
-	Average_TransPrice int,
-	Average_OfferPrice int,
-	Average_PurchasePrice int,
-	Product_SupplyQuantity int,
-	-- Foreign Key --
-	Foreign Key (Id_ProductDetail) references PRODUCT_DETAIL(Id_ProductDetail),
-	Foreign Key (Id_MassUnit) references MASS_UNIT(Id_MassUnit)
-);
-
 
 
 -- Đặt bán theo vụ mùa -- ✔
@@ -194,7 +161,7 @@ Create Table SALE_OFFER
 	Id_Farm int,
 	Id_MassUnit tinyint,
 	Id_ProductDetail int,
-	Date_SaleOffer datetime,
+	Date_SaleOffer date,
 	Price_Offer int,
 	Quantity_SaleOffer int,	
 	Remain_SaleQuantity int,
@@ -217,7 +184,7 @@ Create Table SALE_OFFER_DETAIL
 	Quantity_SaleOfferDetail int,
 	Fine int,			
 	Is_Deleted bit
-	--Date_SaleOfferDetail datetime,
+	--Date_SaleOfferDetail date,
 	--Total_Money int,
 	--Id_StatusTrans tinyint,
 	-- Foreign Key --
@@ -233,11 +200,15 @@ Create Table TRADER
 	Id_Trader int not null primary key identity(1,1),
 	Id_User int,
 	Name_Trader nvarchar(50),
-	Birthday_Trader datetime,
+	Birthday_Trader date,
 	Gender_Trader bit,
 	Address_Trader nvarchar(200),
 	Telephone_Trader nvarchar(10),
 	Email_Trader nvarchar(100),
+	Number_Of_Successful_Trans int ,
+	Number_Of_Cancelled_Trans int,
+	Prestige_Point float,
+	Status_Trader tinyint,
 	Is_Deleted bit
 	-- Foreign Key --
 	Foreign Key (Id_User) references USER_AUTHENTICATION(Id_User)
@@ -260,7 +231,7 @@ Create Table PURCHASE_OFFER
 	Id_MassUnit tinyint,
 	Id_Product int,
 	Id_Seed int,
-	Date_PurchaseOffer datetime,
+	Date_PurchaseOffer date,
 	Price_Purchase int,
 	Quantity_PurchaseOffer int,	
 	Remain_PurchaseQuantity int,
@@ -285,7 +256,7 @@ Create Table PURCHASE_OFFER_DETAIL
 	Fine int,		
 	Is_Deleted bit
 	--Total_Money int,
-	--Date_PurchaseOfferDetail datetime,
+	--Date_PurchaseOfferDetail date,
 	--Id_StatusTrans tinyint,
 	-- Foreign Key --
 	Foreign Key (Id_PurchasesOffer) references PURCHASE_OFFER(Id_PurchasesOffer),
@@ -300,7 +271,7 @@ Create Table TRANSACTION_ORDER
 	Id_PurchaseOfferDetail int,
 	Id_ProductDetail int,	
 	Image_Invoice varchar(200),	
-	Transaction_Date datetime,
+	Transaction_Date date,
 	Transaction_Mass int,
 	Transaction_Unitmass nvarchar(10),
 	Transaction_Price int,
@@ -321,11 +292,12 @@ Create Table TRADER_PREFERENCE
 (
 	Id_TraderPreference int not null primary key identity(1,1),
 	Id_Trader int,
-	Created_Date datetime
+	Created_Date date
 	-- Foreign Key --
 	Foreign Key (Id_Trader) references TRADER(Id_Trader)
 	
 );
+
 
 Create Table TRADER_PREFERENCE_DETAIL
 (
@@ -346,7 +318,7 @@ Create Table FARMER_PREFERENCE
 (
 	Id_FarmerPreference int not null primary key identity(1,1),
 	Id_Farmer int,
-	Created_Date datetime
+	Created_Date date
 	-- Foreign Key --
 	Foreign Key (Id_Farmer) references FARMER(Id_Farmer)
 	
@@ -356,13 +328,13 @@ Create Table FARMER_PREFERENCE_DETAIL
 (
 	Id_FarmerPreferenceDetail int not null primary key identity(1,1),
 	Id_FarmerPreference int,
-	Id_Product int,
+	Id_ProductKind int,
 	--PriceFrom int,
 	--PriceTo int,
 	Is_Deleted bit
 	-- Foreign Key --
 	Foreign Key (Id_FarmerPreference) references FARMER_PREFERENCE(Id_FarmerPreference),
-	Foreign Key (Id_Product) references PRODUCT(Id_Product)
+	Foreign Key (Id_ProductKind) references PRODUCT_KIND(Id_ProductKind)
 );
 
 Create Table TOPIC(

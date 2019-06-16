@@ -35,6 +35,16 @@ namespace Model.EF
         [StringLength(250)]
         public string Description_Farm { get; set; }
 
+        public byte? Penalty { get; set; }
+
+        public int? Number_Of_Successful_Trans { get; set; }
+
+        public int? Number_Of_Cancelled_Trans { get; set; }
+
+        public double? Prestige_Point { get; set; }
+
+        public byte? Status_Farm { get; set; }
+
         public bool? Is_Deleted { get; set; }
 
         public virtual FARMER FARMER { get; set; }

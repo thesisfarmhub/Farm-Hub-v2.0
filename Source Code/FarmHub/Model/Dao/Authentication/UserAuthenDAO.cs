@@ -24,7 +24,7 @@ namespace Model.Dao.Authentication
         // ListAllActive
         public List<USER_AUTHENTICATION> ListAllActive()
         {
-            return db.USER_AUTHENTICATION.Where(x => x.Status_User == 1).OrderByDescending(x => x.Id_User).ToList();
+            return db.USER_AUTHENTICATION.Where(x => x.Status_User == true).OrderByDescending(x => x.Id_User).ToList();
         }
 
         // Detail
@@ -37,7 +37,7 @@ namespace Model.Dao.Authentication
         public int Create(USER_AUTHENTICATION userAuthenModel)
         {
             userAuthenModel.Created_Date = DateTime.Now;
-            userAuthenModel.Status_User = 1;
+            userAuthenModel.Status_User = true;
             db.USER_AUTHENTICATION.Add(userAuthenModel);
             db.SaveChanges();
             return userAuthenModel.Id_User;

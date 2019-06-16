@@ -11,60 +11,67 @@
 
 <!-- Start Client Testimonial section -->
 <section id="mu-client-testimonial">
-    <div class="mu-overlay" style="background-color:#808080">
+    <div class="mu-overlay">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="mu-client-testimonial-area">
-                        <div class="mu-title">
-                            <span class="mu-subtitle">Nông Trại</span>
-                            <h2>BẠN CÓ CHẮC LÀ MÌNH SẼ XÓA NÔNG TRẠI NÀY KHÔNG ?!</h2>
-                            <i style="margin-right: -9px" class="fas fa-tractor"></i>
-                            <span class="mu-title-bar"></span>
-                        </div>
-                        <!-- testimonial content -->
-                        <div class="mu-testimonial-content">
-                            @Html.ValidationSummary(true, "", new { @class = "alert alert-danger", @role = "alert", @style = "text-align: center" })
-                            <!-- testimonial slider -->
-                            <ul class="mu-testimonial-slider">
-                                <li>
-                                    <div class="mu-testimonial-single">
-                                        <div class="mu-testimonial-bio">
-                                            <p>Tên Trang Trại: @Model.Name_Farm</p>
-                                            <br />
-                                            <p>Địa Chỉ: @Model.Address_Farm</p>
-                                            <br />
-                                            <p>Thành Phố: @Model.Address_Farm</p>
-                                            <br />
-                                            <p>Diện Tích: @Model.Acreage</p>
-                                            <br />
-                                            <p>Tình Trạng: <span class="label label-success">Đang Hoạt Động</span></p>
-                                            <br />
-                                            <p>@Model.Description_Farm</p>
-                                        </div>
-                                        <div class="mu-testimonial-bio">
-                                            <p> - @Model.FARMER.Name_Farmer - </p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="mu-client-testimonial-area">
+                                <div class="mu-title">
+                                    <span class="mu-subtitle">Nông Trại</span>
+                                    <h2>XÓA NÔNG TRẠI NÀY ?</h2>
+                                    <i style="margin-right: -9px" class="fas fa-tractor"></i>
+                                    <span class="mu-title-bar"></span>
+                                </div>
+                                <!-- testimonial content -->
+                                <div class="mu-testimonial-content">
+                                    @Html.ValidationSummary(true, "", new { @class = "alert alert-danger", @role = "alert", @style = "text-align: center" })
+                                    <!-- testimonial slider -->
+                                    <ul class="mu-testimonial-slider">
+                                        <li>
+                                            <div class="mu-testimonial-single">
+                                                <div class="mu-testimonial-bio">
+                                                    <p>Tên Trang Trại: @Model.Name_Farm</p>
+                                                    <br />
+                                                    <p>Địa Chỉ: @Model.Address_Farm</p>
+                                                    <br />
+                                                    <p>Thành Phố: @Model.Address_Farm</p>
+                                                    <br />
+                                                    <p>Diện Tích: @Model.Acreage</p>
+                                                    <br />
+                                                    <p>Tình Trạng: <span class="label label-success">Đang Hoạt Động</span></p>
+                                                    <br />
+                                                    <p>@Model.Description_Farm</p>
+                                                </div>
+                                                <div class="mu-testimonial-bio">
+                                                    <p> - @Model.FARMER.Name_Farmer - </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            @using (Html.BeginForm())
+                            {
+                                @Html.AntiForgeryToken()
+
+                                <center>
+
+                                    <button type="submit" class="mu-readmore-btn">Xác Nhận Xóa</button>
+
+                                    <button type="button" onclick="location.href = '@Url.Action("Index","Farm", new { id = Model.FARMER.Id_Farmer })'" class="mu-readmore-btn">Quay Về</button>
+                                </center>
+
+                            }
+
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
-        @using (Html.BeginForm())
-        {
-            @Html.AntiForgeryToken()
-
-            <center>
-
-                <button type="submit" class="mu-readmore-btn">Xác Nhận Xóa</button>
-
-                <button type="button" onclick="location.href = '@Url.Action("Index","Farm", new { id = Model.FARMER.Id_Farmer })'" class="mu-readmore-btn">Quay Về</button>
-            </center>
-
-        }
     </div>
 </section>
 <!-- End Client Testimonial section -->

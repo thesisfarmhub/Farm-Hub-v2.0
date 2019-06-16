@@ -1,6 +1,7 @@
 ﻿@model FarmHub.Areas.Farmer.Models.FarmerHomePageModel
 
 @{
+
     ViewBag.Title = "Index";
     Layout = "~/Areas/Farmer/Views/Shared/_Layouts.cshtml";
 }
@@ -9,6 +10,7 @@
     <title> Home Page Farmer</title>
 
     <script src="~/Scripts/Chart.min.js"></script>
+    <link href="~/Assets/common/CSS/panel.css" rel="stylesheet" />
 
     <style>
         #chart_container {
@@ -19,35 +21,44 @@
 
 </head>
 
+<div style="padding:30px">
+    <!--div này để căn lề khung TRENDING không bị dính lên trên cùng-->
+</div>
+
 <!-- Start Chef Section - TRENDING: Top 5 nông sản bán chạy/bán ế nhất-->
 <section id="mu-chef">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="mu-chef-area">
-                    <div class="mu-title">
-                        <span class="mu-subtitle">Top 7</span>
-                        <h2>NÔNG SẢN ĐẶT MUA NHIỀU NHẤT</h2>
-                        <i style="margin-right: -9px" class="fas fa-tractor"></i>
-                        <span class="mu-title-bar"></span>
-                    </div>
-                    <div class="mu-chef-content">
-                        <ul class="mu-chef-nav">
-                            @foreach (var item in Model.FarmerListTopProduct)
-                            {
-                                <li>
-                                    <div class="mu-single-chef">
-                                        <figure class="mu-single-chef-img">
-                                            <img src="@item.Image_Product" alt="chef img">
-                                        </figure>
-                                        <div class="mu-single-chef-info">
-                                            <h4>@item.Name_Product</h4>
-                                            <span>@item.Quantity_SaleOffer tấn - @item.Price_Offer VNĐ</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            }
-                        </ul>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                        <div class="mu-chef-area">
+                            <div class="mu-title">
+                                <span class="mu-subtitle">Top 7</span>
+                                <h2>NÔNG SẢN ĐẶT MUA NHIỀU NHẤT</h2>
+                                <i style="margin-right: -9px" class="fas fa-tractor"></i>
+                                <span class="mu-title-bar"></span>
+                            </div>
+                            <div class="mu-chef-content">
+                                <ul class="mu-chef-nav">
+                                    @foreach (var item in Model.FarmerListTopProduct)
+                                    {
+                                        <li>
+                                            <div class="mu-single-chef">
+                                                <figure class="mu-single-chef-img">
+                                                    <img src="@item.Image_Product" alt="chef img">
+                                                </figure>
+                                                <div class="mu-single-chef-info">
+                                                    <h4>@item.Name_Product</h4>
+                                                    <span>@item.Quantity_SaleOffer tấn - @item.Price_Offer VNĐ</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -55,139 +66,229 @@
     </div>
 </section>
 <!-- End Chef Section -->
-<!-- Start NHU CẦU BÁN CỦA TÔI -->
-<section id="mu-chef">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="mu-chef-area">
-                    <div class="mu-title">
-                        <span class="mu-subtitle">Mua Bán</span>
-                        <h2>NHU CẦU BÁN CỦA TÔI</h2>
-                        <i style="margin-right: -9px" class="fas fa-tractor"></i>
-                        <span class="mu-title-bar"></span>
-                    </div>
-                    <div class="mu-chef-content">
-                        <ul class="mu-chef-nav">
-                            @foreach (var item in Model.ListSaleOffer)
-                            {
-                                <li>
-                                    <div class="mu-single-chef">
-                                        <figure class="mu-single-chef-img">
-                                            <img src="@item.PRODUCT_DETAIL.Image_ProductDetail" alt="chef img">
-                                        </figure>
-                                        <div class="mu-single-chef-info">
-                                            <h4>@item.PRODUCT_DETAIL.PRODUCT.Name_Product</h4>
-                                            <span>Giá: @item.Price_Offer VNĐ</span>
-                                            <br />
-                                            <span>Còn lại: @item.Remain_SaleQuantity @item.MASS_UNIT.Name_MassUnit</span>
-                                        </div>
-                                        <div class="mu-single-chef-social">
-                                            <button type="button" class="mu-readmore-btn">Chi Tiết</button>
+
+@if (Model.ListSaleOffer.Count() > 0)
+{
+    <!-- Start NHU CẦU BÁN CỦA TÔI -->
+    <section id="mu-about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="mu-about-us-area">
+                                <div class="mu-title">
+                                    <span class="mu-subtitle">Mua Bán</span>
+                                    <h2>NHU CẦU BÁN CỦA TÔI</h2>
+                                    <i style="margin-right: -9px" class="fas fa-tractor"></i>
+                                    <span class="mu-title-bar"></span>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-md-7">
+                                        <section id="mu-chef">
+                                            <div class="mu-chef-area">
+                                                <div class="mu-chef-content">
+                                                    <ul class="mu-chef-nav">
+                                                        @foreach (var item in Model.ListSaleOffer)
+                                                        {
+                                                            <li>
+                                                                <div class="mu-single-chef">
+                                                                    <figure class="mu-single-chef-img">
+                                                                        <img src="@item.PRODUCT_DETAIL.Image_ProductDetail" alt="chef img">
+                                                                    </figure>
+                                                                    <div class="mu-single-chef-info">
+                                                                        <h4>@item.PRODUCT_DETAIL.PRODUCT.Name_Product</h4>
+                                                                        <span>Giá: @item.Price_Offer VNĐ</span>
+                                                                        <br />
+                                                                        <span>Còn lại: @item.Remain_SaleQuantity @item.MASS_UNIT.Name_MassUnit</span>
+                                                                    </div>
+                                                                    <div class="mu-single-chef-social">
+                                                                        <button type="button" class="mu-readmore-btn">Chi Tiết</button>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        }
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+
+                                    <div class="col-md-5">
+                                        <div class="mu-about-us-right">
+
+                                            <div id="chart_container">
+                                                <canvas id="bar_chart3"></canvas>
+                                            </div>
+
+                                            <div id="chart_container">
+                                                <canvas id="bar_chart4"></canvas>
+                                            </div>
+
                                         </div>
                                     </div>
-                                </li>
-                            }
-                        </ul>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End NHU CẦU BÁN CỦA TÔI -->
-<!--ChartJS  NHU CẦU BÁN CỦA TÔI-->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="mu-chef-area">
-                <div class="mu-chef-content">
+    </section>
+    <!-- End NHU CẦU BÁN CỦA TÔI -->
+}
 
-                    <div class="col-md-6">
-                        <div id="chart_container">
-                            <canvas id="bar_chart3"></canvas>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div id="chart_container">
-                            <canvas id="bar_chart4"></canvas>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--End ChartJS  NHU CẦU BÁN CỦA TÔI-->
-<!-- NHU CẦU MUA PHÙ HỢP -->
-<section id="mu-chef">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="mu-chef-area">
-                    <div class="mu-title">
-                        <span class="mu-subtitle">Mua Bán</span>
-                        <h2>NHU CẦU MUA PHÙ HỢP</h2>
-                        <i style="margin-right: -9px" class="fas fa-tractor"></i>
-                        <span class="mu-title-bar"></span>
-                    </div>
-                    <div class="mu-chef-content">
-                        <ul class="mu-chef-nav">
-                            @foreach (var item in Model.SuitablePurchaseOffer)
-                            {
-                                foreach (var subItem in item)
-                                {
-                                    <li>
-                                        <div class="mu-single-chef">
-                                            <figure class="mu-single-chef-img">
-                                                <img src="@subItem.PRODUCT.Image_Product" alt="chef img">
-                                            </figure>
-                                            <div class="mu-single-chef-info">
-                                                <h4>@subItem.PRODUCT.Name_Product</h4>
-                                                <span>Giá: @subItem.Price_Purchase VNĐ</span>
-                                                <br />
-                                                <span>Còn lại: @subItem.Remain_PurchaseQuantity @subItem.MASS_UNIT.Name_MassUnit</span>
+@if (Model.SuitablePurchaseOffer.Count() > 0)
+{
+    <!-- NHU CẦU MUA PHÙ HỢP -->
+    <section id="mu-about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="mu-about-us-area">
+                                <div class="mu-title">
+                                    <span class="mu-subtitle">Mua Bán</span>
+                                    <h2>NHU CẦU MUA PHÙ HỢP</h2>
+                                    <i style="margin-right: -9px" class="fas fa-tractor"></i>
+                                    <span class="mu-title-bar"></span>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-md-7">
+                                        <section id="mu-chef">
+                                            <div class="mu-chef-area">
+                                                <div class="mu-chef-content">
+                                                    <ul class="mu-chef-nav">
+                                                        @foreach (var item in Model.SuitablePurchaseOffer)
+                                                        {
+                                                            foreach (var subItem in item)
+                                                            {
+                                                                <li>
+                                                                    <div class="mu-single-chef">
+                                                                        <figure class="mu-single-chef-img">
+                                                                            <img src="@subItem.PRODUCT.Image_Product" alt="chef img">
+                                                                        </figure>
+                                                                        <div class="mu-single-chef-info">
+                                                                            <h4>@subItem.PRODUCT.Name_Product</h4>
+                                                                            <span>Giá: @subItem.Price_Purchase VNĐ</span>
+                                                                            <br />
+                                                                            <span>Còn lại: @subItem.Remain_PurchaseQuantity @subItem.MASS_UNIT.Name_MassUnit</span>
+                                                                        </div>
+                                                                        <div class="mu-single-chef-social">
+                                                                            <button type="button" class="mu-readmore-btn">Chi Tiết</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            }
+                                                        }
+                                                    </ul>
+                                                </div>
                                             </div>
-                                            <div class="mu-single-chef-social">
-                                                <button type="button" class="mu-readmore-btn">Chi Tiết</button>
+                                        </section>
+                                    </div>
+
+                                    <div class="col-md-5">
+                                        <div class="mu-about-us-right">
+
+                                            <div id="chart_container">
+                                                <canvas id="bar_chart"></canvas>
                                             </div>
+
+                                            <div id="chart_container">
+                                                <canvas id="bar_chart2"></canvas>
+                                            </div>
+
                                         </div>
-                                    </li>
-                                }
-                            }
-                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- NHU CẦU MUA PHÙ HỢP -->
-<!--ChartJS  NHU CẦU BÁN PHÙ HỢP-->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="mu-chef-area">
-                <div class="mu-chef-content">
+    </section>
+    <!-- NHU CẦU MUA PHÙ HỢP -->
+}
+else
+{
+    <!-- CÓ THỂ BẠN QUAN TÂM -->
+    <section id="mu-about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="mu-about-us-area">
+                                <div class="mu-title">
+                                    <span class="mu-subtitle">Mua Bán</span>
+                                    <h2>CÓ THỂ BẠN QUAN TÂM</h2>
+                                    <i style="margin-right: -9px" class="fas fa-tractor"></i>
+                                    <span class="mu-title-bar"></span>
+                                </div>
+                                <div class="row">
 
-                    <div class="col-md-6">
-                        <div id="chart_container">
-                            <canvas id="bar_chart"></canvas>
+                                    <div class="col-md-7">
+                                        <section id="mu-chef">
+                                            <div class="mu-chef-area">
+                                                <div class="mu-chef-content">
+                                                    <ul class="mu-chef-nav">
+                                                        @foreach (var item in Model.PurchaseOfferYouMayLike)
+                                                        {
+                                                            <li>
+                                                                <div class="mu-single-chef">
+                                                                    <figure class="mu-single-chef-img">
+                                                                        <img src="@item.PRODUCT.Image_Product" alt="chef img">
+                                                                    </figure>
+                                                                    <div class="mu-single-chef-info">
+                                                                        <h4>@item.PRODUCT.Name_Product</h4>
+                                                                        <span>Giá: @item.Price_Purchase VNĐ</span>
+                                                                        <br />
+                                                                        <span>Còn lại: @item.Remain_PurchaseQuantity @item.MASS_UNIT.Name_MassUnit</span>
+                                                                    </div>
+                                                                    <div class="mu-single-chef-social">
+                                                                        <button title="Xem chi tiết" type="button" class="mu-readmore-btn">Chi tiết</button>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        }
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+
+                                    <div class="col-md-5">
+                                        <div class="mu-about-us-right">
+
+                                            <div id="chart_container">
+                                                <canvas id="bar_chart"></canvas>
+                                            </div>
+
+                                            <div id="chart_container">
+                                                <canvas id="bar_chart2"></canvas>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div id="chart_container">
-                            <canvas id="bar_chart2"></canvas>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<!--End ChartJS  NHU CẦU BÁN PHÙ HỢP-->
+    </section>
+    <!-- CÓ THỂ BẠN QUAN TÂM -->
+}
+
 <!-- ChartJS Script-->
 <script>
 
@@ -210,20 +311,20 @@
                     fill: false,
                     data: numberOfOffers,
                     backgroundColor: [
-                        'rgba(255, 99, 132, 0.2)',
-                        'rgba(54, 162, 235, 0.2)',
-                        'rgba(255, 206, 86, 0.2)',
-                        'rgba(75, 192, 192, 0.2)',
+                        //'rgba(255, 99, 132, 0.2)',
+                        //'rgba(54, 162, 235, 0.2)',
+                        //'rgba(255, 206, 86, 0.2)',
+                        //'rgba(75, 192, 192, 0.2)',
                         'rgba(153, 102, 255, 0.2)',
-                        'rgba(255, 159, 64, 0.2)'
+                        //'rgba(255, 159, 64, 0.2)'
                     ],
                     borderColor: [
-                        'rgba(255, 99, 132, 1)',
-                        'rgba(54, 162, 235, 1)',
-                        'rgba(255, 206, 86, 1)',
-                        'rgba(75, 192, 192, 1)',
+                        //'rgba(255, 99, 132, 1)',
+                        //'rgba(54, 162, 235, 1)',
+                        //'rgba(255, 206, 86, 1)',
+                        //'rgba(75, 192, 192, 1)',
                         'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)'
+                        //'rgba(255, 159, 64, 1)'
                     ],
                     boderWidth: 1
                 }
@@ -280,20 +381,20 @@
                     fill: false,
                     data: prices,
                     backgroundColor: [
-                        'rgba(255, 99, 132, 0.2)',
-                        'rgba(54, 162, 235, 0.2)',
+                        //'rgba(255, 99, 132, 0.2)',
+                        //'rgba(54, 162, 235, 0.2)',
                         'rgba(255, 206, 86, 0.2)',
-                        'rgba(75, 192, 192, 0.2)',
-                        'rgba(153, 102, 255, 0.2)',
-                        'rgba(255, 159, 64, 0.2)'
+                        //'rgba(75, 192, 192, 0.2)',
+                        //'rgba(153, 102, 255, 0.2)',
+                        //'rgba(255, 159, 64, 0.2)'
                     ],
                     borderColor: [
-                        'rgba(255, 99, 132, 1)',
-                        'rgba(54, 162, 235, 1)',
+                        //'rgba(255, 99, 132, 1)',
+                        //'rgba(54, 162, 235, 1)',
                         'rgba(255, 206, 86, 1)',
-                        'rgba(75, 192, 192, 1)',
-                        'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)'
+                        //'rgba(75, 192, 192, 1)',
+                        //'rgba(153, 102, 255, 1)',
+                        //'rgba(255, 159, 64, 1)'
                     ],
                     boderWidth: 1
                 }
@@ -350,20 +451,20 @@
                     fill: false,
                     data: soNumberOfOffers,
                     backgroundColor: [
-                        'rgba(255, 99, 132, 0.2)',
-                        'rgba(54, 162, 235, 0.2)',
-                        'rgba(255, 206, 86, 0.2)',
-                        'rgba(75, 192, 192, 0.2)',
+                        //'rgba(255, 99, 132, 0.2)',
+                        //'rgba(54, 162, 235, 0.2)',
+                        //'rgba(255, 206, 86, 0.2)',
+                        //'rgba(75, 192, 192, 0.2)',
                         'rgba(153, 102, 255, 0.2)',
-                        'rgba(255, 159, 64, 0.2)'
+                        //'rgba(255, 159, 64, 0.2)'
                     ],
                     borderColor: [
-                        'rgba(255, 99, 132, 1)',
-                        'rgba(54, 162, 235, 1)',
-                        'rgba(255, 206, 86, 1)',
-                        'rgba(75, 192, 192, 1)',
+                        //'rgba(255, 99, 132, 1)',
+                        //'rgba(54, 162, 235, 1)',
+                        //'rgba(255, 206, 86, 1)',
+                        //'rgba(75, 192, 192, 1)',
                         'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)'
+                        //'rgba(255, 159, 64, 1)'
                     ],
                     boderWidth: 1
                 }
@@ -420,20 +521,20 @@
                     fill: false,
                     data: soPrices,
                     backgroundColor: [
-                        'rgba(255, 99, 132, 0.2)',
-                        'rgba(54, 162, 235, 0.2)',
+                        //'rgba(255, 99, 132, 0.2)',
+                        //'rgba(54, 162, 235, 0.2)',
                         'rgba(255, 206, 86, 0.2)',
-                        'rgba(75, 192, 192, 0.2)',
-                        'rgba(153, 102, 255, 0.2)',
-                        'rgba(255, 159, 64, 0.2)'
+                        //'rgba(75, 192, 192, 0.2)',
+                        //'rgba(153, 102, 255, 0.2)',
+                        //'rgba(255, 159, 64, 0.2)'
                     ],
                     borderColor: [
-                        'rgba(255, 99, 132, 1)',
-                        'rgba(54, 162, 235, 1)',
+                        //'rgba(255, 99, 132, 1)',
+                        //'rgba(54, 162, 235, 1)',
                         'rgba(255, 206, 86, 1)',
-                        'rgba(75, 192, 192, 1)',
-                        'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)'
+                        //'rgba(75, 192, 192, 1)',
+                        //'rgba(153, 102, 255, 1)',
+                        //'rgba(255, 159, 64, 1)'
                     ],
                     boderWidth: 1
                 }

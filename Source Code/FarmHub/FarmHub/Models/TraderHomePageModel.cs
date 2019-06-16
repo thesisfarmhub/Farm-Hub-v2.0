@@ -11,5 +11,7 @@ namespace FarmHub.Models
         public List<List<SALE_OFFER>> SuitalbeSaleOffers { get; set; }
 
         public List<TopProductDetailsDTO> ListTopProducts { get; set; }
+
+        public List<SALE_OFFER> SaleOfferYouMayLike { get; set; }
     }
 }

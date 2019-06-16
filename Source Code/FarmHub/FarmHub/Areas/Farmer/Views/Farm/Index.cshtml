@@ -16,55 +16,63 @@
 
 </head>
 
+<div style="padding:30px">
+    <!--div này để căn lề khung TRENDING không bị dính lên trên cùng-->
+</div>
+
 <!-- Start About us -->
 <section id="mu-about-us">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="mu-about-us-area">
-                    <div class="mu-title">
-                        <span class="mu-subtitle">Farm</span>
-                        <h2>QUẢN LÝ NÔNG TRẠI</h2>
-                        <i style="margin-right: -9px" class="fas fa-tractor"></i>
-                        <span class="mu-title-bar"></span>
-                    </div>
-                    <div class="row">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="mu-about-us-area">
+                            <div class="mu-title">
+                                <span class="mu-subtitle">Farm</span>
+                                <h2>QUẢN LÝ NÔNG TRẠI</h2>
+                                <i style="margin-right: -9px" class="fas fa-tractor"></i>
+                                <span class="mu-title-bar"></span>
+                            </div>
+                            <div class="row">
 
-                        <table class="table table-hover">
-                            <thead>
-                                <tr>
-                                    <th>Tên nông trại</th>
-                                    <th>Địa chỉ</th>
-                                    <th>Thành phố</th>
-                                    <th>Diện tích</th>
-                                    <th>Thao tác</th>
-                                </tr>
-                            </thead>
+                                <table class="table table-hover ">
+                                    <thead>
+                                        <tr>
+                                            <th>Tên nông trại</th>
+                                            <th>Địa chỉ</th>
+                                            <th>Thành phố</th>
+                                            <th>Diện tích</th>
+                                            <th>Thao tác</th>
+                                        </tr>
+                                    </thead>
 
-                            <tbody>
-                                @foreach (var item in Model)
-                                {
-                                    <tr>
-                                        <td>@Html.DisplayFor(modelItem => item.Name_Farm)</td>
-                                        <td>@Html.DisplayFor(modelItem => item.Address_Farm)</td>
-                                        <td>@Html.DisplayFor(modelItem => item.City_Farm)</td>
-                                        <td>@Html.DisplayFor(modelItem => item.Acreage)</td>
-                                        <td>
-                                            <button class="btn btn-warning" onclick="location.href = '@Url.Action("Edit","Farm", new { id = item.Id_Farm })'" title="Chỉnh sửa"><span class=" fas fa-edit"></span></button>
-                                            <button class="btn btn-info" onclick="location.href = '@Url.Action("Details","Farm", new { id = item.Id_Farm })'" title="Xem chi tiết"><span class="fa fa-info"></span></button>
-                                            <button class="btn btn-danger" onclick="location.href = '@Url.Action("Delete","Farm", new { id = item.Id_Farm })'" title="Xóa"><span class="fa fa-trash"></span></button>
-                                            <button class="btn btn-success" onclick="location.href = '@Url.Action("Index","ProductDetails", new { id = item.Id_Farm })'" title="Danh sách nông sản"><span class="fa fa-list-ol"></span></button>
-                                        </td>
-                                    </tr>
-                                }
-                            </tbody>
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td>@Html.DisplayFor(modelItem => item.Name_Farm)</td>
+                                                <td>@Html.DisplayFor(modelItem => item.Address_Farm)</td>
+                                                <td>@Html.DisplayFor(modelItem => item.City_Farm)</td>
+                                                <td>@Html.DisplayFor(modelItem => item.Acreage)</td>
+                                                <td>
+                                                    <button class="btn btn-warning" onclick="location.href = '@Url.Action("Edit","Farm", new { id = item.Id_Farm })'" title="Chỉnh sửa"><span class=" fas fa-edit"></span></button>
+                                                    <button class="btn btn-info" onclick="location.href = '@Url.Action("Details","Farm", new { id = item.Id_Farm })'" title="Xem chi tiết"><span class="fa fa-info"></span></button>
+                                                    <button class="btn btn-danger" onclick="location.href = '@Url.Action("Delete","Farm", new { id = item.Id_Farm })'" title="Xóa"><span class="fa fa-trash"></span></button>
+                                                    <button class="btn btn-success" onclick="location.href = '@Url.Action("Index","ProductDetails", new { id = item.Id_Farm })'" title="Danh sách nông sản"><span class="fa fa-list-ol"></span></button>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
 
-                        </table>
+                                </table>
 
-                        <center>
-                            <button onclick="location.href = '@Url.Action("Create","Farm")'" class="mu-readmore-btn">Thêm Mới Nông Trại</button>
-                        </center>
+                                <center>
+                                    <button onclick="location.href = '@Url.Action("Create","Farm")'" class="mu-readmore-btn">Thêm Mới Nông Trại</button>
+                                </center>
 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

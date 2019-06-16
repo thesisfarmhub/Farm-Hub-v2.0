@@ -31,7 +31,7 @@ namespace Model.EF
 
         public byte? Penalty { get; set; }
 
-        public byte Status_User { get; set; }
+        public bool Status_User { get; set; }
 
         public bool? Is_Deleted { get; set; }
 

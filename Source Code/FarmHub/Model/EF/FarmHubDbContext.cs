@@ -17,7 +17,6 @@ namespace Model.EF
         public virtual DbSet<FARMER_PREFERENCE> FARMER_PREFERENCE { get; set; }
         public virtual DbSet<FARMER_PREFERENCE_DETAIL> FARMER_PREFERENCE_DETAIL { get; set; }
         public virtual DbSet<FEED_BACK> FEED_BACK { get; set; }
-        public virtual DbSet<MARKET_TRANS_HIS> MARKET_TRANS_HIS { get; set; }
         public virtual DbSet<MASS_UNIT> MASS_UNIT { get; set; }
         public virtual DbSet<PRODUCT> PRODUCTs { get; set; }
         public virtual DbSet<PRODUCT_DETAIL> PRODUCT_DETAIL { get; set; }

@@ -13,12 +13,12 @@ namespace Model.EF
 
         public int? Id_FarmerPreference { get; set; }
 
-        public int? Id_Product { get; set; }
+        public int? Id_ProductKind { get; set; }
 
         public bool? Is_Deleted { get; set; }
 
         public virtual FARMER_PREFERENCE FARMER_PREFERENCE { get; set; }
 
-        public virtual PRODUCT PRODUCT { get; set; }
+        public virtual PRODUCT_KIND PRODUCT_KIND { get; set; }
     }
 }

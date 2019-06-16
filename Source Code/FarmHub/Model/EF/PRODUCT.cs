@@ -13,7 +13,6 @@ namespace Model.EF
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public PRODUCT()
         {
-            FARMER_PREFERENCE_DETAIL = new HashSet<FARMER_PREFERENCE_DETAIL>();
             PRODUCT_DETAIL = new HashSet<PRODUCT_DETAIL>();
             PURCHASE_OFFER = new HashSet<PURCHASE_OFFER>();
             SEEDs = new HashSet<SEED>();
@@ -34,9 +33,6 @@ namespace Model.EF
 
         [NotMapped]
         public HttpPostedFileBase ImageFile { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<FARMER_PREFERENCE_DETAIL> FARMER_PREFERENCE_DETAIL { get; set; }
 
         public virtual PRODUCT_KIND PRODUCT_KIND { get; set; }
 

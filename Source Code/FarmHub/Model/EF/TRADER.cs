@@ -37,6 +37,14 @@ namespace Model.EF
         [StringLength(100)]
         public string Email_Trader { get; set; }
 
+        public int? Number_Of_Successful_Trans { get; set; }
+
+        public int? Number_Of_Cancelled_Trans { get; set; }
+
+        public double? Prestige_Point { get; set; }
+
+        public byte? Status_Trader { get; set; }
+
         public bool? Is_Deleted { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

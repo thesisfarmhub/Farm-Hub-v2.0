@@ -83,13 +83,13 @@ namespace Model.Dao.Authentication
         {
             try
             {
-                IEnumerable<USER_AUTHENTICATION> userModel = db.USER_AUTHENTICATION.Where(x => x.Status_User == 1);//Active
+                IEnumerable<USER_AUTHENTICATION> userModel = db.USER_AUTHENTICATION.Where(x => x.Status_User == true);//Active
 
                 foreach (var item in userModel)
                 {
                     if (item.Penalty == 0)
                     {
-                        item.Status_User = 0;
+                        item.Status_User = false;
                     }
                 }
                 db.SaveChanges();

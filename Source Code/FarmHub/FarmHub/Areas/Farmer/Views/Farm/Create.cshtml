@@ -10,82 +10,88 @@
 </head>
 
 <!-- Start Reservation section -->
-<section id="mu-reservation" style="background-color:#808080">
+<section id="mu-reservation">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="mu-reservation-area">
-                    <div class="mu-title">
-                        <span class="mu-subtitle">Nông Trại</span>
-                        <h2>THÊM MỚI NÔNG TRẠI</h2>
-                        <i style="margin-right: -9px" class="fas fa-tractor"></i>
-                        <span class="mu-title-bar"></span>
-                    </div>
-                    @using (Html.BeginForm("Create", "Farm", FormMethod.Post))
-                    {
-                        <div class="mu-reservation-content">
-                            <form class="mu-reservation-form">
-                                @Html.AntiForgeryToken()
-                                @Html.ValidationSummary(true, "", new { @class = "alert alert-danger", @role = "alert", @style = "text-align: center" })
-                                <div class="row">
 
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="hidden" name="Id_Farmer" value="@ViewBag.Id_Farmer">
-                                            <input type="text" class="form-control" placeholder="Tên Chủ Nông Trại" value="@(ViewBag.Name_Farmer)" disabled />
-                                            @Html.ValidationMessageFor(model => model.FARMER.Name_Farmer, "", new { @class = "text-danger" })
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control checkNameFarm" placeholder="Tên Nông Trại" name="Name_Farm" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
-                                            @Html.ValidationMessageFor(model => model.Name_Farm, "", new { @class = "text-danger" })
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control checkAddressFarm" placeholder="Địa Chỉ Nông Trại" name="Address_Farm" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
-                                            @Html.ValidationMessageFor(model => model.Address_Farm, "", new { @class = "text-danger" })
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="number" class="form-control limitSeven" placeholder="Diện Tích Nông Trại" name="Acreage" onkeypress='return event.charCode != 69 && event.charCode != 101 && event.charCode != 45 && event.charCode != 43 && event.charCode != 46' required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
-                                            @Html.ValidationMessageFor(model => model.Acreage, "", new { @class = "text-danger" })
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group"> 
-                                            <input type="text" class="form-control checkCityFarm" placeholder="Thành Phố" name="City_Farm" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
-                                            @Html.ValidationMessageFor(model => model.City_Farm, "", new { @class = "text-danger" })
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <h4><span class="label label-warning">Đang Chờ</span></h4>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <textarea class="form-control limitTwoHundred" cols="30" rows="10" placeholder="Hãy giúp tôi mô tả vài điều về trang trại của bạn nhé !" name="Description_Farm"></textarea>
-                                            @Html.ValidationMessageFor(model => model.Description_Farm, "", new { @class = "text-danger" })
-                                        </div>
-                                    </div>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="mu-reservation-area">
+                            <div class="mu-title">
+                                <span class="mu-subtitle">Nông Trại</span>
+                                <h2>THÊM MỚI NÔNG TRẠI</h2>
+                                <i style="margin-right: -9px" class="fas fa-tractor"></i>
+                                <span class="mu-title-bar"></span>
+                            </div>
+                            @using (Html.BeginForm("Create", "Farm", FormMethod.Post))
+                            {
+                                <div class="mu-reservation-content">
+                                    <form class="mu-reservation-form">
+                                        @Html.AntiForgeryToken()
+                                        @Html.ValidationSummary(true, "", new { @class = "alert alert-danger", @role = "alert", @style = "text-align: center" })
+                                        <div class="row">
 
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="hidden" name="Id_Farmer" value="@ViewBag.Id_Farmer">
+                                                    <input type="text" class="form-control" placeholder="Tên Chủ Nông Trại" value="@(ViewBag.Name_Farmer)" disabled />
+                                                    @Html.ValidationMessageFor(model => model.FARMER.Name_Farmer, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control checkNameFarm" placeholder="Tên Nông Trại" name="Name_Farm" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
+                                                    @Html.ValidationMessageFor(model => model.Name_Farm, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control checkAddressFarm" placeholder="Địa Chỉ Nông Trại" name="Address_Farm" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
+                                                    @Html.ValidationMessageFor(model => model.Address_Farm, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="number" class="form-control limitSeven" placeholder="Diện Tích Nông Trại" name="Acreage" onkeypress='return event.charCode != 69 && event.charCode != 101 && event.charCode != 45 && event.charCode != 43 && event.charCode != 46' required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
+                                                    @Html.ValidationMessageFor(model => model.Acreage, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control checkCityFarm" placeholder="Thành Phố" name="City_Farm" required="" oninvalid="this.setCustomValidity('Thông tin này không được để trống')" oninput="this.setCustomValidity('')">
+                                                    @Html.ValidationMessageFor(model => model.City_Farm, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <h4><span class="label label-warning">Đang Chờ</span></h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea class="form-control limitTwoHundred" cols="30" rows="10" placeholder="Hãy giúp tôi mô tả vài điều về trang trại của bạn nhé !" name="Description_Farm"></textarea>
+                                                    @Html.ValidationMessageFor(model => model.Description_Farm, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <center>
+                                            <button type="submit" class="mu-readmore-btn">Thêm Mới</button>
+
+                                            <button type="button" onclick="location.href = '@Url.Action("Index","Farm", new { id = ViewBag.Id_Farmer })'" class="mu-readmore-btn">Quay Về</button>
+                                        </center>
+
+                                    </form>
                                 </div>
 
-                                <center>
-                                    <button type="submit" class="mu-readmore-btn">Thêm Mới</button>
+                            }
 
-                                    <button type="button" onclick="location.href = '@Url.Action("Index","Farm", new { id = ViewBag.Id_Farmer })'" class="mu-readmore-btn">Quay Về</button>
-                                </center>
-
-                            </form>
                         </div>
-
-                    }
-
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>

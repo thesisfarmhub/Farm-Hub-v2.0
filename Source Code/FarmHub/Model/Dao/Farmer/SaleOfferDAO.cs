@@ -59,6 +59,35 @@ namespace Model.Dao.Farmer
             return listPurchaseOffer;
         }
 
+        // List Purchase Offer Base On Farmer Reference: PurchaseOfferYouMayLike
+        // Từ FarmerID chọn Id_ProductKind lớn nhất, từ Id_ProductKind lấy được list ProductID
+        // Từ listProductID lấy ra được listPurchaseOffer
+        public List<PURCHASE_OFFER> PurchaseOfferYouMayLike(int farmerID)
+        {
+            try
+            {
+                var id_ProductKind = db.FARMER_PREFERENCE_DETAIL.Where(x => x.FARMER_PREFERENCE.Id_Farmer == farmerID).FirstOrDefault().Id_ProductKind.Value;
+                //
+                var listProductID = db.PRODUCTs.Where(x => x.Id_ProductKind == id_ProductKind).Select(x => x.Id_Product).ToList();
+                //
+                var listPurchaseOffer = new List<PURCHASE_OFFER>();
+                foreach (var item in listProductID)
+                {
+                    var purchaseOffer = db.PURCHASE_OFFER.Where(x => x.PRODUCT.Id_Product == item && x.Remain_PurchaseQuantity > 0).FirstOrDefault();
+                    if (listPurchaseOffer.Count() < 5)
+                    {
+                        listPurchaseOffer.Add(purchaseOffer);
+                    }
+                }
+
+                return listPurchaseOffer;
+            }
+            catch(Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
         // Top Product Base On Farmer Purchase Offer
         public List<FarmerTopProductDTO> ListTopProductDetails()
         {

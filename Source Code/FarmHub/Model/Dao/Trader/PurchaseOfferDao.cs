@@ -41,6 +41,7 @@ namespace Model.Dao.Trader
 
             return model;
         }
+
         #region Meow
 
         // List All
@@ -83,6 +84,35 @@ namespace Model.Dao.Trader
             }
 
             return listSaleOffer;
+        }
+
+        // List Sale Offer Base On Trader Reference: SaleOfferYouMayLike
+        // Từ TraderID chọn Id_ProductKind lớn nhất, từ Id_ProductKind lấy được list ProductID
+        // Từ listProductID lấy ra được listSaleOffer
+        public List<SALE_OFFER> SaleOfferYouMayLike(int traderID)
+        {
+            try
+            {
+                var id_ProductKind = db.TRADER_PREFERENCE_DETAIL.Where(x => x.TRADER_PREFERENCE.Id_Trader == traderID).FirstOrDefault().Id_ProductKind.Value;
+                //
+                var listProductID = db.PRODUCTs.Where(x => x.Id_ProductKind == id_ProductKind).Select(x => x.Id_Product).ToList();
+                //
+                var listSaleOffer = new List<SALE_OFFER>();
+                foreach (var item in listProductID)
+                {
+                    var saleOffer = db.SALE_OFFER.Where(x => x.PRODUCT_DETAIL.PRODUCT.Id_Product == item && x.Remain_SaleQuantity > 0).FirstOrDefault();
+                    if (listSaleOffer.Count() < 5)
+                    {
+                        listSaleOffer.Add(saleOffer);
+                    }
+                }
+
+                return listSaleOffer;
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
 
         // Top Product Base On Trader Purchase Offer

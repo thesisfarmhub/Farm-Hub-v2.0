@@ -31,7 +31,7 @@ namespace Model.Dao.Authentication
             }
             else
             {
-                if (result.Status_User == 0)
+                if (result.Status_User == false)
                 {
                     return "Locked";
                 }

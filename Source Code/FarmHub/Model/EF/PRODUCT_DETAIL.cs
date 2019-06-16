@@ -1,4 +1,4 @@
-﻿namespace Model.EF
+namespace Model.EF
 {
     using System;
     using System.Collections.Generic;
@@ -12,7 +12,6 @@
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public PRODUCT_DETAIL()
         {
-            MARKET_TRANS_HIS = new HashSet<MARKET_TRANS_HIS>();
             SALE_OFFER = new HashSet<SALE_OFFER>();
             TRANSACTION_ORDER = new HashSet<TRANSACTION_ORDER>();
         }
@@ -37,21 +36,7 @@
         [StringLength(50)]
         public string Name_Crop { get; set; }
 
-        [Required]
-        [DataType(DataType.DateTime, ErrorMessage = "Xin nhập đúng định dạng tháng/ngày/năm")]
-        public DateTime? Start_Time { get; set; }
-
-        [Required]
-        [DataType(DataType.DateTime, ErrorMessage = "Xin nhập đúng định dạng tháng/ngày/năm")]
-        public DateTime? End_Time { get; set; }
-
-        [Required]
-        [DataType(DataType.DateTime, ErrorMessage = "Xin nhập đúng định dạng tháng/ngày/năm")]
-        public DateTime? Harvest_StartTime { get; set; }
-
-        [Required]
-        [DataType(DataType.DateTime, ErrorMessage = "Xin nhập đúng định dạng tháng/ngày/năm")]
-        public DateTime? Harvest_EndTime { get; set; }
+        public DateTime? Harvest_Time { get; set; }
 
         public int? Quantity_Expected { get; set; }
 
@@ -61,9 +46,6 @@
         public HttpPostedFileBase ImageFile { get; set; }
 
         public virtual FARM FARM { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<MARKET_TRANS_HIS> MARKET_TRANS_HIS { get; set; }
 
         public virtual PRODUCT PRODUCT { get; set; }
 
